@@ -1,0 +1,5 @@
+attributeName	code	definition
+Treatment	CT	control plot no nitrogen or phosphorus  added
+Treatment	 F2	 2 g nitrogen & 1 g phosphorus
+Treatment	 F5	 5 g nitrogen & 2.5 g phosphorus
+Treatment	 F10	 10 g nitrogen & 5 g phosphorus

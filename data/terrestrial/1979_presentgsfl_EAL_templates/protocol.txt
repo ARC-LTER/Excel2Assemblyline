@@ -1,0 +1,167 @@
+NA 
+
+Counting
+
+Eriophorum Vaginatum
+
+Inflorescences
+
+The number of
+
+Eriophorum
+
+
+
+Vaginatum
+
+flowering tillers in the plot is counted. At each site there are 6-10 plots which are counted. The count should include all the current year's flowers, including those clipped by ptarmigan but still recognizable by their elongated culms. The sites and site maps are listed in the Evag Flowering notebook. The location and orientation of the plots is described in the site maps.
+
+Determining Weight/Tiller in
+
+Eriophorum Vaginatum
+
+This data is collected at the time of peak leaf mass per tiller, in late July or early August. Mature
+
+Eriophorum
+
+tussocks (Class III tussocks, defined as those with 10-50% cover by other species; Fetcher & Shaver 1982), within 10 m of the permanent
+
+Eriophorum
+
+flowering plots, are collected. Tussocks which have been sampled previously are rejected. Sampled tussocks are brought back to the lab.
+
+Clumps of 40-60 intact tillers are collected from the centers of the sampled tussocks. Working through the clump, count the number of immature tillers with no green (V0), the number of immature tillers with green (V1), number of current year's flowering tillers, and next-year's flowering tillers encountered before 20 mature tillers are collected. See below for definitions of tiller and flower types. Record the number of immature tillers (both V0 & V1), current year’s flowers (F), next year's flowers (B), and mature tillers (M). Separate the mature tillers from the clump at the point of attachment to the rhizome, clip off dead leaves and tips and place the mature tillers from each tussock in individual bags. Dry the mature tillers at no more then 60 °C for a few days and then weigh to 0.001 g accuracy. Box up samples, label well, and return them to Woods Hole.
+
+
+
+Weight/tiller
+
+is defined as the dry mass of the mature tillers divided by the number of mature tillers (usually 20).
+
+The
+
+tillering index
+
+is defined as the ratio of immature to mature tillers, i.e. (V0 + V1)/(M + F + B).
+
+
+
+Mature tillers (M): tillers old enough to have accumulated at least one dead leaf.
+
+Immature tillers (V0): tillers recognized by their small size, lack of fully green leaves, and lack of dead leaves.
+
+Immature tillers (V1): tillers recognized by their small size, at least one green leaf, and lack of dead leaves.
+
+Flowers (F): Current year’s flowers.
+
+Buds (B): Next year’s flowers.
+
+Classification for Undisturbed Tussock Tundra
+
+Class I
+
+Eriophorum
+
+
+
+vaginatum
+
+tussock
+
+£
+
+17.5cm diameter, <10% relative cover of moss, shrubs, and
+
+Carex
+
+.
+
+Class II
+
+Eriophorum
+
+
+
+vaginatum
+
+tussock > 17.5 cm diameter, < 10% relative cover of moss, shrubs, and
+
+Carex
+
+.
+
+Class III
+
+Eriophorum
+
+
+
+vaginatum
+
+tussock with
+
+³
+
+10% and <50% relative cover of moss, shrubs, and
+
+Carex
+
+.
+
+Class IV
+
+Eriophorum
+
+
+
+vaginatum
+
+tussock with
+
+³
+
+50% and <97% relative cover of moss, shrub, and
+
+Carex
+
+.
+
+Class V Old
+
+Eriophorum
+
+
+
+vaginatum
+
+tussock with <3% of
+
+E. vaginatum
+
+cover,
+
+³
+
+97% moss, shrub, and
+
+Carex
+
+cover. Elevation above surrounding soil/moss surface >5cm.
+
+Class VI Continuous moss cover beneath and between vascular plants, <5cm elevation above immediate surroundings, <1%
+
+E. vaginatum
+
+relative cover.
+
+Class VII Organic soil with <5% relative cover by green plants and no
+
+E. vaginatum
+
+.
+
+Class VIII Mineral soil with <5% relative cover by green plants and no
+
+E. vaginatum
+
+.

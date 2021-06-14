@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<LookAt>
+<longitude>-149.69191900</longitude>
+<latitude>67.77015545</latitude>
+<range>378388</range>
+</LookAt>
+<Style id="Filled_Label">
+</Style>
+<Folder>
+<name>Waypoints</name>
+<Folder>
+<name>Point</name>
+<Style id="Point">
+<IconStyle>
+<Icon>
+<href>http://www.topografix.com/symbols/Garmin/Waypoint.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>003</name>
+<description>&lt;br /&gt;Elevation = 564.17 ft
+&lt;br /&gt;Coordinates = N66.11711°  W150.16643°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N66.11711°  W150.16643°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.16642608</longitude>
+<latitude>66.11710836</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.16642608,66.11710836</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>005</name>
+<description>&lt;br /&gt;Elevation = 2321.69 ft
+&lt;br /&gt;Coordinates = N68.17303°  W149.43919°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.17303°  W149.43919°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.43919439</longitude>
+<latitude>68.17302777</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.43919439,68.17302777</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>009</name>
+<description>&lt;br /&gt;Elevation = 2953.26 ft
+&lt;br /&gt;Coordinates = N68.61281°  W149.31335°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.61281°  W149.31335°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.31335160</longitude>
+<latitude>68.61280913</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.31335160,68.61280913</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>010</name>
+<description>&lt;br /&gt;Elevation = 2950.89 ft
+&lt;br /&gt;Coordinates = N68.61274°  W149.31340°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.61274°  W149.31340°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.31340105</longitude>
+<latitude>68.61273814</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.31340105,68.61273814</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>026</name>
+<description>&lt;br /&gt;Elevation = 561.02 ft
+&lt;br /&gt;Coordinates = N66.11593°  W150.16557°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N66.11593°  W150.16557°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.16556702</longitude>
+<latitude>66.11592852</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.16556702,66.11592852</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>027</name>
+<description>&lt;br /&gt;Elevation = 3460.25 ft
+&lt;br /&gt;Coordinates = N68.17293°  W149.43934°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.17293°  W149.43934°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.43934141</longitude>
+<latitude>68.17292593</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.43934141,68.17292593</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>028</name>
+<description>&lt;br /&gt;Elevation = 1381.04 ft
+&lt;br /&gt;Coordinates = N68.87599°  W148.85512°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.87599°  W148.85512°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-148.85512435</longitude>
+<latitude>68.87598555</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-148.85512435,68.87598555</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>AAAAIIIII4</name>
+<description>&lt;br /&gt;Elevation = 2961.14 ft
+&lt;br /&gt;Coordinates = N68.61269°  W149.31372°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.61269°  W149.31372°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.31371546</longitude>
+<latitude>68.61269304</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.31371546,68.61269304</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ATGNVIEW</name>
+<description>&lt;br /&gt;Elevation = 4198.26 ft
+&lt;br /&gt;Coordinates = N68.13574°  W149.45635°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.13574°  W149.45635°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.45634637</longitude>
+<latitude>68.13573777</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.45634637,68.13573777</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>ATIGUN CP</name>
+<description>&lt;br /&gt;Elevation = 3486.27 ft
+&lt;br /&gt;Coordinates = N68.17305°  W149.43923°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.17305°  W149.43923°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.43922951</longitude>
+<latitude>68.17304630</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.43922951,68.17304630</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHANDALAR</name>
+<description>&lt;br /&gt;Elevation = 3253.67 ft
+&lt;br /&gt;Coordinates = N68.05184°  W149.61150°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.05184°  W149.61150°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.61149564</longitude>
+<latitude>68.05184046</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.61149564,68.05184046</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CHNDLR2015</name>
+<description>&lt;br /&gt;Elevation = 3242.63 ft
+&lt;br /&gt;Coordinates = N68.05179°  W149.61135°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.05179°  W149.61135°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.61135181</longitude>
+<latitude>68.05178589</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.61135181,68.05178589</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>CLDFT2015</name>
+<description>&lt;br /&gt;Elevation = 1139.76 ft
+&lt;br /&gt;Coordinates = N67.25890°  W150.17000°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N67.25890°  W150.17000°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.16999518</longitude>
+<latitude>67.25890043</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.16999518,67.25890043</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COLDFOOT</name>
+<description>&lt;br /&gt;Elevation = 1086.15 ft
+&lt;br /&gt;Coordinates = N67.25890°  W150.17007°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N67.25890°  W150.17007°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.17007246</longitude>
+<latitude>67.25889574</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.17007246,67.25889574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>COLDFTVCTR</name>
+<description>&lt;br /&gt;Elevation = 1434.65 ft
+&lt;br /&gt;Coordinates = N67.25258°  W150.18678°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N67.25258°  W150.18678°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.18677508</longitude>
+<latitude>67.25257519</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.18677508,67.25257519</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>DUST SITE</name>
+<description>&lt;br /&gt;Elevation = 2745.89 ft
+&lt;br /&gt;Coordinates = N68.66897°  W149.22358°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.66897°  W149.22358°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.22358259</longitude>
+<latitude>68.66897040</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.22358259,68.66897040</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GALB2015FL</name>
+<description>&lt;br /&gt;Elevation = 2697.00 ft
+&lt;br /&gt;Coordinates = N68.49609°  W149.48244°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.49609°  W149.48244°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.48243747</longitude>
+<latitude>68.49608727</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.48243747,68.49608727</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GALBRAITH</name>
+<description>&lt;br /&gt;Elevation = 2708.83 ft
+&lt;br /&gt;Coordinates = N68.49610°  W149.48243°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.49610°  W149.48243°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.48243102</longitude>
+<latitude>68.49610010</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.48243102,68.49610010</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GALBTRANSP</name>
+<description>&lt;br /&gt;Elevation = 2704.10 ft
+&lt;br /&gt;Coordinates = N68.49638°  W149.48246°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.49638°  W149.48246°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.48246278</longitude>
+<latitude>68.49637746</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.48246278,68.49637746</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GLING2015</name>
+<description>&lt;br /&gt;Elevation = 1422.04 ft
+&lt;br /&gt;Coordinates = N66.96978°  W150.34787°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N66.96978°  W150.34787°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.34786973</longitude>
+<latitude>66.96977690</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.34786973,66.96977690</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GOBBLER15</name>
+<description>&lt;br /&gt;Elevation = 1846.24 ft
+&lt;br /&gt;Coordinates = N66.74592°  W150.68623°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N66.74592°  W150.68623°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.68623350</longitude>
+<latitude>66.74592041</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.68623350,66.74592041</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GOBBLERS</name>
+<description>&lt;br /&gt;Elevation = 1599.44 ft
+&lt;br /&gt;Coordinates = N66.74591°  W150.68621°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N66.74591°  W150.68621°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.68620692</longitude>
+<latitude>66.74590574</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.68620692,66.74590574</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>GRAYLING</name>
+<description>&lt;br /&gt;Elevation = 1384.98 ft
+&lt;br /&gt;Coordinates = N66.96967°  W150.34807°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N66.96967°  W150.34807°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.34806611</longitude>
+<latitude>66.96966601</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.34806611,66.96966601</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HAPPY VALL</name>
+<description>&lt;br /&gt;Elevation = 1093.24 ft
+&lt;br /&gt;Coordinates = N69.13931°  W148.83760°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N69.13931°  W148.83760°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-148.83759612</longitude>
+<latitude>69.13930991</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-148.83759612,69.13930991</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>HPYVLY2015</name>
+<description>&lt;br /&gt;Elevation = 1072.74 ft
+&lt;br /&gt;Coordinates = N69.13941°  W148.83777°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N69.13941°  W148.83777°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-148.83776987</longitude>
+<latitude>69.13941251</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-148.83776987,69.13941251</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KANUTI</name>
+<description>&lt;br /&gt;Elevation = 935.55 ft
+&lt;br /&gt;Coordinates = N66.40688°  W150.54515°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N66.40688°  W150.54515°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.54515073</longitude>
+<latitude>66.40688291</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.54515073,66.40688291</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KANUTI BRN</name>
+<description>&lt;br /&gt;Elevation = 1332.15 ft
+&lt;br /&gt;Coordinates = N66.40744°  W150.54493°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N66.40744°  W150.54493°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.54493397</longitude>
+<latitude>66.40744047</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.54493397,66.40744047</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KANUTI2015</name>
+<description>&lt;br /&gt;Elevation = 1314.80 ft
+&lt;br /&gt;Coordinates = N66.40746°  W150.54501°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N66.40746°  W150.54501°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.54500949</longitude>
+<latitude>66.40746059</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.54500949,66.40746059</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>KUPARUK</name>
+<description>&lt;br /&gt;Elevation = 2498.31 ft
+&lt;br /&gt;Coordinates = N68.64861°  W149.41114°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.64861°  W149.41114°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.41113673</longitude>
+<latitude>68.64860648</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.41113673,68.64860648</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>LAKEPWRPT</name>
+<description>&lt;br /&gt;Elevation = 2379.25 ft
+&lt;br /&gt;Coordinates = N68.62858°  W149.59840°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.62858°  W149.59840°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.59839976</longitude>
+<latitude>68.62857658</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.59839976,68.62857658</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MACS LAKE</name>
+<description>&lt;br /&gt;Elevation = 1105.07 ft
+&lt;br /&gt;Coordinates = N67.13576°  W150.35074°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N67.13576°  W150.35074°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.35073684</longitude>
+<latitude>67.13575996</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.35073684,67.13575996</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MACS2015</name>
+<description>&lt;br /&gt;Elevation = 1146.07 ft
+&lt;br /&gt;Coordinates = N67.13573°  W150.35065°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N67.13573°  W150.35065°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.35064514</longitude>
+<latitude>67.13572769</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.35064514,67.13572769</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS 117</name>
+<description>&lt;br /&gt;Elevation = 3118.05 ft
+&lt;br /&gt;Coordinates = N68.61758°  W149.30931°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.61758°  W149.30931°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.30930934</longitude>
+<latitude>68.61757642</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.30930934,68.61757642</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS 119 DRY</name>
+<description>&lt;br /&gt;Elevation = 1652.27 ft
+&lt;br /&gt;Coordinates = N68.76071°  W148.89063°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.76071°  W148.89063°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-148.89062523</longitude>
+<latitude>68.76070941</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-148.89062523,68.76070941</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS 127</name>
+<description>&lt;br /&gt;Elevation = 974.18 ft
+&lt;br /&gt;Coordinates = N69.42438°  W148.69760°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N69.42438°  W148.69760°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-148.69760450</longitude>
+<latitude>69.42438238</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-148.69760450,69.42438238</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS1192015</name>
+<description>&lt;br /&gt;Elevation = 1660.16 ft
+&lt;br /&gt;Coordinates = N68.76065°  W148.89072°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.76065°  W148.89072°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-148.89072146</longitude>
+<latitude>68.76064755</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-148.89072146,68.76064755</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>MS121</name>
+<description>&lt;br /&gt;Elevation = 1348.71 ft
+&lt;br /&gt;Coordinates = N68.87649°  W148.85502°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.87649°  W148.85502°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-148.85502369</longitude>
+<latitude>68.87649459</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-148.85502369,68.87649459</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NO NAME CK</name>
+<description>&lt;br /&gt;Elevation = 562.60 ft
+&lt;br /&gt;Coordinates = N66.11714°  W150.16760°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N66.11714°  W150.16760°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.16760366</longitude>
+<latitude>66.11713510</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.16760366,66.11713510</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>NONME2015</name>
+<description>&lt;br /&gt;Elevation = 564.17 ft
+&lt;br /&gt;Coordinates = N66.11709°  W150.16756°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N66.11709°  W150.16756°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-150.16755571</longitude>
+<latitude>66.11709302</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-150.16755571,66.11709302</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>PUMP 4</name>
+<description>&lt;br /&gt;Elevation = 2553.50 ft
+&lt;br /&gt;Coordinates = N68.43216°  W149.37272°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.43216°  W149.37272°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.37271760</longitude>
+<latitude>68.43216152</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.37271760,68.43216152</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAG RIVER</name>
+<description>&lt;br /&gt;Elevation = 1313.23 ft
+&lt;br /&gt;Coordinates = N68.90755°  W148.84332°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.90755°  W148.84332°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-148.84331970</longitude>
+<latitude>68.90754585</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-148.84331970,68.90754585</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SAGRIV2015</name>
+<description>&lt;br /&gt;Elevation = 1265.13 ft
+&lt;br /&gt;Coordinates = N68.90750°  W148.84311°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.90750°  W148.84311°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-148.84310831</longitude>
+<latitude>68.90749832</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-148.84310831,68.90749832</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNODEN2015</name>
+<description>&lt;br /&gt;Elevation = 1771.33 ft
+&lt;br /&gt;Coordinates = N67.80329°  W149.81711°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N67.80329°  W149.81711°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.81711488</longitude>
+<latitude>67.80329222</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.81711488,67.80329222</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SNOWDEN</name>
+<description>&lt;br /&gt;Elevation = 1758.72 ft
+&lt;br /&gt;Coordinates = N67.80330°  W149.81705°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N67.80330°  W149.81705°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.81705218</longitude>
+<latitude>67.80330395</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.81705218,67.80330395</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TIMBERLINE</name>
+<description>&lt;br /&gt;Elevation = 2458.10 ft
+&lt;br /&gt;Coordinates = N68.03001°  W149.67370°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.03001°  W149.67370°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.67370211</longitude>
+<latitude>68.03000803</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.67370211,68.03000803</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TOOLIK 78</name>
+<description>&lt;br /&gt;Elevation = 2493.58 ft
+&lt;br /&gt;Coordinates = N68.62925°  W149.57781°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.62925°  W149.57781°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.57781179</longitude>
+<latitude>68.62924923</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.57781179,68.62924923</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>TOOLIK7815</name>
+<description>&lt;br /&gt;Elevation = 2511.71 ft
+&lt;br /&gt;Coordinates = N68.62925°  W149.57810°
+&lt;br /&gt;Type = Waypoint
+
+&lt;br /&gt;Coordinates = N68.62925°  W149.57810°
+&lt;br /&gt;Type = Point
+</description>
+<LookAt>
+<longitude>-149.57809695</longitude>
+<latitude>68.62925401</latitude>
+<range>200</range>
+</LookAt>
+<styleUrl>#Point</styleUrl>
+<Point>
+<coordinates>-149.57809695,68.62925401</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Folder>
+</Document>
+</kml>

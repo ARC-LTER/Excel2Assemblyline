@@ -1,0 +1,166 @@
+The flowering data consisted of counts of Eriophorum inflorescences in each of six permanent 2x2m plots (except at Pump 4, Galbraith, Kuparuk River, and Kuparuk Ridge, where there were 10 plots each). The counts included inflorescences that had been clipped by ptarmigan but were still recognizable by their elongated culms. Counts were made in late May or early June of each year, after all of the current year's flowering culms had begun elongation but before maturation of the inflorescences. In 1980-1982, we also counted tussocks on each plot. Most of the plots are undisturbed but some are treated plots (see treatment code). See (Shaver, et al, 1986)
+ Notes and Comments: See below for terrestrial site codes. 
+12Jun2006 Gus Shaver used ausing a Garmin eTrex Visa  for locations for : NO NAME CK, KANUTI, GOBBLERS, GRAYLING, MACS LAKE, COLDFOOT, SNOWDEN, TIMBERLINE, CHANDALAR, ATIGUN CP, PUMP 4, GALBRAITH, MS 117, TOOLIK 78, KUPARUK, DUST SITE, MS 119 DRY, MS121, SAG RIVER, HAPPY VALL, MS 127.
+
+IMPORTANT: Some previous data had been entered incorrectly. This data has been entered correctly. See the file sitedir.doc for complete details.
+
+Reference Citations: Shaver, G. R., N. Fetcher, and F. S. Chapin, III. 1986. Growth and flowering in Eriophorum vaginatum: Annual and latitudinal variation. Ecology 67:1524-1525.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SITE_CODE.DOC - Coded information to accompany the documentation for the Haul 
+  Road transect flowering data.
+
+
+SPECIES code:           01      E. Vaginatum (Evag.)
+   02      Carex bigelowii
+   03      Ledum palustre
+   04      V. uliginosum
+   05      V. vitus-idaea
+   06      Betula nana
+   07      Eriophorum angustifolium (Eriang)
+   08      Carex aquatilis
+   09      Calamagrostis canadensis
+   10      Arctagrostis latifolia
+   11      Eriphorum angustifolium (Eriang)
+   12      Salix pulchra
+   13      Cassiope tetragona
+   14      Polygonum bistorta (bistort)
+   15      Sphagnum
+   16      Rubus chamaemorus
+   17      Empetrum nigrum
+
+
+SITE_CODE code  (first two numbers represent the site)
+  (Third number represents the time of year data was taken)
+ Site            01      Eagle Creek (1976)
+   02      Elliot burned
+   03      Elliot unburned
+   04      No name
+   05      Old man
+   06      Galbraith
+   07      MS117
+   08      MS119 wet
+   09      MS119 dry
+   10      Happy Valley
+   11      MS127
+   12      Pump 2
+   13      Prudhoe Bay - Point MacIntyre
+   14      Toolik '76
+   15      Toolik '78
+   16      Atigun Gorge
+   17      Franklin Bluffs
+   18      Barrow - Basin
+   19      Barrow - Meadow
+   20      Barrow - Pond
+   21      Barrow - Ridge
+   22      Barrow - Trough
+   23      Barrow - Grazed Trough
+   51      Smith Lake
+   52      Kanuti
+   53      Fish creek
+   54      Gobbler's Knob
+   55      Prospect
+   56      Grayling Lake
+   57      Mac's Lake
+   58      Coldfoot
+   59      Wiseman
+   60      Sukakpak #2
+   61      Sukakpak #1
+   62      Dietrich
+   63      Snowden Mtn.
+   64      Timberline
+   65      Chandalar
+   66      Atigun Camp
+   67      Pump 4
+   68      Kuparuk River
+   69      Dust Site #1
+   70      Dust Site #2
+   71      Dust Site #3
+   72      Dust Site #4
+   73      MS 121
+   74      Sag River
+   75      Sagwon
+   76      Hidden Pond
+   77      Prudhoe - Kuparuk Site
+ Time of year code (TOY)   (third number of SITE_CODE)
+   1=      Early Season (flowering), May-June
+   2=      Peak Season, Late July-Early August
+   3=      Late Season, Middle August-September
+   4=      both flowering and peak (wt/tiller) data
+
+
+TREAT code : (the number code goes as following)
+       (if there is no treatment the code is 0)
+   N Level         0=nothing       
+   P Level         1=low           
+   K Level         2=medium
+   Sugar Level     3=high
+   Lime Level      4=Galbraith NPK '78 
+     5=MS117 NPK '78 and '76
+     6=MS119 Track '81
+     7=MS127 NPK '78 and '76
+     8=Atigun Greenhouse
+
+   Control:        0=no control
+     1=C38 standard
+     2=C37 alternate
+     3=C36
+     4=C39
+     5=C40
+     6=C45
+     7='new' control
+     8=not a treatment nor control
+     9=duplicate sample
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+     Site Orientation of 1980 E. vag plots                   
+     Updated 16Nov93
+                                         
+                       1980  1981  1982  1983  1984 1985   1986   1987   1988  1989   1990  1991   1992   1993  Chosen-93
+     Eagle Creek        1-W   1-W   1-W   1-W   unk   NA     NA     NA     NA    NA     NA    NA     NA     NA     1-W
+     Elliot burned      1-S   1-S   1-S   1-NW  NA    NA     NA     NA     NA    NA     NA    NA     NA     NA     1-S
+     Elliot unburned    1-S   1-N   1-S   1-N   NA    NA     NA     NA     NA    NA     NA    NA     NA     NA     1-S
+     No Name Cr.        1-E   1-W   1-E   1-W   1-W   1-E    1-E    1-E    NA    1-W   1-W    1-W    1-E   1-E     1-E
+     Old Man            1-E   1-W   1-E   1-W   NA    NA     NA     NA     NA    NA     NA    NA     NA     NA     1-E
+     Fish Cr. (Hickel)  1-S   1-N   1-S   1-S   NA    1-S    1-S    NA     NA    NA     NA    NA     NA     NA     1-S
+     Gobbler's Knob      NA   1-N   1-S   1-S   1-N   NA     1-S    NA     NA    1-N   1-N    1-N    1-S   1-S     1-S
+     Prospect (Pump5)   1-S   1-S   1-S   1-S   1-N   1-S    1-S    NA     NA    1-N   1-N    NA     NA     NA     1-S
+     Grayling Lake      1-N   1-N   1-S   1-S   1-N   1-S    1-S    1-S    NA    1-N   1-N    1-N    1-S   1-S     1-S
+     Mac's Lake         1-N   1-N   1-S   1-S   NA    1-S    1-S    1-S    NA    NA    1-N    1-N    1-S   1-S     1-S
+     Wiseman            1-S   1-N   1-S   1-S   1-N   1-S    1-S    1-S    NA    1-N   1-N    NA     1-S   1-S     1-S
+     Sukakpak #1        1-S   unk   1-S   1-S   NA    NA     NA     NA     NA    NA     NA    NA     NA     NA     1-S
+     Sukakpak #2         NA   1-N   1-S   1-S   1-N   1-S    1-S    NA     NA    1-N    NA    NA     NA     NA     1-S
+     Dietrich           1-N   1-N   1-S   1-S   NA    NA     NA     NA     NA    NA     NA    NA     NA     NA     1-S
+     Snowden Mt.        1-S   1-N   1-S   1-S   1-N   1-S    1-S    1-S   1-S    1-S   1-N    1-N    1-S   1-S     1-S
+     Timberline         1-E   1-E   1-W   1-W   NA    NA     1-W    unk   1-E    1-E   1-E    1-E    1-E   1-E     1-E
+     Chandalar          1-S   1-S   1-S   1-S   1-N   1-S    1-S    1-S   1-S    1-N   1-N    1-N    1-S   1-S     1-S
+     Atigun             1-S   1-S   1-S   1-S   1-N   1-S    1-S    1-S   1-S    1-N   1-N    1-N    1-S   1-S     1-S
+     Pump 4             1-S   1-S   1-N   1-S   1-N   1-S    1-S    1-S   1-S    1-N   1-N    1-N    1-S   1-S     1-S
+     Galbraith          1-S   1-N   unk   1-N   1-N   1-S    1-S    1-S   1-S    1-N   1-N    1-N    1-S   1-S     1-S
+     Toolik '76        1a-NW 1a-NW 1a-NW 1a-NW  NA    NA    1a-NW   NA   1a-NW   NA     NA    NA     NA     NA    1a-NW
+     Toolik '78        1a-NW 1a-NW 1a-NW 1a-NW 1a-NW  NA    1a-NW  1a-NW 1a-NW  1a-NW 1a-NE  1a-NE   unk  1a-NW   1a-NW
+     Kuparuk River      1-E   1-E   1-E   1-W  1-NE  1-SE    1-E    unk    NA    unk   1-NE   NA     1-E   1-E     1-E
+     MS117              1-W   1-E   1-E   1-E   1-E   1-W    1-E    1-W   1-E    1-E   1-E    1-E    1-E   1-E     1-E
+     Toolik Dust #1     1-E   1-E   1-E   1-E  1-NE   1-W    NA     NA     NA    1-E   1-E    1-E    1-E   1-E     1-E
+     Toolik Dust #2     1-E   1-E   1-E   1-E  1-NE   NA     NA     NA     NA    NA     NA    NA     NA     NA     1-E
+     Toolik Dust #3     1-E   1-E   1-E   1-E  1-NE   NA     NA     NA     NA    NA     NA    NA     NA     NA     1-E
+     Toolik Dust #4     1-E   1-E   1-E   1-E  1-NE   NA     NA     NA     NA    NA     NA    NA     NA     NA     1-E
+     MS119-dry          1-N   unk   1-S   1-S   1-N   1-S    1-S   1-SE   1-S    1-N   1-N    1-N    1-S   1-S     1-S
+     MS121              1-S   1-S   1-N   1-S   1-N   1-S    1-S    1-S   1-S    1-N   1-N    1-N    1-S   1-S     1-S
+     Sag River          1-S   unk   1-S   unk   1-N   NA     1-S    1-S   1-S    1-N   1-N    1-N    1-S   1-S     1-S
+     Happy Valley       1-W   1-W   1-W   1-E   1-W   NA     1-E    1-E   1-E    1-E   1-E    1-E    1-E   1-E     1-E
+     Sagwon Trails      1-E   1-E   1-E   1-E   1-W   NA     NA     1-E   1-W    1-E    NA    1-E    unk   1-E     1-E
+     MS127              1-N   1-S   1-S   1-S   1-N   NA     NA     NA     NA    1-N   unk    1-N    unk   1-S     1-S
+     Coldfoot            NA   1-N   1-S   1-S   1-N   1-S    1-S    1-S    NA    1-N   1-N    1-N    1-S   1-S     1-S
+     Kanuti              NA   1-N   1-S   1-S   1-N   1-S    1-S    1-S    NA    1-N   1-N    1-N    1-S   1-S     1-S
+     Smith Lake          NA   1-W   1-W   1-E   NA    NA     NA     NA     NA    NA     NA    NA     NA     NA     1-W
+     Hidden Pond         NA    NA   1-S   1-NE 1-NE   NA     NA     NA     NA    NA     NA    1-N    NA     NA     1-NE
+     Prudhoe-Kuparuk     NA   1-W   1-E   1-W   NA    NA     NA     NA     NA    NA     NA    NA     NA     NA     1-W
+
+
+  The above is a list of the geographic orientation of Rep #1 for all the 1980 E. vag plots for the years 1980-1993 as
+  the data was entered into the computer. "NA" indicates that there was no data collected from that site that year. For 
+  1992 and 1993 the field data was entered into the computer such that Rep #1 corresponded to the geographic orientation 
+  listed in the final column, "Chosen-93". If a site direction is listed as "unk" then the orientation of that site was 
+  not recorded in the original field data and the Rep numbering assigned at the time of data collection is assumed correct.

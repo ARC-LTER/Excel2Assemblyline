@@ -1,0 +1,377 @@
+"id","name","unitType","udunitsSynonym","description","abbreviation","multiplierToSI","deprecatedInFavorOf","parentSI","constantToSI"
+"dimensionless","dimensionless","dimensionless","","a designation asserting the absence of an associated unit",NA,NA,NA,NA,NA
+"second","second","time","second","SI unit of time","sec","1",NA,NA,NA
+"meter","meter","length","meter","SI unit of length","m","1",NA,NA,NA
+"kilogram","kilogram","mass","kilogram","SI unit of mass","kg","1",NA,NA,NA
+"kelvin","kelvin","temperature","kelvin","SI unit of temperature","K","1",NA,NA,NA
+"coulomb","coulomb","charge","coulomb","SI unit of charge","C","1",NA,NA,NA
+"ampere","ampere","current","ampere","SI unit of electrical current","A","1",NA,NA,NA
+"mole","mole","amount","mole","SI unit of substance amount","mol","1",NA,NA,NA
+"candela","candela","luminosity","candela","SI base unit of luminous intensity (luminous power per unti solid angle emitted
+    by a point light source in a particular direction)","cd","1",NA,NA,NA
+"number","number","dimensionless","count","a quantity or amount",NA,NA,NA,NA,NA
+"cubicMeter","cubicMeter","volume","meter^3","cubic meter","m³","1","meterCubed",NA,NA
+"nominalMinute","nominalMinute","time","minute","one minute of time excluding leap seconds, 60 seconds",NA,"60",NA,"second",NA
+"nominalHour","nominalHour","time","hour","one hour excluding leap seconds, 3600 seconds",NA,"3600",NA,"second",NA
+"nominalDay","nominalDay","time","day","one day excluding leap seconds, 86400 seconds",NA,"86400",NA,"second",NA
+"nominalWeek","nominalWeek","time","week","one day excluding leap seconds, 604800 seconds",NA,"604800",NA,"second",NA
+"nominalYear","nominalYear","time","common_year","one year excluding leap seconds and leap days, 31536000 seconds",NA,"31536000",NA,"second",NA
+"nominalLeapYear","nominalLeapYear","time","leap_year","one 366 day year excluding leap seconds, 31622400 seconds",NA,"31622400",NA,"second",NA
+"nanogram","nanogram","mass","nanogram","0.000000000001 kg","ng","0.000000000001",NA,"kilogram",NA
+"microgram","microgram","mass","microgram","0.000000001 kg","µg","0.000000001",NA,"kilogram",NA
+"milligram","milligram","mass","milligram","0.000001 kg","mg","0.000001",NA,"kilogram",NA
+"centigram","centigram","mass","centigram","0.00001 kg","cg","0.00001",NA,"kilogram",NA
+"decigram","decigram","mass","decigram","0.0001 kg","dg","0.0001",NA,"kilogram",NA
+"gram","gram","mass","gram","0.001 kg","g","0.001",NA,"kilogram",NA
+"dekagram","dekagram","mass","dekagram",".01 kg","dag","0.01",NA,"kilogram",NA
+"hectogram","hectogram","mass","hectogram",".1 kg","hg","0.1",NA,"kilogram",NA
+"megagram","megagram","mass","megagram","1000 kg","Mg","1000",NA,"kilogram",NA
+"tonne","tonne","mass","metric_ton","unit of mass equal to 1,000 kilograms, equivalent to approximately 2,204.6 
+      pounds,1.102 short tons (US) or 0.984 long tons (imperial). 
+      Not part of the SI, but accepted for use with SI units and prefixes","T","1000",NA,"kilogram",NA
+"pound","pound",NA,"avoirdupois_pound","1 pound (symbol lb) in the Avoirdupois (commerce) scale, and defined 
+      as exactly 0.45359237 kg. Also equal to 16 avoirdupois ounces and to 7,000 grains.","lbs","0.4536",NA,"kilogram",NA
+"ton","ton",NA,"short_ton","standard US (short) ton = 2000 lbs","ton","907.1999",NA,"kilogram",NA
+"celsius","celsius",NA,"celsius","A common unit of temperature","C","1",NA,"kelvin","273.18"
+"fahrenheit","fahrenheit",NA,"fahrenheit","unit for temperature on the scale in which water freezes at 32 and boils 
+      at 212 under standard conditions.","F","0.556",NA,"kelvin","255.402"
+"nanometer","nanometer",NA,"nanometer",".000000001 meters","nm","0.000000001",NA,"meter",NA
+"micrometer","micrometer",NA,"micrometer",".000001 meters","µm","0.000001",NA,"meter",NA
+"micron","micron",NA,"micrometer",".000001 meters","µ","0.000001","micrometer","meter",NA
+"millimeter","millimeter",NA,"millimeter",".001 meters","mm","0.001",NA,"meter",NA
+"centimeter","centimeter",NA,"centimeter",".01 meters","cm","0.01",NA,"meter",NA
+"decimeter","decimeter",NA,"decimeter",".1 meters","dm","0.1",NA,"meter",NA
+"dekameter","dekameter",NA,"dekameter","10 meters","dam","10",NA,"meter",NA
+"hectometer","hectometer",NA,"hectometer","100 meters","hm","100",NA,"meter",NA
+"kilometer","kilometer",NA,"kilometer","1000 meters","km","1000",NA,"meter",NA
+"megameter","megameter",NA,"megameter","1000000 meters","Mm","1000000",NA,"meter",NA
+"angstrom","angstrom",NA,"angstrom","1/10000000000 meter","Å","0.0000000001",NA,"meter",NA
+"inch","inch",NA,"international_inch","unit of length in the (British) imperial and United States systems 
+      usually understood as 1/12 f a foot.","in","0.0254",NA,"meter",NA
+"Foot_US","Foot_US",NA,"US_survey_foot","12 inches","usft","0.3048006",NA,"meter",NA
+"foot","foot",NA,"international_foot","12 inches","ft","0.3048",NA,"meter",NA
+"Foot_Gold_Coast","Foot_Gold_Coast",NA,"","12 inches","gcft","0.3047997",NA,"meter",NA
+"fathom","fathom",NA,"fathom","6 feet",NA,"1.8288",NA,"meter",NA
+"nauticalMile","nauticalMile",NA,"nautical_mile","defined as exactly 1,852 meters (6,076.1 ft; 1.1508 mi). Historically, 
+      defined as one minute of latitude.",NA,"1852",NA,"meter",NA
+"yard","yard",NA,"international_yard","3 feet","yard","0.9144",NA,"meter",NA
+"Yard_Indian","Yard_Indian",NA,"","This is an ESRI unit and the multiplier comes from ESRI. It may not be
+      accurate.",NA,"0.914398530744440774",NA,"meter",NA
+"Link_Clarke","Link_Clarke",NA,"","This is an ESRI unit and the multiplier comes from ESRI. It may not be
+      accurate.",NA,"0.2011661949",NA,"meter",NA
+"Yard_Sears","Yard_Sears",NA,"","This is an ESRI unit and the multiplier comes from ESRI. It may not be
+      accurate.",NA,"0.91439841461602867","yard","meter",NA
+"mile","mile",NA,"international_mile","5280 ft or 1609.344 meters","mile","1609.344",NA,"meter",NA
+"nanosecond","nanosecond",NA,"nanosecond","1/1000000 of a second","nsec","0.000000001",NA,"second",NA
+"microsecond","microsecond",NA,"microsecond","1/100000 of a second","µsec","0.000001",NA,"second",NA
+"millisecond","millisecond",NA,"millisecond","1/1000 of a second","msec","0.001",NA,"second",NA
+"centisecond","centisecond",NA,"centisecond","1/100 of a second","csec","0.01",NA,"second",NA
+"decisecond","decisecond",NA,"decisecond","1/10 of a second","dsec","0.1",NA,"second",NA
+"dekasecond","dekasecond",NA,"dekasecond","10 seconds","dasec","10",NA,"second",NA
+"hectosecond","hectosecond",NA,"hectosecond","100 seconds","hsec","100",NA,"second",NA
+"kilosecond","kilosecond",NA,"kilosecond","1000 seconds","ksec","1000",NA,"second",NA
+"megasecond","megasecond",NA,"megasecond","1000000 seconds","Msec","1000000",NA,"second",NA
+"minute","minute",NA,"minute","60 seconds","min","60",NA,"second",NA
+"hour","hour",NA,"hour","3600 seconds","hr","3600",NA,"second",NA
+"kiloliter","kiloliter","volume","kiloliter","1 cubic meter","kL","1",NA,"cubicMeter",NA
+"microliter","microliter","volume","microliter","1/1000000 of a liter","µl","0.000000001",NA,"cubicMeter",NA
+"milliliter","milliliter","volume","milliliter","1/1000 of a liter","ml","0.000001",NA,"cubicMeter",NA
+"liter","liter","volume","liter","1000 cm^3","L","0.001",NA,"cubicMeter",NA
+"gallon","gallon",NA,"US_liquid_gallon","US liquid gallon","gal","3.785412",NA,"liter",NA
+"quart","quart",NA,"US_liquid_quart","US liquid quart","qt","0.946353",NA,"liter",NA
+"bushel","bushel","volume","bushel","1 bushel = 35.23907 liters","b","35.23907",NA,"liter",NA
+"cubicInch","cubicInch","volume","international_inch^3","cubic inch","in³","0.01638706","inchCubed","liter",NA
+"pint","pint",NA,"US_liquid_pint","US liquid pint","pint","0.473176",NA,"liter",NA
+"meterCubed","meterCubed","volume","meter^3","cubic meter","m³","1",NA,"meterCubed",NA
+"centimeterCubed","centimeterCubed","volume","centimeter^3","cubic meter","cm³","0.000001",NA,"meterCubed",NA
+"inchCubed","inchCubed","volume","international_inch^3","micromoles per square meter per second","in³","0.01638706",NA,"liter",NA
+"radian","radian","angle","radian","2 pi radians comprise a unit circle.","rad","1",NA,NA,NA
+"degree","degree","angle","arc_degree","360 degrees comprise a unit circle","º","0.0174532924",NA,"radian",NA
+"grad","grad","angle","","a plane angle equivalent to 1/400 of a full circle","grad","0.015707",NA,"radian",NA
+"steradian","steradian","angle","steradian","standard unit of solid angle measure, it is the solid angle which cuts out an area
+      on a sphere that is the square of the sphere's radius; as a ratio of two areas, it has no
+      dimension","sr","1",NA,NA,NA
+"megahertz","megahertz","frequency","megahertz","megahertz","MHz","1000000",NA,"hertz",NA
+"kilohertz","kilohertz","frequency","kilohertz","kilohertz","KHz","1000",NA,"hertz",NA
+"hertz","hertz","frequency","hertz","derived unit of frequency in the SI, defined as one cycle per second","Hz","1",NA,NA,NA
+"millihertz","millihertz","frequency","millihertz","millihertz","mHz","0.001",NA,"hertz",NA
+"newton","newton","force","newton","newton","N","1",NA,NA,NA
+"joule","joule","energy","joule","joule = N*m","J","1",NA,NA,NA
+"calorie","calorie","energy","IT_calorie","unit of energy: amount of energy to raise the temperature of one gram of water 
+      by one degree Celsius at a pressure of one atmosphere. cal = 4.1868 J","cal","4.1868",NA,"joule",NA
+"britishThermalUnit","britishThermalUnit","energy","IT_Btu","an energy unit: 1 btu = 1055.0559 J","btu","1055.0559",NA,"joule",NA
+"footPound","footPound","energy","international_foot pound_force","1 ft-lbs = 1.355818 J",NA,"1.355818",NA,"joule",NA
+"langley","langley","arealEnergyDensity","langley","unit of energy density = 41840 joule/m^2, = 1 calorie/cm^2","Ly","41840",NA,"joulePerMeterSquared","0"
+"lumen","lumen","luminosity","lumen","SI unit for the total quantity of visible light in a defined beam or angle.
+      1 lumen/m^2 = 1 lux. 1 lumen = 1 candela * steradian ","lm","1",NA,NA,NA
+"lux","lux","illuminance","lux","SI derived unit for illuminance, or luminous flux per unit area. 1 lx = 1 lm/m^2 = 1 cd * sr/m^2","lx","1",NA,NA,NA
+"becquerel","becquerel","radionucleotideActivity","becquerel","SI derived unit of radioactivity. the activity of a quantity of radioactive material in which 
+      one nucleus decays per second, and equivalent to an inverse second, s^-1.","Bq","1",NA,NA,NA
+"gray","gray","specificEnergy","gray","SI derived unit of ionizing radiation, defined as the absorption of one joule of 
+      radiation energy per kilogram of matter (= 1 J/kg)","Gy","1",NA,NA,NA
+"sievert","sievert","doseEquivalent","sievert","SI derived unit of ionizing radiation dose (health effect of low levels of ionizing 
+      radiation on humans). 1 Sv =  100 rem (rem is an older, non-SI unit)","Sv","1",NA,NA,NA
+"katal","katal","catalyticActivity","katal","derived SI unit for quantifying enzymatic activity.A property of the catalyst 
+      (not rate of reaction), expressed in moles/second.","kat","1",NA,NA,NA
+"henry","henry","inductance","henry","SI derived unit for inductance; in SI base units: kg * m^2 * s^-2 * A^-2","H","1",NA,NA,NA
+"megawatt","megawatt","power","megawatt","unit of power, to quantify rate of energy transfer. 1 W = J/s","MW","1000000",NA,"watt",NA
+"kilowatt","kilowatt","power","kilowatt","unit of power, to quantify rate of energy transfer. 1 W = J/s","kW","1000",NA,"watt",NA
+"watt","watt","power","watt","unit of power, to quantify rate of energy transfer. 1 W = J/s","W","1",NA,NA,NA
+"milliwatt","milliwatt","power","milliwatt","unit of power, to quantify rate of energy transfer. 1 W = J/s","mW","0.001",NA,"watt",NA
+"megavolt","megavolt","potentialDifference","megavolt","Derived unit for electric potential, electric potential difference, 
+      and electromotive force. 1 V = kg * m^2 * s^-3 * A^-1","MV","1000000",NA,"volt",NA
+"kilovolt","kilovolt","potentialDifference","kilovolt","Derived unit for electric potential, electric potential difference, 
+      and electromotive force. 1 V = kg * m^2 * s^-3 * A^-1","kV","1000",NA,"volt",NA
+"volt","volt","potentialDifference","volt","Derived unit for electric potential, electric potential difference, 
+      and electromotive force. 1 V = kg * m^2 * s^-3 * A^-1","V","1",NA,NA,NA
+"millivolt","millivolt","potentialDifference","millivolt","Derived unit for electric potential, electric potential difference, 
+      and electromotive force. 1 V = kg * m^2 * s^-3 * A^-1","mV","0.001",NA,"volt",NA
+"farad","farad","capacitance","farad","SI derived unit of electrical capacitance, the ability of a body to store an 
+      electrical charge. 1 F = s^4 * A^2 *m^-2 * kg^-1","F","1",NA,NA,NA
+"ohm","ohm","resistance","ohm","an electrical resistance between two points of a conductor when a constant potential 
+      difference of one volt, 
+      applied to these points, produces in the conductor a current of one ampere","O","1",NA,NA,NA
+"ohmMeter","ohmMeter","resistivity","ohm meter","SI unit of electrical resistivity (fundamental property that quantifies how strongly a material 
+      opposes the flow of electric current). reciprocal of electrical conductivity. ","Om","1",NA,NA,NA
+"siemensPerMeter","siemensPerMeter","","siemens/meter","SI unit for conductivity, measure of a material's ability to conduct an 
+      electric current.","S/m","1",NA,"siemensPerMeter",NA
+"siemensPerCentimeter","siemensPerCentimeter","","siemens/centimeter","SI unit for conductivity, measure of a material's ability to conduct an 
+      electric current.","S/cm",".01",NA,"siemensPerMeter",NA
+"siemen","siemen","conductance","siemens","siemens","S","1","siemens",NA,NA
+"siemens","siemens","","siemens","SI derived unit of electric conductance, susceptance and admittance 
+      (reciprocals of resistance, reactance, and impedance respectively). One siemens is equal 
+      to the reciprocal of one ohm (and also called \"mho\")","S","1",NA,"siemens",NA
+"weber","weber","magneticFlux","weber","the SI unit of magnetic flux","Wb","1",NA,NA,NA
+"tesla","tesla","magneticFluxDensity","tesla","unit for flux density. 1 tesla = 1 Wb/m^2 (one weber per square meter).","T","1",NA,NA,NA
+"pascal","pascal","pressure","pascal","SI derived unit of pressure, 1 pascal = 1 newton/m^2","Pa","1",NA,NA,NA
+"megapascal","megapascal","pressure","megapascal","SI derived unit of pressure, 1 pascal = 1 newton/m^2","MPa","1000000",NA,"pascal",NA
+"kilopascal","kilopascal","pressure","kilopascal","SI derived unit of pressure, 1 pascal = 1 newton/m^2","kPa","1000",NA,"pascal",NA
+"hectopascal","hectopascal","pressure","hectopascal","SI derived unit of pressure, 1 pascal = 1 newton/m^2","hPa","100",NA,"pascal",NA
+"atmosphere","atmosphere","pressure","standard_atmosphere","unit of pressure defined as 101325 Pa (1.01325 bar), sometimes used as a 
+      reference or standard pressure","atm","101325",NA,"pascal",NA
+"bar","bar","pressure","bar","non-SI unit for pressure (deprecated in some fields). 1 bar = 100000 Pa","bar","100000",NA,"pascal",NA
+"millibar","millibar","pressure","millibar","non-SI unit for pressure (deprecated in some fields). 1 millibar = 1 hPa (100 Pa)","mbar","100",NA,"pascal",NA
+"decibar","decibar","pressure","decibar","non-SI unit for pressure. 1 decibar = .1 bar. Decibars are commonly used in aquatic 
+      environments because 1 db is approximately equal to depth in meters.","dbar","10000",NA,"pascal",NA
+"kilogramsPerSquareMeter","kilogramsPerSquareMeter","arealMassDensity","kilogram/meter^2","kilograms per square meter","kg/m²","1","kilogramPerMeterSquared",NA,NA
+"gramsPerSquareMeter","gramsPerSquareMeter","arealMassDensity","gram/meter^2","grams per square meter","g/m²","0.001","gramPerMeterSquared","kilogramPerMeterSquared",NA
+"milligramsPerSquareMeter","milligramsPerSquareMeter","arealMassDensity","milligram/meter^2","milligrams Per Square Meter","mg/m²","0.000001","milligramPerMeterSquared","kilogramPerMeterSquared",NA
+"kilogramsPerHectare","kilogramsPerHectare","arealMassDensity","kilogram/hectare","kilograms per hectare",NA,"0.0001","kilogramPerHectare","kilogramPerMeterSquared",NA
+"tonnePerHectare","tonnePerHectare","arealMassDensity","metric_ton/hectare","metric ton or tonne per hectare",NA,"0.1",NA,"kilogramPerMeterSquared",NA
+"poundsPerSquareInch","poundsPerSquareInch","arealMassDensity","avoirdupois_pound/international_inch^2","lbs/square inch","lbs/in²","703.0696","poundPerInchSquared","kilogramPerMeterSquared",NA
+"gramPercentimeterSquared","gramPercentimeterSquared","arealMassDensity","gram/cm^2","grams per square meter","g/cm²","10",NA,"kilogramPerMeterSquared",NA
+"gramPerMeterSquared","gramPerMeterSquared","arealMassDensity","gram/meter^2","grams per square meter","g/m²","0.001",NA,"kilogramPerMeterSquared",NA
+"kilogramPerHectare","kilogramPerHectare","arealMassDensity","kilogram/hectare","kilograms per hectare","kg/hectare","0.0001",NA,"kilogramPerMeterSquared",NA
+"kilogramPerMeterSquared","kilogramPerMeterSquared","arealMassDensity","kilogram/meter^2","kilograms per square meter","kg/m²","1",NA,"kilogramPerMeterSquared",NA
+"milligramPerMeterSquared","milligramPerMeterSquared","arealMassDensity","milligram/meter^2","milligrams Per Square Meter","mg/m²","0.000001",NA,"kilogramPerMeterSquared",NA
+"poundPerAcre","poundPerAcre","arealMassDensity","avoirdupois_pound/acre","avoirdupois pounds per acre","lb/acre","0.000112084667279431",NA,"kilogramPerMeterSquared",NA
+"poundPerInchSquared","poundPerInchSquared","arealMassDensity","avoirdupois_pound/international_inch^2","avoirdupois pounds per square inch","lbs/in²","703.0696",NA,"kilogramPerMeterSquared",NA
+"kilogramPerCubicMeter","kilogramPerCubicMeter","massDensity","kilogram/meter^3","kilogram per cubic meter",NA,"1","kilogramPerMeterCubed",NA,NA
+"milliGramsPerMilliLiter","milliGramsPerMilliLiter","massDensity","milligram/milliliter","milligrams per milliliter","kg/m³","1","milligramPerMilliliter","kilogramPerMeterCubed",NA
+"gramsPerLiter","gramsPerLiter","massDensity","gram/liter","grams per liter","g/l","1","gramPerLiter","kilogramPerMeterCubed",NA
+"milligramsPerCubicMeter","milligramsPerCubicMeter","massDensity","milligram/meter^3","milligrams Per Cubic Meter","mg/m³","0.000001","milligramPerMeterCubed","kilogramPerMeterCubed",NA
+"microgramsPerLiter","microgramsPerLiter","massDensity","microgram/liter","micrograms/liter","µg/l","0.000001","microgramPerLiter","kilogramPerMeterCubed",NA
+"milligramsPerLiter","milligramsPerLiter","massDensity","milligram/liter","milligrams/liter","mg/l","0.001","milligramPerLiter","kilogramPerMeterCubed",NA
+"gramsPerCubicCentimeter","gramsPerCubicCentimeter","massDensity","gram/centimeter^3","grams per cubic centimeter","g/cm³","1000","gramPerCentimeterCubed","kilogramPerMeterCubed",NA
+"gramsPerMilliliter","gramsPerMilliliter","massDensity","gram/milliliter","grams per milliliter","g/ml","1000","gramPerMilliliter","kilogramPerMeterCubed",NA
+"gramPerCentimeterCubed","gramPerCentimeterCubed","massDensity","gram/centimeter^3","grams per cubic centimeter","g/cm³","1000",NA,"kilogramPerMeterCubed",NA
+"gramPerLiter","gramPerLiter","massDensity","gram/liter","grams per liter","g/l","1",NA,"kilogramPerMeterCubed",NA
+"gramPerMilliliter","gramPerMilliliter","massDensity","gram/milliliter","grams per milliliter","g/ml","1000",NA,"kilogramPerMeterCubed",NA
+"microgramPerLiter","microgramPerLiter","massDensity","microgram/liter","micrograms/liter","µg/l","0.000001",NA,"kilogramPerMeterCubed",NA
+"milligramPerLiter","milligramPerLiter","massDensity","milligram/liter","milligrams/liter","mg/l","0.001",NA,"kilogramPerMeterCubed",NA
+"milligramPerMeterCubed","milligramPerMeterCubed","massDensity","milligram/meter^3","milligrams Per Cubic Meter","mg/m³","0.000001",NA,"kilogramPerMeterCubed",NA
+"kilogramPerMeterCubed","kilogramPerMeterCubed","massDensity","kilogram/meter^3","kilograms per cubic meter","kg/m³","1",NA,"kilogramPerMeterCubed",NA
+"megagramPerMeterCubed","megagramPerMeterCubed","massDensity","megagram/meter^3","megagrams per cubic meter","Mg/m³","1000",NA,"kilogramPerMeterCubed",NA
+"milligramPerMilliliter","milligramPerMilliliter","massDensity","milligram/milliliter","micromoles per square meter per second","mg/ml","1",NA,"kilogramPerMeterCubed",NA
+"gramsPerLiterPerDay","gramsPerLiterPerDay","volumetricMassDensityRate","gram/liter/day","grams Per (Liter Per Day)",NA,"1","gramPerDayPerLiter",NA,NA
+"milligramPerMeterCubedPerDay","milligramPerMeterCubedPerDay","volumetricMassDensityRate","milligram/meter^3/day","milligram per cubic meter per day","mg/m3/d","0.0000015741",NA,"kilogramPerMeterCubedPerSecond",NA
+"gramPerDayPerLiter","gramPerDayPerLiter","volumetricMassDensityRate","gram/day/liter","grams Per (Liter Per Day)","g/d/l","1",NA,"gramPerDayPerLiter",NA
+"litersPerSecond","litersPerSecond","volumetricRate","liter/second","liters per second","l/s","1","literPerSecond",NA,NA
+"cubicMetersPerSecond","cubicMetersPerSecond","volumetricRate","meter^3/second","cubic meters per second","m³/s","1000","meterCubedPerSecond","literPerSecond",NA
+"cubicFeetPerSecond","cubicFeetPerSecond","volumetricRate","international_foot^3/second","cubic feet per second","ft³/s","28.316874","footCubedPerSecond","literPerSecond",NA
+"footCubedPerSecond","footCubedPerSecond","volumetricRate","international_foot^3/second","cubic feet per second","ft³/s","28.316874",NA,"literPerSecond",NA
+"literPerSecond","literPerSecond","volumetricRate","liter/second","liters per second","l/s","1",NA,"literPerSecond",NA
+"meterCubedPerSecond","meterCubedPerSecond","volumetricRate","meter^3/second","cubic meters per second","m³/s","1000",NA,"literPerSecond",NA
+"squareMeter","squareMeter","area","meter^2","square meters","m²","1","meterSquared",NA,NA
+"are","are","area","are","100 square meters","a","100",NA,"squareMeter",NA
+"hectare","hectare","area","hectare","1 hectare is 10^4 square meters","ha","10000",NA,"squareMeter",NA
+"squareKilometers","squareKilometers","area","kilometer^2","square kilometers",NA,"1000000","kilometerSquared","squareMeter",NA
+"squareMillimeters","squareMillimeters","area","millimeter^2","square millmeters",NA,"0.000001","millimeterSquared","squareMeter",NA
+"squareCentimeters","squareCentimeters","area","centimeter^2","square centimeters",NA,"0.0001","centimeterSquared","squareMeter",NA
+"acre","acre","area","acre","1 acre = 4046.8564 square meters or 1 hectare = 2.4710 acres","a","4046.8564",NA,"squareMeter",NA
+"squareFoot","squareFoot","area","international_foot^2","12 inches squared","ft²","0.092903","footSquared","squareMeter",NA
+"squareYard","squareYard","area","international_yard^2","36 inches squared","yd²","0.836131","yardSquared","squareMeter",NA
+"squareMile","squareMile","area","international_mile^2","1 mile squared","mile²","2589998.49806","mileSquared","squareMeter",NA
+"centimeterSquared","centimeterSquared","area","centimeter^2","square centimeter","cm²","0.0001",NA,"meterSquared",NA
+"footSquared","footSquared","area","international_foot^2","12 inches squared","ft²","0.092903",NA,"meterSquared",NA
+"kilometerSquared","kilometerSquared","area","kilometer^2","square kilometer","km²","1000000",NA,"meterSquared",NA
+"meterSquared","meterSquared","area","meter^2","square meters","m²","1",NA,"meterSquared",NA
+"mileSquared","mileSquared","area","international_mile^2","1 mile squared","mile²","2589998.49806",NA,"meterSquared",NA
+"millimeterSquared","millimeterSquared","area","millimeter^2","square millimeter","mm²","0.000001",NA,"meterSquared",NA
+"yardSquared","yardSquared","area","international_yard^2","36 inches squared","yd²","0.836131",NA,"meterSquared",NA
+"litersPerSquareMeter","litersPerSquareMeter","volumetricArea","liter/meter^2","liters per square meter","l/m²","1","literPerMeterSquared",NA,NA
+"bushelsPerAcre","bushelsPerAcre","volumetricArea","bushel/acre","bushels per acre, 1 bushel = 35.23907 liters/1 acre = 4046.8564
+      squareMeters",NA,"0.00870","bushelPerAcre","literPerMeterSquared",NA
+"litersPerHectare","litersPerHectare","volumetricArea","liter/hectare","liters per hectare",NA,"0.0001","literPerHectare","literPerMeterSquared",NA
+"bushelPerAcre","bushelPerAcre","volumetricArea","bushel/acre","bushels per acre, 1 bushel = 35.23907 liters/1 acre = 4046.8564
+      squareMeters","bu/acre","0.00870",NA,"literPerMeterSquared",NA
+"literPerHectare","literPerHectare","volumetricArea","liter/hectare","liters per hectare","l/hectare","0.0001",NA,"literPerMeterSquared",NA
+"literPerMeterSquared","literPerMeterSquared","volumetricArea","liter/meter^2","liters per square meter","l/m²","1",NA,"literPerMeterSquared",NA
+"meterCubedPerHectare","meterCubedPerHectare","volumetricArea","m^3/hectare","meter cubed per hectare","m3/ha","0.0001",NA,"meterCubedPerMeterSquared",NA
+"meterCubedPerMeterSquared","meterCubedPerMeterSquared","volumetricArea","m^3/m^2","meter cubed per meter squared","m^3/m^2","1",NA,"meterCubedPerMeterSquared",NA
+"meterSquaredPerHectare","meterSquaredPerHectare","volumetricArea","m^2/hectare","meter squared per hectare","m^2/ha","0.0001",NA,"meterSquaredPerMeterSquared",NA
+"squareMeterPerKilogram","squareMeterPerKilogram","specificArea","meter^2/kilogram","square meters per kilogram","m²/kg","1","meterSquaredPerKilogram",NA,NA
+"meterSquaredPerKilogram","meterSquaredPerKilogram","specificArea","meter^2/kilogram","square meters per kilogram","m²/kg","1",NA,"meterSquaredPerKilogram",NA
+"metersPerSecond","metersPerSecond","speed","meter/second","meters per second","m/s","1","meterPerSecond","meterPerSecond",NA
+"metersPerDay","metersPerDay","speed","meter/day","meters per day","m/day",".0000115741","meterPerDay",NA,NA
+"feetPerDay","feetPerDay","speed","international_foot/day","feet per day","ft/day","0.00000352778","footPerDay","meterPerSecond",NA
+"feetPerSecond","feetPerSecond","speed","international_foot/second","feet per second","ft/s","0.3048","footPerSecond","meterPerSecond",NA
+"feetPerHour","feetPerHour","speed","international_foot/hour","feet per hour","ft/hr","0.000084667","footPerHour","meterPerSecond",NA
+"yardsPerSecond","yardsPerSecond","speed","international_yard/second","yards per second","yd/s","0.9144","yardPerSecond","meterPerSecond",NA
+"milesPerHour","milesPerHour","speed","international_mile/hour","miles per hour","mph","0.44704","milePerHour","meterPerSecond",NA
+"milesPerSecond","milesPerSecond","speed","international_mile/second","miles per second","mps","1609.344","milePerSecond","meterPerSecond",NA
+"milesPerMinute","milesPerMinute","speed","international_mile/minute","miles per minute","mpm","26.8224","milePerMinute","meterPerSecond",NA
+"centimetersPerSecond","centimetersPerSecond","speed","centimeter/second","centimeters per second","cm/s","0.01","centimeterPerSecond","meterPerSecond",NA
+"millimetersPerSecond","millimetersPerSecond","speed","millimeter/second","millimeters per second","mm/s","0.001","millimeterPerSecond","meterPerSecond",NA
+"centimeterPerYear","centimeterPerYear","speed","centimeter/common_year","centimeter Per Year","cm/year","0.000000000317098","centimeterPerYear","meterPerSecond",NA
+"knots","knots","speed","international_knot","knots",NA,"0.514444","knot","meterPerSecond",NA
+"kilometersPerHour","kilometersPerHour","speed","kilometer/hour","km/hr","km/hr","0.2778","kilometerPerHour","meterPerSecond",NA
+"centimeterPerSecond","centimeterPerSecond","speed","centimeter/second","centimeters per second","cm/s","0.01",NA,"meterPerSecond",NA
+"footPerDay","footPerDay","speed","international_foot/day","feet per day","ft/day","0.00000352778",NA,"meterPerSecond",NA
+"footPerHour","footPerHour","speed","international_foot/hour","feet per hour","ft/hr","0.000084667",NA,"meterPerSecond",NA
+"footPerSecond","footPerSecond","speed","international_foot/second","feet per second","ft/s","0.3048",NA,"meterPerSecond",NA
+"inchPerHour","inchPerHour","speed","international_inch/hour","inches per hour","in/hr","0.00000705556",NA,"meterPerSecond",NA
+"kilometerPerHour","kilometerPerHour","speed","kilometer/hour","km/hr","km/hr","0.2778",NA,"meterPerSecond",NA
+"knot","knot","speed","international_knot","unit of speed equal to one nautical mile per hour, exactly 1.852 km/hour","knot","0.514444444444444",NA,"meterPerSecond",NA
+"meterPerDay","meterPerDay","speed","meter/day","meters per day","m/day",".0000115741",NA,"meterPerSecond",NA
+"meterPerSecond","meterPerSecond","speed","meter/second","meters per second","m/s","1",NA,"meterPerSecond",NA
+"milePerHour","milePerHour","speed","international_mile/hour","miles per hour","mph","0.44704",NA,"meterPerSecond",NA
+"milePerMinute","milePerMinute","speed","international_mile/minute","miles per minute","mpm","26.8224",NA,"meterPerSecond",NA
+"milePerSecond","milePerSecond","speed","international_mile/second","miles per second","mps","1609.344",NA,"meterPerSecond",NA
+"millimeterPerDay","millimeterPerDay","speed","millimeter/day","millimeters per day","mm/d","0.00000001157407",NA,"meterPerSecond",NA
+"millimeterPerSecond","millimeterPerSecond","speed","millimeter/second","millimeters per second","mm/s","0.001",NA,"meterPerSecond",NA
+"yardPerSecond","yardPerSecond","speed","international_yard/second","yards per second","yd/s","0.9144",NA,"meterPerSecond",NA
+"metersPerSecondSquared","metersPerSecondSquared","acceleration","meter/second^2","meters per second squared","m/s²","1","meterPerSecondSquared",NA,NA
+"meterPerSecondSquared","meterPerSecondSquared","acceleration","meter/second^2","micromoles per square meter per second","m/s²","1",NA,"meterPerSecondSquared",NA
+"waveNumber","waveNumber","lengthReciprocal","meter^-1","1/meters",NA,"1","inverseMeter",NA,NA
+"inverseMeter","inverseMeter","lengthReciprocal","meter^-1","reciprocal of meter, or 1/meters",NA,"1",NA,NA,NA
+"inverseCentimeter","inverseCentimeter","lengthReciprocal","meter^-1","also called reciprocal centimeter",NA,".01",NA,NA,NA
+"cubicMeterPerKilogram","cubicMeterPerKilogram","specificVolume","meter^3/kilogram","cubic meters per kilogram","m³/kg","1","meterCubedPerKilogram",NA,NA
+"cubicMicrometersPerGram","cubicMicrometersPerGram","specificVolume","micrometer^3/gram","cubic micrometers per gram","µm³/kg","0.000000000000001","micrometerCubedPerGram","cubicMeterPerKilogram",NA
+"meterCubedPerKilogram","meterCubedPerKilogram","specificVolume","meter^3/kilogram","cubic meters per kilogram","m³/kg","1",NA,"meterCubedPerKilogram",NA
+"micrometerCubedPerGram","micrometerCubedPerGram","specificVolume","micrometer^3/gram","cubic micrometers per gram","µm³/kg","0.000000000000001",NA,"meterCubedPerKilogram",NA
+"amperePerSquareMeter","amperePerSquareMeter","currentDensity","ampere/meter^2","ampere per meter squared, unit of current density","A/m²","1","amperePerMeterSquared",NA,NA
+"amperePerMeterSquared","amperePerMeterSquared","currentDensity","ampere/meter^2","amperes per square meter, unit of current density","A/m²","1",NA,"amperePerMeterSquared",NA
+"amperePerMeter","amperePerMeter","magneticFieldStrength","ampere/meter","ampere per meter","A/m","1",NA,NA,NA
+"molePerCubicMeter","molePerCubicMeter","amountOfSubstanceConcentration","mole/meter^3","mole per cubic meter",NA,"1","molePerMeterCubed",NA,NA
+"molarity","molarity","amountOfSubstanceConcentration","mole/liter","molarity = moles/liter","M","1000","molePerLiter","molePerMeterCubed",NA
+"molePerMeterCubed","molePerMeterCubed","amountOfSubstanceConcentration","mole/meter^3","moles per cubic meter","mol/m³","1",NA,"molePerMeterCubed",NA
+"molePerLiter","molePerLiter","amountOfSubstanceConcentration","mole/liter","moles per liter (perferred over molarity, as molarity refers only to dissolved substances)","mol/l","1000",NA,"molePerMeterCubed",NA
+"millimolePerLiter","millimolePerLiter","amountOfSubstanceConcentration","millimole/liter","millimoles per liter ","mmol/l","1",NA,"molePerMeterCubed",NA
+"micromolePerLiter","micromolePerLiter","amountOfSubstanceConcentration","micromole/liter","micromoles per liter","µmol/l","0.001",NA,"molePerMeterCubed",NA
+"nanomolePerLiter","nanomolePerLiter","amountOfSubstanceConcentration","nanomole/liter","nanomoles per liter","nmol/l","0.000001",NA,"molePerMeterCubed",NA
+"millimolePerMeterCubed","millimolePerMeterCubed","amountOfSubstanceConcentration","millimole/meter^3","millimoles per cubic meter","mol/m³",".001",NA,"molePerMeterCubed",NA
+"microequivalentPerLiter","microequivalentPerLiter","amountOfSubstanceConcentration",NA,"concentration of charge (on dissolved ions). conversions must know the name of the ion; 
+      a single multiplier to SI is not possible","E/l",NA,NA,"molePerMeterCubed",NA
+"milliequivalentPerLiter","milliequivalentPerLiter","amountOfSubstanceConcentration",NA,"concentration of charge (on dissolved ions). conversions must know the name of the ion; 
+      a single multiplier to SI is not possible","mE/l",NA,NA,"molePerMeterCubed",NA
+"equivalentPerLiter","equivalentPerLiter","amountOfSubstanceConcentration",NA,"concentration of charge (on dissolved ions). conversions must know the name of the ion; 
+      a single multiplier to SI is not possible","µE/l",NA,NA,"molePerMeterCubed",NA
+"molality","molality","amountOfSubstanceWeight","mole/kilogram","molality = moles/kg","m","1","molePerKilogram",NA,NA
+"millimolePerGram","millimolePerGram","amountOfSubstanceWeight","millimole/gram","millimoles per gram","mmol/g","1",NA,"molePerKilogram",NA
+"molePerGram","molePerGram","amountOfSubstanceWeight","mole/gram","moles per gram","mol/g","1000",NA,"molePerKilogram",NA
+"molePerKilogram","molePerKilogram","amountOfSubstanceWeight","mole/kilogram","moles per kilogram","mol/kg","1",NA,"molePerKilogram",NA
+"micromolePerGram","micromolePerGram","amountOfSubstanceWeight","micromole/gram","millimoles per gram","umol/g","0.001",NA,"molePerKilogram",NA
+"candelaPerSquareMeter","candelaPerSquareMeter","luminance","candela/meter^2","candela Per Square Meter (1 lux)","cd/m²","1","candelaPerMeterSquared",NA,NA
+"candelaPerMeterSquared","candelaPerMeterSquared","luminance","candela/meter^2","candela Per Square Meter (1 lux)","cd/m²","1",NA,"candelaPerMeterSquared",NA
+"metersSquaredPerSecond","metersSquaredPerSecond","transmissivity","meter^2/second","meters squared per second, SI unit for kinematic viscosity, specific relative 
+      angular momentum and thermal diffusivity. The unit may be better understood when phrased 
+      as \"meter per second times meter\" (velocity of an object with respect to a position).","m²/s","1","meterSquaredPerSecond",NA,NA
+"metersSquaredPerDay","metersSquaredPerDay","transmissivity","meter^2/day","meters squared per day","m²/day","0.00001157407","meterSquaredPerDay","metersSquaredPerSecond",NA
+"feetSquaredPerDay","feetSquaredPerDay","transmissivity","international_foot^2/day","feet squared per day","ft²/day","0.000001075267","footSquaredPerDay","metersSquaredPerSecond",NA
+"footSquaredPerDay","footSquaredPerDay","transmissivity","international_foot^2/day","square feet per day","ft²/d","0.000001075267",NA,"meterSquaredPerSecond",NA
+"meterSquaredPerDay","meterSquaredPerDay","transmissivity","meter^2/day","square meters per day","m²/d","0.00001157407",NA,"meterSquaredPerSecond",NA
+"meterSquaredPerSecond","meterSquaredPerSecond","transmissivity","meter^2/second","meters squared per second, SI unit for kinematic viscosity, specific relative 
+      angular momentum and thermal diffusivity. The unit may be better understood when phrased 
+      as \"meter per second times meter\" (velocity of an object with respect to a position).","m²/s","1",NA,"meterSquaredPerSecond",NA
+"kilogramsPerMeterSquaredPerSecond","kilogramsPerMeterSquaredPerSecond","massFlux","kilogram/meter^2/second","kilograms per meter sqared per second",NA,"1","kilogramPerMeterSquaredPerSecond",NA,NA
+"gramsPerCentimeterSquaredPerSecond","gramsPerCentimeterSquaredPerSecond","massFlux","gram/centimeter^2/second","grams Per Centimeter Squared Per Second",NA,"10","gramPerCentimeterSquaredPerSecond","kilogramPerMeterSquaredPerSecond",NA
+"gramsPerMeterSquaredPerYear","gramsPerMeterSquaredPerYear","massFlux","gram/meter^2/common_year","grams Per Meter Squared Per Year",NA,"0.0000000000317098","gramPerMeterSquaredPerYear","kilogramPerMeterSquaredPerSecond",NA
+"gramsPerHectarePerDay","gramsPerHectarePerDay","massFlux","gram/hectare/day","grams Per Hectare Per Day",NA,"0.0000000000011574","gramPerDayPerHectare","kilogramPerMeterSquaredPerSecond",NA
+"kilogramsPerHectarePerYear","kilogramsPerHectarePerYear","massFlux","kilogram/hectare/common_year","kilograms Per Hectare Per Year",NA,"0.000000000003170979","kilogramPerHectarePerYear","kilogramPerMeterSquaredPerSecond",NA
+"kilogramsPerMeterSquaredPerYear","kilogramsPerMeterSquaredPerYear","massFlux","kilogram/meter^2/common_year","kilograms Per Meter Squared Per Year",NA,"0.00000003170979","kilogramPerMeterSquaredPerYear","kilogramPerMeterSquaredPerSecond",NA
+"gramPerCentimeterSquaredPerSecond","gramPerCentimeterSquaredPerSecond","massFlux","gram/centimeter^2/second","grams per square centimeter per second","g/cm²/s","10",NA,"kilogramPerMeterSquaredPerSecond",NA
+"gramPerDayPerHectare","gramPerDayPerHectare","massFlux","gram/day/hectare","grams Per Hectare Squared Per Day","g/d/hectare","0.000000000001157407",NA,"kilogramPerMeterSquaredPerSecond",NA
+"gramPerMeterSquaredPerYear","gramPerMeterSquaredPerYear","massFlux","gram/meter^2/common_year","grams per square meter per year","g/m²/yr","0.00000000003170979",NA,"kilogramPerMeterSquaredPerSecond",NA
+"kilogramPerHectarePerYear","kilogramPerHectarePerYear","massFlux","kilogram/hectare/common_year","kilograms Per Hectare Per Year","kg/hectare/yr","0.000000000003170979",NA,"kilogramPerMeterSquaredPerSecond",NA
+"kilogramPerMeterSquaredPerSecond","kilogramPerMeterSquaredPerSecond","massFlux","kilogram/meter^2/second","kilograms per square meter per second","kg/m²/s","1",NA,"kilogramPerMeterSquaredPerSecond",NA
+"kilogramPerMeterSquaredPerDay","kilogramPerMeterSquaredPerDay","massFlux","kilogram/meter^2/day","kilograms per square meter per day","kg/m²/d","0.000015741",NA,"kilogramPerMeterSquaredPerSecond",NA
+"gramPerMeterSquaredPerDay","gramPerMeterSquaredPerDay","massFlux","kilogram/meter^2/day","grams per square meter per day","kg/m²/d","0.000000015741",NA,"kilogramPerMeterSquaredPerSecond",NA
+"milligramPerMeterSquaredPerDay","milligramPerMeterSquaredPerDay","massFlux","milligram/meter^2/day","milligram per square meter per day","mg/m²/d","0.000000000015741",NA,"kilogramPerMeterSquaredPerSecond",NA
+"kilogramPerMeterSquaredPerYear","kilogramPerMeterSquaredPerYear","massFlux","kilogram/meter^2/common_year","kilograms per square meter per year","kg/m²/yr","0.00000003170979",NA,"kilogramPerMeterSquaredPerSecond",NA
+"molesPerKilogram","molesPerKilogram","amountOfSubstanceWeight","mole/kilogram","moles per kilogram",NA,"1","molePerKilogram",NA,NA
+"molesPerGram","molesPerGram","amountOfSubstanceWeight","mole/gram","moles per gram",NA,"1000","molePerGram","molePerKilogram",NA
+"millimolesPerGram","millimolesPerGram","amountOfSubstanceWeight","millimole/gram","millimoles per gram",NA,"1","millimolePerGram","molePerKilogram",NA
+"molesPerKilogramPerSecond","molesPerKilogramPerSecond","amountOfSubstanceWeightRate","mole/kilogram/second","moles per kilogram per second",NA,"1","molePerKilogramPerSecond",NA,NA
+"nanomolesPerGramPerSecond","nanomolesPerGramPerSecond","amountOfSubstanceWeightRate","nanomole/gram/second","nanomoles Per Gram Per Second",NA,"0.000001","nanomolePerGramPerSecond","molePerKilogramPerSecond",NA
+"molePerKilogramPerSecond","molePerKilogramPerSecond","amountOfSubstanceWeightRate","mole/kilogram/second","moles per kilogram per second","mol/kg/s","1",NA,"molePerKilogramPerSecond",NA
+"nanomolePerGramPerSecond","nanomolePerGramPerSecond","amountOfSubstanceWeightRate","nanomole/gram/second","nanomoles Per Gram Per Second","nmol/g/s","0.000001",NA,"molePerKilogramPerSecond",NA
+"nanomolePerGramPerHour","nanomolePerGramPerHour","amountOfSubstanceWeightRate","nanomole/gram/hour","nanomoles Per Gram Per Hour","nmol/g/h","0.000000000277778",NA,"molePerKilogramPerSecond",NA
+"nanomolePerGramPerDay","nanomolePerGramPerDay","amountOfSubstanceWeightRate","nanomole/gram/day","nanomoles Per Gram Per day","nmol/g/d","0.0000000000115741",NA,"molePerKilogramPerSecond",NA
+"micromolePerGramPerSecond","micromolePerGramPerSecond","amountOfSubstanceWeightRate","micromole/gram/second","micromoles Per Gram Per Second","nmol/g/s","0.001",NA,"molePerKilogramPerSecond",NA
+"micromolePerGramPerHour","micromolePerGramPerHour","amountOfSubstanceWeightRate","micromole/gram/hour","micromoles Per Gram Per Hour","nmol/g/h","0.000000277778",NA,"molePerKilogramPerSecond",NA
+"micromolePerGramPerDay","micromolePerGramPerDay","amountOfSubstanceWeightRate","micromole/gram/day","micromoles Per Gram Per day","nmol/g/d","0.0000000115741",NA,"molePerKilogramPerSecond",NA
+"kilogramsPerSecond","kilogramsPerSecond","massRate","kilogram/second","kilograms per second","kg/s","1","kilogramPerSecond",NA,NA
+"tonnesPerYear","tonnesPerYear","massRate","metric_ton/common_year","tonnes Per Year",NA,"0.0000317","tonnePerYear","kilogramPerSecond",NA
+"gramsPerYear","gramsPerYear","massRate","gram/common_year","grams Per Year","g/yr","0.0000000000317","gramPerYear","kilogramPerSecond",NA
+"gramPerYear","gramPerYear","massRate","gram/common_year","grams Per Year","g/yr","0.00000000003170979",NA,"kilogramPerSecond",NA
+"kilogramPerSecond","kilogramPerSecond","massRate","kilogram/second","kilograms per second","kg/s","1",NA,"kilogramPerSecond",NA
+"tonnePerYear","tonnePerYear","massRate","metric_ton/common_year","tonnes Per Year","t/yr","0.00003170979",NA,"kilogramPerSecond",NA
+"numberPerMeterSquared","numberPerMeterSquared","arealDensity","count/meter^2","number per meter squared, e.g., for a population density.",NA,"1",NA,NA,NA
+"numberPerKilometerSquared","numberPerKilometerSquared","arealDensity","count/kilometer^2","number per kilometer squared",NA,"0.000001",NA,"numberPerMeterSquared",NA
+"numberPerHectare","numberPerHectare","arealDensity","count/hectare","number per hectare","#/hectare","0.0001",NA,"numberPerMeterSquared",NA
+"numberPerMeterCubed","numberPerMeterCubed","volumetricDensity","count/meter^3","number per meter cubed",NA,"1",NA,NA,NA
+"numberPerLiter","numberPerLiter","volumetricDensity","count/liter","number of entities per liter",NA,"1000",NA,"numberPerMeterCubed",NA
+"numberPerMilliliter","numberPerMilliliter","volumetricDensity","count/milliliter","number of entities per milliliter",NA,"1000000",NA,"numberPerMeterCubed",NA
+"metersPerGram","metersPerGram","massSpecificLength","meter/gram","meters per gram","m/g","1","meterPerGram",NA,NA
+"meterPerGram","meterPerGram","massSpecificLength","meter/gram","meters per gram","m/g","1",NA,"meterPerGram",NA
+"numberPerGram","numberPerGram","massSpecificCount","count/gram","number of entities per gram",NA,"1",NA,NA,NA
+"gramsPerGram","gramsPerGram","massPerMass","gram/gram","grams per gram",NA,"1","gramPerGram",NA,NA
+"microgramsPerGram","microgramsPerGram","massPerMass","microgram/gram","micrograms per gram",NA,"0.000001","microgramPerGram","gramsPerGram",NA
+"gramPerGram","gramPerGram","massPerMass","gram/gram","grams per gram","g/g","1",NA,"gramPerGram",NA
+"milligramPerKilogram","milligramPerKilogram","massPerMass","milligram/kilogram","milligrams per kilogram","mg/kg","0.000001",NA,"gramPerGram",NA
+"microgramPerGram","microgramPerGram","massPerMass","microgram/gram","micrograms per gram","µg/g","0.000001",NA,"gramPerGram",NA
+"nanogramPerGram","nanogramPerGram","massPerMass","nanogram/gram","micrograms per gram","ng/g","0.000000001",NA,"gramPerGram",NA
+"microgramPerGramPerHour","microgramPerGramPerHour","massPerMassRate","microgram/gram/hour","micrograms per gram per hour","µg/g/h","0.000000000277778",NA,"gramPerGramPerSecond",NA
+"microgramPerGramPerDay","microgramPerGramPerDay","massPerMassRate","microgram/gram/day","micrograms per gram per day","µg/g/day","0.0000000000115741",NA,"gramPerGramPerSecond",NA
+"microgramPerGramPerWeek","microgramPerGramPerWeek","massPerMassRate","microgram/gram/week","micrograms per gram per week","µg/g/week","0.00000000000165344",NA,"gramPerGramPerSecond",NA
+"nanogramPerGramPerHour","nanogramPerGramPerHour","massPerMassRate","nanogram/gram/hour","nanoograms per gram per hour","ng/g"," 0.000000277778",NA,"gramPerGramPerSecond",NA
+"cubicCentimetersPerCubicCentimeters","cubicCentimetersPerCubicCentimeters","volumePerVolume","centimeter^3/centimeter^3","cubic centimeters per cubic centimeter",NA,"1","meterCubedPerMeterCubed",NA,NA
+"meterCubedPerMeterCubed","meterCubedPerMeterCubed","volumePerVolume","meter^3/meter^3","milliliters per liter","m³/m³","1",NA,"meterCubedPerMeterCubed",NA
+"literPerLiter","literPerLiter","volumePerVolume","liter/liter","milliliters per liter","l/l","1",NA,"meterCubedPerMeterCubed",NA
+"milliliterPerLiter","milliliterPerLiter","volumePerVolume","milliliter/liter","milliliters per liter","ml/l","0.001",NA,"meterCubedPerMeterCubed",NA
+"microliterPerLiter","microliterPerLiter","volumePerVolume","microliter/liter","milliliters per liter","µl/l","0.000001",NA,"meterCubedPerMeterCubed",NA
+"nanoliterPerLiter","nanoliterPerLiter","volumePerVolume","nanoliter/liter","milliliters per liter","nl/l","0.000000001",NA,"meterCubedPerMeterCubed",NA
+"molePerMole","molePerMole","","mole/mole","millimoles per mole","mol/mol","1",NA,"molePerMole",NA
+"millimolePerMole","millimolePerMole","","millimole/mole","millimoles per mole","mmol/mol",".001",NA,"molePerMole",NA
+"micromolePerMole","micromolePerMole","","micromole/mole","millimoles per mole","µmol/mol",".000001",NA,"molePerMole",NA
+"nanomolePerMole","nanomolePerMole","","nanomole/mole","millimoles per mole","nmol/mol",".000000001",NA,"molePerMole",NA
+"molePerKilogram","molePerKilogram","","mole/kilogram","micromoles per kilogram","mol/kg","1",NA,"molePerKilogram",NA
+"millimolePerKilogram","millimolePerKilogram","","millimole/kilogram","micromoles per kilogram","mmol/kg","0.001",NA,"molePerKilogram",NA
+"micromolePerKilogram","micromolePerKilogram","","micromole/kilogram","micromoles per kilogram","µmol/kg","0.000001",NA,"molePerKilogram",NA
+"nanomolePerKilogram","nanomolePerKilogram","","nanomole/kilogram","micromoles per kilogram","nmol/kg","0.000000001",NA,"molePerKilogram",NA
+"percent","percent","dimensionless","percent","percent, one part per hundred parts. a decimal ratio multipled by 100","%","1",NA,"dimensionless",NA
+"permil","permil","dimensionless","percent","permil, one part per thousand parts. a decimal ratio multipled by 1000","o/oo","1",NA,"dimensionless",NA
+"wattPerMeterSquared","wattPerMeterSquared","","watt/meter^2","watts per square meter, also, 1 kilogram per second cubed (ie, a flux)","W/m²","1",NA,"wattPerMeterSquared",NA
+"kilowattPerMeterSquared","kilowattPerMeterSquared","","kilowatt/meter^2","kilowatts per square meter","kW/m²","1000",NA,"wattPerMeterSquared",NA
+"wattPerMeterSquaredPerSteradian","wattPerMeterSquaredPerSteradian","","watt/meter^2/steradian","watts per square meter, in a solid angle","W/m²/sr","1",NA,"wattPerMeterSquaredPerSteradian",NA
+"microwattPerCentimeterSquaredPerSteradian","microwattPerCentimeterSquaredPerSteradian","","microwatt/centimeter^2/steradian","watts per square centimeter, in a solid angle","µW/cm²/sr","0.0000001",NA,"wattPerMeterSquaredPerSteradian",NA
+"wattPerMeterSquaredPerNanometer","wattPerMeterSquaredPerNanometer","","watt/meter^2/nm","watts per square meter, per unit of wavelength","W/m²/nm","0.000000001",NA,"wattPerMeterSquaredPerMeter",NA
+"microwattPerCentimeterSquaredPerNanometer","microwattPerCentimeterSquaredPerNanometer","","microwatt/centimeter^2/nm","watts per square centimeter, per unit of wavelength","µW/cm²/nm","0.0000001",NA,"wattPerMeterSquaredPerMeter",NA
+"wattPerMeterSquaredPerNanometerPerSteradian","wattPerMeterSquaredPerNanometerPerSteradian","","watt/meter^2/nm/steradian","watts per square meter, per unit of wavelength in a solid angle","W/m²/nm/sr","0.000000001",NA,"wattPerMeterSquaredPerMeterPerSteradian",NA
+"microwattPerCentimeterSquaredPerNanometerPerSteradian","microwattPerCentimeterSquaredPerNanometerPerSteradian","","microwatt/centimeter^2/nm/steradian","microwatts per square centimeter, per unit of wavelength, in a solid angle","µW/cm²/nm/sr","0.0000001",NA,"wattPerMeterSquaredPerMeterPerSteradian",NA
+"molePerMeterSquaredPerSecond","molePerMeterSquaredPerSecond","","mole/meter^2/second","micromoles per square meter per second","mol/m²/s","1",NA,"molePerMeterSquaredPerSecond",NA
+"micromolePerMeterSquaredPerSecond","micromolePerMeterSquaredPerSecond","","micromole/meter^2/second","micromoles per square meter per second","µmol/m²/s","0.000001",NA,"molePerMeterSquaredPerSecond",NA
+"micromolePerCentimeterSquaredPerSecond","micromolePerCentimeterSquaredPerSecond","","micromole/centimeter^2/second","micromoles per square centimeter per second","µmol/cm²/s","0.01",NA,"molePerMeterSquaredPerSecond",NA
+"megajoulePerMeterSquaredPerDay","megajoulePerMeterSquaredPerDay","arealEnergyDensityRate","megajoule/m^2/day","megajoules per square meter per day","MJ/m2/day","11.5741",NA,"joulePerMeterSquaredPerSecond","0"
+"langleyPerDay","langleyPerDay","arealEnergyDensityRate","langley/day","Langley (Ly) per day. Ly is a unit of energy density = 41840 joule/m^2, = 1 calorie/cm^2","Ly/day","0.484259",NA,"joulePerMeterSquaredPerSecond","0"

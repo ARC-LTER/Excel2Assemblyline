@@ -1,0 +1,10 @@
+keyword	keywordThesaurus
+plant cover	https://vocab.lternet.edu/
+ diversity	https://vocab.lternet.edu/
+ tundra	https://vocab.lternet.edu/
+ relative abundance	https://vocab.lternet.edu/
+ disturbance	https://vocab.lternet.edu/
+ populations	https://vocab.lternet.edu/
+Alaska	Arctic LTER
+ moist acidic tundra	Arctic LTER
+ Toolik Field Station	Arctic LTER

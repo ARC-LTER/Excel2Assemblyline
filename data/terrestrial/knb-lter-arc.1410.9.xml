@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="knb-lter-arc.1410.9" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=ARC,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Yearly Eriophorum vaginatum Flowering data along a transect on the Haul Road, Fairbanks to Prudhoe Bay, AK 1979 to present.</title>
+    <creator>
+      <individualName>
+        <givenName>Gus</givenName>
+        <surName>Shaver</surName>
+      </individualName>
+      <organizationName>Marine Biological Laboratory</organizationName>
+      <electronicMailAddress>gshaver@mbl.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Jim</givenName>
+        <surName>Laundre</surName>
+      </individualName>
+      <organizationName>Marine Biological Laboratory</organizationName>
+      <electronicMailAddress>jlaundre@mbl.edu</electronicMailAddress>
+      <role>Associatedparty</role>
+    </associatedParty>
+    <pubDate>2021-06-14</pubDate>
+    <abstract>
+      <para>The flowering data consisted of counts of Eriophorum inflorescences in each of six permanent 2x2m plots (except at Pump 4, Galbraith, Kuparuk River, and Kuparuk Ridge, where there were 10 plots each). The counts included inflorescences that had been clipped by ptarmigan but were still recognizable by their elongated culms. Counts were made in late May or early June of each year, after all of the current year's flowering culms had begun elongation but before maturation of the inflorescences. In 1980-1982, we also counted tussocks on each plot. Most of the plots are undisturbed but some are treated plots (see treatment code). See (Shaver, et al, 1986)
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>flowering</keyword>
+      <keyword>populations</keyword>
+      <keywordThesaurus>https://vocab.lternet.edu/</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Eriophorum vaginatum</keyword>
+      <keywordThesaurus>Arctic LTER</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.&#13;
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>No Name Creek NO NAME CK</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150.16755570000001</westBoundingCoordinate>
+          <eastBoundingCoordinate>-150.16755570000001</eastBoundingCoordinate>
+          <northBoundingCoordinate>66.117092999999997</northBoundingCoordinate>
+          <southBoundingCoordinate>66.117092999999997</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>KANUTI KANUTI</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150.54500949999999</westBoundingCoordinate>
+          <eastBoundingCoordinate>-150.54500949999999</eastBoundingCoordinate>
+          <northBoundingCoordinate>66.407460599999993</northBoundingCoordinate>
+          <southBoundingCoordinate>66.407460599999993</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>GOBBLERS GOBBLERS</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150.68623349999999</westBoundingCoordinate>
+          <eastBoundingCoordinate>-150.68623349999999</eastBoundingCoordinate>
+          <northBoundingCoordinate>66.745920400000003</northBoundingCoordinate>
+          <southBoundingCoordinate>66.745920400000003</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>GRAYLING GRAYLING</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150.34806610000001</westBoundingCoordinate>
+          <eastBoundingCoordinate>-150.34806610000001</eastBoundingCoordinate>
+          <northBoundingCoordinate>66.969666000000004</northBoundingCoordinate>
+          <southBoundingCoordinate>66.969666000000004</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>MACS LAKE MACS LAKE</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150.35064510000001</westBoundingCoordinate>
+          <eastBoundingCoordinate>-150.35064510000001</eastBoundingCoordinate>
+          <northBoundingCoordinate>67.135727700000004</northBoundingCoordinate>
+          <southBoundingCoordinate>67.135727700000004</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>COLDFOOT Flowering Site COLDFOOT</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150.16999519999999</westBoundingCoordinate>
+          <eastBoundingCoordinate>-150.16999519999999</eastBoundingCoordinate>
+          <northBoundingCoordinate>67.258900400000002</northBoundingCoordinate>
+          <southBoundingCoordinate>67.258900400000002</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>SNOWDEN SNOWDEN</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.81711490000001</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.81711490000001</eastBoundingCoordinate>
+          <northBoundingCoordinate>67.803292200000001</northBoundingCoordinate>
+          <southBoundingCoordinate>67.803292200000001</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>TIMBERLINE TIMBERLINE</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.67370210000001</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.67370210000001</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.030007999999995</northBoundingCoordinate>
+          <southBoundingCoordinate>68.030007999999995</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>CHANDALAR CHANDALAR</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.61135179999999</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.61135179999999</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.051785899999999</northBoundingCoordinate>
+          <southBoundingCoordinate>68.051785899999999</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>ATIGUN Camp Flowering Site ATIGUN CP</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.43922950000001</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.43922950000001</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.173046299999996</northBoundingCoordinate>
+          <southBoundingCoordinate>68.173046299999996</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>PUMP 4 PUMP 4</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.37271759999999</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.37271759999999</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.432161500000007</northBoundingCoordinate>
+          <southBoundingCoordinate>68.432161500000007</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>GALBRAITH Flowering GALBRAITH</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.4824375</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.4824375</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.496087299999999</northBoundingCoordinate>
+          <southBoundingCoordinate>68.496087299999999</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>MS 117 MS 117</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.3093093</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.3093093</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.617576400000004</northBoundingCoordinate>
+          <southBoundingCoordinate>68.617576400000004</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>TOOLIK 78 TOOLIK 78</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.57809700000001</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.57809700000001</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.629254000000003</northBoundingCoordinate>
+          <southBoundingCoordinate>68.629254000000003</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Kuparuk Flowering Site KUPARUK</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.41113669999999</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.41113669999999</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6486065</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6486065</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>DUST SITE DUST SITE</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.22358259999999</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.22358259999999</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.668970400000006</northBoundingCoordinate>
+          <southBoundingCoordinate>68.668970400000006</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>MS 119 DRY MS 119 DRY</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.89072150000001</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.89072150000001</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.760647599999999</northBoundingCoordinate>
+          <southBoundingCoordinate>68.760647599999999</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>MS121 MS121</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.8550237</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.8550237</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.876494600000001</northBoundingCoordinate>
+          <southBoundingCoordinate>68.876494600000001</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>SAG RIVER Flowering SAG RIVER</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.84310830000001</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.84310830000001</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.9074983</northBoundingCoordinate>
+          <southBoundingCoordinate>68.9074983</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Happy Valley Flowering HAPPY VALL</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.83776990000001</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.83776990000001</eastBoundingCoordinate>
+          <northBoundingCoordinate>69.139412500000006</northBoundingCoordinate>
+          <southBoundingCoordinate>69.139412500000006</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>MS 127 MS 127</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.69760450000001</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.69760450000001</eastBoundingCoordinate>
+          <northBoundingCoordinate>69.424382399999999</northBoundingCoordinate>
+          <southBoundingCoordinate>69.424382399999999</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1979-05-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-07-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">846620</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Cyperaceae</taxonRankValue>
+                            <commonName>sedges</commonName>
+                            <taxonId provider="https://itis.gov">39357</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Eriophorum</taxonRankValue>
+                              <commonName>cottongrass</commonName>
+                              <taxonId provider="https://itis.gov">40079</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Eriophorum vaginatum</taxonRankValue>
+                                <commonName>tussock cottongrass</commonName>
+                                <taxonId provider="https://itis.gov">40104</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>Oct 1996: Put comma delimited data on web. JL; 13Feb98  Put in 1997 flower data. Jan2004 added 2002 data. JL; 5Oct2005 Added 2004 and 2005 data.  Also added comment variable so a comment could be added to indicate burnt sites.  JL; Version 2 Oct06 Add title, data table information and updated the site information from the gps readings that Gus collect in Jun2 2006. JL ; Version 3 Updated metadata sheet and added EML taxonomic output.; Version 4: Added LTERNET Data Access server proxy for Excel and comma delimited data files.; Version 5: Update LTERNET Data Access server proxy link for Excel and comma delimited data files. Changed from knb to das in url.; Ver:6 Update file to 2009.  JimL; Version 7: Updated metadata form to newer version (with site sheet). Missing values changed to #N/A. Fixed discrepency with header variable names. Added data up to 2012. CH 31 Jan 2013; Version 8: Checked keywords against the LTER network preferred list and replaced non-preferred terms. Jim L 17Feb14; Version 9: Changed Distrubution URL since the LTER network DAS system is being discontinued. And updated the data to 2014. JimL 9Apr2015</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Gus</givenName>
+        <surName>Shaver</surName>
+      </individualName>
+      <organizationName>Marine Biological Laboratory</organizationName>
+      <electronicMailAddress>gshaver@mbl.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <organizationName>ARCTIC LTER</organizationName>
+      <positionName>Information Manger</positionName>
+      <electronicMailAddress>arc_im@mbl.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>The flowering data consisted of counts of Eriophorum inflorescences in each of six permanent 2x2m plots (except at Pump 4, Galbraith, Kuparuk River, and Kuparuk Ridge, where there were 10 plots each). The counts included inflorescences that had been clipped by ptarmigan but were still recognizable by their elongated culms. Counts were made in late May or early June of each year, after all of the current year's flowering culms had begun elongation but before maturation of the inflorescences. In 1980-1982, we also counted tussocks on each plot. Most of the plots are undisturbed but some are treated plots (see treatment code). See (Shaver, et al, 1986)
+ Notes and Comments: See below for terrestrial site codes. 
+12Jun2006 Gus Shaver used ausing a Garmin eTrex Visa  for locations for : NO NAME CK, KANUTI, GOBBLERS, GRAYLING, MACS LAKE, COLDFOOT, SNOWDEN, TIMBERLINE, CHANDALAR, ATIGUN CP, PUMP 4, GALBRAITH, MS 117, TOOLIK 78, KUPARUK, DUST SITE, MS 119 DRY, MS121, SAG RIVER, HAPPY VALL, MS 127.</para>
+          <para>IMPORTANT: Some previous data had been entered incorrectly. This data has been entered correctly. See the file sitedir.doc for complete details.</para>
+          <para>Reference Citations: Shaver, G. R., N. Fetcher, and F. S. Chapin, III. 1986. Growth and flowering in Eriophorum vaginatum: Annual and latitudinal variation. Ecology 67:1524-1525.</para>
+          <para>--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SITE_CODE.DOC - Coded information to accompany the documentation for the Haul 
+  Road transect flowering data.</para>
+          <para>
+SPECIES code:           01      E. Vaginatum (Evag.)
+   02      Carex bigelowii
+   03      Ledum palustre
+   04      V. uliginosum
+   05      V. vitus-idaea
+   06      Betula nana
+   07      Eriophorum angustifolium (Eriang)
+   08      Carex aquatilis
+   09      Calamagrostis canadensis
+   10      Arctagrostis latifolia
+   11      Eriphorum angustifolium (Eriang)
+   12      Salix pulchra
+   13      Cassiope tetragona
+   14      Polygonum bistorta (bistort)
+   15      Sphagnum
+   16      Rubus chamaemorus
+   17      Empetrum nigrum</para>
+          <para>
+SITE_CODE code  (first two numbers represent the site)
+  (Third number represents the time of year data was taken)
+ Site            01      Eagle Creek (1976)
+   02      Elliot burned
+   03      Elliot unburned
+   04      No name
+   05      Old man
+   06      Galbraith
+   07      MS117
+   08      MS119 wet
+   09      MS119 dry
+   10      Happy Valley
+   11      MS127
+   12      Pump 2
+   13      Prudhoe Bay - Point MacIntyre
+   14      Toolik '76
+   15      Toolik '78
+   16      Atigun Gorge
+   17      Franklin Bluffs
+   18      Barrow - Basin
+   19      Barrow - Meadow
+   20      Barrow - Pond
+   21      Barrow - Ridge
+   22      Barrow - Trough
+   23      Barrow - Grazed Trough
+   51      Smith Lake
+   52      Kanuti
+   53      Fish creek
+   54      Gobbler's Knob
+   55      Prospect
+   56      Grayling Lake
+   57      Mac's Lake
+   58      Coldfoot
+   59      Wiseman
+   60      Sukakpak #2
+   61      Sukakpak #1
+   62      Dietrich
+   63      Snowden Mtn.
+   64      Timberline
+   65      Chandalar
+   66      Atigun Camp
+   67      Pump 4
+   68      Kuparuk River
+   69      Dust Site #1
+   70      Dust Site #2
+   71      Dust Site #3
+   72      Dust Site #4
+   73      MS 121
+   74      Sag River
+   75      Sagwon
+   76      Hidden Pond
+   77      Prudhoe - Kuparuk Site
+ Time of year code (TOY)   (third number of SITE_CODE)
+   1=      Early Season (flowering), May-June
+   2=      Peak Season, Late July-Early August
+   3=      Late Season, Middle August-September
+   4=      both flowering and peak (wt/tiller) data</para>
+          <para>
+TREAT code : (the number code goes as following)
+       (if there is no treatment the code is 0)
+   N Level         0=nothing       
+   P Level         1=low           
+   K Level         2=medium
+   Sugar Level     3=high
+   Lime Level      4=Galbraith NPK '78 
+     5=MS117 NPK '78 and '76
+     6=MS119 Track '81
+     7=MS127 NPK '78 and '76
+     8=Atigun Greenhouse</para>
+          <para>   Control:        0=no control
+     1=C38 standard
+     2=C37 alternate
+     3=C36
+     4=C39
+     5=C40
+     6=C45
+     7='new' control
+     8=not a treatment nor control
+     9=duplicate sample</para>
+          <para>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------</para>
+          <para>     Site Orientation of 1980 E. vag plots                   
+     Updated 16Nov93
+                                         
+                       1980  1981  1982  1983  1984 1985   1986   1987   1988  1989   1990  1991   1992   1993  Chosen-93
+     Eagle Creek        1-W   1-W   1-W   1-W   unk   NA     NA     NA     NA    NA     NA    NA     NA     NA     1-W
+     Elliot burned      1-S   1-S   1-S   1-NW  NA    NA     NA     NA     NA    NA     NA    NA     NA     NA     1-S
+     Elliot unburned    1-S   1-N   1-S   1-N   NA    NA     NA     NA     NA    NA     NA    NA     NA     NA     1-S
+     No Name Cr.        1-E   1-W   1-E   1-W   1-W   1-E    1-E    1-E    NA    1-W   1-W    1-W    1-E   1-E     1-E
+     Old Man            1-E   1-W   1-E   1-W   NA    NA     NA     NA     NA    NA     NA    NA     NA     NA     1-E
+     Fish Cr. (Hickel)  1-S   1-N   1-S   1-S   NA    1-S    1-S    NA     NA    NA     NA    NA     NA     NA     1-S
+     Gobbler's Knob      NA   1-N   1-S   1-S   1-N   NA     1-S    NA     NA    1-N   1-N    1-N    1-S   1-S     1-S
+     Prospect (Pump5)   1-S   1-S   1-S   1-S   1-N   1-S    1-S    NA     NA    1-N   1-N    NA     NA     NA     1-S
+     Grayling Lake      1-N   1-N   1-S   1-S   1-N   1-S    1-S    1-S    NA    1-N   1-N    1-N    1-S   1-S     1-S
+     Mac's Lake         1-N   1-N   1-S   1-S   NA    1-S    1-S    1-S    NA    NA    1-N    1-N    1-S   1-S     1-S
+     Wiseman            1-S   1-N   1-S   1-S   1-N   1-S    1-S    1-S    NA    1-N   1-N    NA     1-S   1-S     1-S
+     Sukakpak #1        1-S   unk   1-S   1-S   NA    NA     NA     NA     NA    NA     NA    NA     NA     NA     1-S
+     Sukakpak #2         NA   1-N   1-S   1-S   1-N   1-S    1-S    NA     NA    1-N    NA    NA     NA     NA     1-S
+     Dietrich           1-N   1-N   1-S   1-S   NA    NA     NA     NA     NA    NA     NA    NA     NA     NA     1-S
+     Snowden Mt.        1-S   1-N   1-S   1-S   1-N   1-S    1-S    1-S   1-S    1-S   1-N    1-N    1-S   1-S     1-S
+     Timberline         1-E   1-E   1-W   1-W   NA    NA     1-W    unk   1-E    1-E   1-E    1-E    1-E   1-E     1-E
+     Chandalar          1-S   1-S   1-S   1-S   1-N   1-S    1-S    1-S   1-S    1-N   1-N    1-N    1-S   1-S     1-S
+     Atigun             1-S   1-S   1-S   1-S   1-N   1-S    1-S    1-S   1-S    1-N   1-N    1-N    1-S   1-S     1-S
+     Pump 4             1-S   1-S   1-N   1-S   1-N   1-S    1-S    1-S   1-S    1-N   1-N    1-N    1-S   1-S     1-S
+     Galbraith          1-S   1-N   unk   1-N   1-N   1-S    1-S    1-S   1-S    1-N   1-N    1-N    1-S   1-S     1-S
+     Toolik '76        1a-NW 1a-NW 1a-NW 1a-NW  NA    NA    1a-NW   NA   1a-NW   NA     NA    NA     NA     NA    1a-NW
+     Toolik '78        1a-NW 1a-NW 1a-NW 1a-NW 1a-NW  NA    1a-NW  1a-NW 1a-NW  1a-NW 1a-NE  1a-NE   unk  1a-NW   1a-NW
+     Kuparuk River      1-E   1-E   1-E   1-W  1-NE  1-SE    1-E    unk    NA    unk   1-NE   NA     1-E   1-E     1-E
+     MS117              1-W   1-E   1-E   1-E   1-E   1-W    1-E    1-W   1-E    1-E   1-E    1-E    1-E   1-E     1-E
+     Toolik Dust #1     1-E   1-E   1-E   1-E  1-NE   1-W    NA     NA     NA    1-E   1-E    1-E    1-E   1-E     1-E
+     Toolik Dust #2     1-E   1-E   1-E   1-E  1-NE   NA     NA     NA     NA    NA     NA    NA     NA     NA     1-E
+     Toolik Dust #3     1-E   1-E   1-E   1-E  1-NE   NA     NA     NA     NA    NA     NA    NA     NA     NA     1-E
+     Toolik Dust #4     1-E   1-E   1-E   1-E  1-NE   NA     NA     NA     NA    NA     NA    NA     NA     NA     1-E
+     MS119-dry          1-N   unk   1-S   1-S   1-N   1-S    1-S   1-SE   1-S    1-N   1-N    1-N    1-S   1-S     1-S
+     MS121              1-S   1-S   1-N   1-S   1-N   1-S    1-S    1-S   1-S    1-N   1-N    1-N    1-S   1-S     1-S
+     Sag River          1-S   unk   1-S   unk   1-N   NA     1-S    1-S   1-S    1-N   1-N    1-N    1-S   1-S     1-S
+     Happy Valley       1-W   1-W   1-W   1-E   1-W   NA     1-E    1-E   1-E    1-E   1-E    1-E    1-E   1-E     1-E
+     Sagwon Trails      1-E   1-E   1-E   1-E   1-W   NA     NA     1-E   1-W    1-E    NA    1-E    unk   1-E     1-E
+     MS127              1-N   1-S   1-S   1-S   1-N   NA     NA     NA     NA    1-N   unk    1-N    unk   1-S     1-S
+     Coldfoot            NA   1-N   1-S   1-S   1-N   1-S    1-S    1-S    NA    1-N   1-N    1-N    1-S   1-S     1-S
+     Kanuti              NA   1-N   1-S   1-S   1-N   1-S    1-S    1-S    NA    1-N   1-N    1-N    1-S   1-S     1-S
+     Smith Lake          NA   1-W   1-W   1-E   NA    NA     NA     NA     NA    NA     NA    NA     NA     NA     1-W
+     Hidden Pond         NA    NA   1-S   1-NE 1-NE   NA     NA     NA     NA    NA     NA    1-N    NA     NA     1-NE
+     Prudhoe-Kuparuk     NA   1-W   1-E   1-W   NA    NA     NA     NA     NA    NA     NA    NA     NA     NA     1-W</para>
+          <para>
+  The above is a list of the geographic orientation of Rep #1 for all the 1980 E. vag plots for the years 1980-1993 as
+  the data was entered into the computer. "NA" indicates that there was no data collected from that site that year. For 
+  1992 and 1993 the field data was entered into the computer such that Rep #1 corresponded to the geographic orientation 
+  listed in the final column, "Chosen-93". If a site direction is listed as "unk" then the orientation of that site was 
+  not recorded in the original field data and the Rep numbering assigned at the time of data collection is assumed correct.
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>LTER: The Role of Biogeochemical and Community Openness in Governing Ecological Change in Arctic Ecosystems</title>
+      <personnel>
+        <individualName>
+          <givenName>Edward</givenName>
+          <surName>Rastetter</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>NSF 1637459</funding>
+      <relatedProject>
+        <title>Arctic LTER:   Climate Change and Changing Disturbance Regimes in Arctic Landscapes</title>
+        <personnel>
+          <individualName>
+            <givenName>Gaius</givenName>
+            <surName>Shaver</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>NSF 1026843</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>LTER: The Arctic LTER Project: The Future Characteristics of Arctic Communities, Ecosystems, and Landscapes</title>
+        <personnel>
+          <individualName>
+            <givenName>John</givenName>
+            <surName>Hobbie</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>NSF 9810222</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>The Arctic LTER Project: Terrestrial and Freshwater Researchon Ecological Controls</title>
+        <personnel>
+          <individualName>
+            <givenName>John</givenName>
+            <surName>Hobbie</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>NSF 9211775</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>An LTER Program for the Alaskan Arctic</title>
+        <personnel>
+          <individualName>
+            <givenName>Gaius</givenName>
+            <surName>Shaver</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>NSF 8702328</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>1979_presentgsfl_csv</entityName>
+      <entityDescription>Yearly Eriophorum vaginatum Flowering data along a transect on the Haul Road, Fairbanks to Prudhoe Bay, AK 1979 to present.</entityDescription>
+      <physical>
+        <objectName>1979_presentgsfl.csv</objectName>
+        <size unit="bytes">560810</size>
+        <authentication method="MD5">76933913ece69b0af99f89b69e18b582</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>YEAR</attributeName>
+          <attributeDefinition>Year flowers were counted</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1977</minimum>
+                  <maximum exclusive="false">2014</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>MONTH</attributeName>
+          <attributeDefinition>Month flowers were counted.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">5</minimum>
+                  <maximum exclusive="false">8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DATE</attributeName>
+          <attributeDefinition>Date that flowers were counted</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SITE</attributeName>
+          <attributeDefinition>Code for the site used when encoding data for older computers.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for the site used when encoding data for older computers.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site Name</attributeName>
+          <attributeDefinition>Name of the site.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the site.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PLOT</attributeName>
+          <attributeDefinition>The plot number, used only for Toolik Site.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The plot number, used only for Toolik Site.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>REP</attributeName>
+          <attributeDefinition>The rep number, used for all sites except Toolik.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The rep number, used for all sites except Toolik.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TREAT</attributeName>
+          <attributeDefinition>A six number code for the treatment â€“ The code from left to right is N Level, P Level, K Level, Sugar Level, Lime Level, Control. For NPK fertilizer, sugar and lime: 0=nothing, 1=low, 2=medium, 3=high, 4=Galbraith NPK '78, 5=MS117 NPK '78 and '76, 6=MS119 Track '81, 7=MS127 NPK '78 and '76, 8=Atigun Greenhouse. For the control: 0=no control, 1=C38 standard, 2=C37 alternate, 3=C36, 4=C39, 5=C40, 6=C45, 7='new' control 8=not a treatment nor control, 9=duplicate sample.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A six number code for the treatment â€“ The code from left to right is N Level, P Level, K Level, Sugar Level, Lime Level, Control. For NPK fertilizer, sugar and lime: 0=nothing, 1=low, 2=medium, 3=high, 4=Galbraith NPK '78, 5=MS117 NPK '78 and '76, 6=MS119 Track '81, 7=MS127 NPK '78 and '76, 8=Atigun Greenhouse. For the control: 0=no control, 1=C38 standard, 2=C37 alternate, 3=C36, 4=C39, 5=C40, 6=C45, 7='new' control 8=not a treatment nor control, 9=duplicate sample.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>FLOW_TUSS</attributeName>
+          <attributeDefinition>The number of flowering tussocks. This data is not always present.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">45</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>FLOW_TILL</attributeName>
+          <attributeDefinition>The number of flowering tillers per plot.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">816</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>n.d.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SITE_COD</attributeName>
+          <attributeDefinition>Code for site and time of year (SiteandTOY)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for site and time of year (SiteandTOY)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TOY</attributeName>
+          <attributeDefinition>Code for the time of year(third number of SITE_CODE). 1=Early Season (flowering), May-June, 2=Peak Season, Late July-Early August, 3=Late Season, Middle August-September, 4=both flowering and peak (wt/tiller) data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for the time of year(third number of SITE_CODE). 1=Early Season (flowering), May-June, 2=Peak Season, Late July-Early August, 3=Late Season, Middle August-September, 4=both flowering and peak (wt/tiller) data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TUSS PER PLOT</attributeName>
+          <attributeDefinition>Number of tussocks per plot.  Only collected some years.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">62</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>#N/A</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Include in grand avg.</attributeName>
+          <attributeDefinition>A â€œYâ€ indicates that the data is included in the grand average</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A â€œYâ€ indicates that the data is included in the grand average</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeDefinition>Comments on individual data points</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments on individual data points</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>8566</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>1979_presentgsfl_xlsx</entityName>
+      <entityDescription>Excel file with metadata and data sheets: Yearly Eriophorum vaginatum Flowering data along a transect on the Haul Road, Fairbanks to Prudhoe Bay, AK 1979 to present.</entityDescription>
+      <physical>
+        <objectName>1979_presentgsfl.xlsx</objectName>
+        <size unit="bytes">869825</size>
+        <authentication method="MD5">a345c966dcf6c00c9c36ba713d9d8604</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Flowering sites GarminGPS_2015.kml</entityName>
+      <entityDescription>Flowering sites taken with a Garmin etrex in 2015.</entityDescription>
+      <physical>
+        <objectName>Flowering sites GarminGPS_2015.kml</objectName>
+        <size unit="bytes">23660</size>
+        <authentication method="MD5">8845ca7cb17f4dca9d7089fb5e913acf</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.google-earth.kml+xml</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Plant_Site_codes.rtf</entityName>
+      <entityDescription> Code used for computer cards in 981 for plant and sites</entityDescription>
+      <physical>
+        <objectName>Plant_Site_codes.rtf</objectName>
+        <size unit="bytes">227129</size>
+        <authentication method="MD5">5e028168ad070ef2a2c043ccd2ddc07c</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/rtf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,2 @@
+geographicDescription	northBoundingCoordinate	southBoundingCoordinate	eastBoundingCoordinate	westBoundingCoordinate
+LTER Low Nutrient Moist Acidic Tussock Tundra (MAT06) Low Nutrient Moist Acidic Tussock Tundra (MAT06) Northeast corner Block 1	68.622865000000004	68.622865000000004	-149.60854499999999	-149.60854499999999

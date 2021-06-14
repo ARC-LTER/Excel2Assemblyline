@@ -1,0 +1,16 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+YEAR	Year flowers were counted	numeric	nominalYear		#N/A	Missing or Not Measured
+MONTH	Month flowers were counted.	numeric	number		#N/A	Missing or Not Measured
+DATE	Date that flowers were counted	Date		YYYY-MM-DD		
+SITE	Code for the site used when encoding data for older computers.	character				
+Site Name	Name of the site.	character				
+PLOT	The plot number, used only for Toolik Site.	character				
+REP	The rep number, used for all sites except Toolik.	character				
+TREAT	A six number code for the treatment – The code from left to right is N Level, P Level, K Level, Sugar Level, Lime Level, Control. For NPK fertilizer, sugar and lime: 0=nothing, 1=low, 2=medium, 3=high, 4=Galbraith NPK '78, 5=MS117 NPK '78 and '76, 6=MS119 Track '81, 7=MS127 NPK '78 and '76, 8=Atigun Greenhouse. For the control: 0=no control, 1=C38 standard, 2=C37 alternate, 3=C36, 4=C39, 5=C40, 6=C45, 7='new' control 8=not a treatment nor control, 9=duplicate sample.	character				
+FLOW_TUSS	The number of flowering tussocks. This data is not always present.	numeric	number		#N/A	Missing or Not Measured
+FLOW_TILL	The number of flowering tillers per plot.	numeric	number		n.d.	Missing or Not Measured
+SITE_COD	Code for site and time of year (SiteandTOY)	character			#N/A	Missing or Not Measured
+TOY	Code for the time of year(third number of SITE_CODE). 1=Early Season (flowering), May-June, 2=Peak Season, Late July-Early August, 3=Late Season, Middle August-September, 4=both flowering and peak (wt/tiller) data	character				
+TUSS PER PLOT	Number of tussocks per plot.  Only collected some years.	numeric	number		#N/A	Missing or Not Measured
+Include in grand avg.	A “Y” indicates that the data is included in the grand average	character				
+Comments	Comments on individual data points	character				

@@ -1,0 +1,9 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Year	The year of percent cover measurement.	Date		YYYY		
+Site	The site of percent cover measurement	character				
+Treatment	The manipulated treatment	categorical				
+Block	The treatment block number	character				
+Plot	Sample plot where percent cover was measured	character				
+Species	Code of Species and cover categories determined on plots as described above.  	character				
+Rel.cover	The percent cover of a given species relative to the total cover of the plot	numeric	percent			
+Accepted Latin Name or category	Accepted Latin name from http://www.theplantlist.org/ or cover category	character				

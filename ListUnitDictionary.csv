@@ -1,0 +1,376 @@
+﻿alias,id,name,custom,unitType,abbreviation,multiplierToSI,parentSI,constantToSI,description,EML 2.2 standardUnit
+,acre,acre,FALSE,area,a,4046.86,squareMeter,,1 acre = 4046.8564 square meters or 1 hectare = 2.4710 acres,acre
+,ampere,ampere,FALSE,current,A,,,,SI unit of electrical current,ampere
+,amperePerMeter,amperePerMeter,FALSE,magneticFieldStrength,A/m,,,,ampere per meter,amperePerMeter
+amperePerSquareMeter,amperePerMeterSquared,amperePerMeterSquared,FALSE,currentDensity,A/m²,,,,ampere per meter squared,amperePerMeterSquared
+,angstrom,angstrom,FALSE,length,Å,1E-10,meter,,1/10000000000 meter,angstrom
+,are,are,FALSE,area,a,100,squareMeter,,100 square meters,are
+,atmosphere,atmosphere,FALSE,pressure,atm,101325,pascal,,1 atmosphere = 101325 pascals ,atmosphere
+,bar,bar,FALSE,pressure,bar,100000,pascal,,1 bar = 100000 pascals,bar
+,becquerel,becquerel,FALSE,radionucleotideActivity,Bq,,,,becquerel,becquerel
+BacquerelPerGramsCarbon,becquerelPerGram,becquerelPerGram,TRUE, radionucleotideActivity  ,,,,, radio nucleotide activity  per gram substance,#N/A
+Becquerelpermilligram,becquerelPerMilligram,becquerelPerMilligram,TRUE, radionucleotideActivity  ,,,,, radio nucleotide activity  per milligram substance,#N/A
+BecquerelPerMilliliter,becquerelPerMilliliter,becquerelPerMilliliter,TRUE, radionucleotideActivity  ,,,,, radio nucleotide activity  per milliliter substance,#N/A
+,britishThermalUnit,britishThermalUnit,FALSE,energy,btu,1055.06,joule,,1 btu = 1055.0559 J,britishThermalUnit
+,bushel,bushel,FALSE,volume,b,0.035239,liter,,1 bushel = 35.23907 liters,bushel
+bushelsPerAcre,bushelPerAcre,bushelPerAcre,FALSE,volumetricArea,,0.0087,litersPerSquareMeter,,bushels per acre -- 1 bushel = 35.23907 liters/1 acre = 4046.8564 squareMeters,bushelPerAcre
+,calorie,calorie,FALSE,energy,cal,4.1868,joule,,1 cal = 4.1868 J,calorie
+,candela,candela,FALSE,luminosity,cd,,,,SI unit of luminosity,candela
+candelaPerSquareMeter,candelaPerMeterSquared,candelaPerMeterSquared,FALSE,luminance,cd/m²,,,,candela Per Square Meter,candelaPerMeterSquared
+"degC, Celsius",celsius,celsius,FALSE,temperature,C,1,kelvin,273.18,A common unit of temperature,celsius
+,celsiusPerNumber,celsiusPerNumber,TRUE,,,,,,,#N/A
+,centigram,centigram,FALSE,mass,cg,0.00001,kilogram,,0.00001 kg,centigram
+cm,centimeter,centimeter,FALSE,length,cm,0.01,meter,,.01 meters,centimeter
+,centimeterCubed,centimeterCubed,FALSE,volume,cm³,0.000001,meterCubed,,cubic meter,centimeterCubed
+cubicCentimetersPerCubicCentimeters,centimeterCubedPerCentimeterCubed,centimeterCubedPerCentimeterCubed,TRUE,volumePerVolume,,,,,cubic centimeters per cubic centimeter,#N/A
+,centimeterPerHour,centimeterPerHour,TRUE,speed,cm/hr,,,,centimeters per second,#N/A
+centimetersPerSecond,centimeterPerSecond,centimeterPerSecond,FALSE,speed,cm/s,0.01,metersPerSecond,,centimeters per second,centimeterPerSecond
+,centimeterPerYear,centimeterPerYear,FALSE,speed,cm/year,3.17098E-10,metersPerSecond,,centimeter Per Year,centimeterPerYear
+"squareCentimeters, cm^2, cm2, cm2.",centimeterSquared,centimeterSquared,FALSE,area,,0.0001,squareMeter,,square centimeters,centimeterSquared
+"cm2/400 cm2,  cm^2/0.04m^2, squareCentimeterPer0.4SquareMeter, cm^2/0.4m^2, cm^2/.4m^2, squareCentimetersPer0.04SquareMeter",centimeterSquaredPerFourHundredthMeterSquared,centimeterSquaredPerFourHundredthMeterSquared,TRUE,,,,,,Leaf area  in square centimeter per .04 square meter of ground,#N/A
+"cm2/g, squareCentimetersPerGram",centimeterSquaredPerGram,centimeterSquaredPerGram,TRUE,specificArea,cm2/g,0.1,squareMeterPerKilogram,,Specific leaf area,#N/A
+"cmolc/kg, cmol+/kg, centimolesChargePerKilogram",centimolePerKilogram,centimolePerKilogram,TRUE,amountOfSubstanceConcentration,,0.01,mole,,centimoles of charge per kilogram of dry soil,#N/A
+,centisecond,centisecond,FALSE,time,csec,0.01,second,,1/100 of a second,centisecond
+,coulomb,coulomb,FALSE,charge,C,,,,SI unit of charge,coulomb
+days,day,day,TRUE,time,,86400,second,,Day,#N/A
+"julianDay, julian",dayOfYear,dayOfYear,TRUE,time,DY,,,,Day of year ranges from 1 to 365 (366 for leap years),#N/A
+,decibar,decibar,FALSE,pressure,dbar,10000,pascal,,decibar = 0.1 bar or 10000 pascal,decibar
+,decigram,decigram,FALSE,mass,dg,0.0001,kilogram,,0.0001 kg,decigram
+,decimeter,decimeter,FALSE,length,dm,0.1,meter,,.1 meters,decimeter
+,decisecond,decisecond,FALSE,time,dsec,0.1,second,,1/10 of a second,decisecond
+degrees,degree,degree,FALSE,angle,º,0.0174533,radian,,360 degrees comprise a unit circle,degree
+,dekagram,dekagram,FALSE,mass,dag,0.01,kilogram,,.01 kg,dekagram
+,dekameter,dekameter,FALSE,length,dam,10,meter,,10 meters,dekameter
+,dekasecond,dekasecond,FALSE,time,dasec,10,second,,10 seconds,dekasecond
+"unitless, fraction, pH",dimensionless,dimensionless,FALSE,dimensionless,,,,,a designation asserting the absence of an associated unit,dimensionless
+disintegrationsPerMinute,disintegrationPerMinute,disintegrationPerMinute,TRUE,radionucleotideActivity,DPM,0.0166666667,becquerel,,DPM = radioactive disintegrations per minute,#N/A
+,effortPerGram,effortPerGram,TRUE,,,,,,,#N/A
+,equivalentPerLiter,equivalentPerLiter,FALSE,amountOfSubstanceConcentration,µE/l,NA,molePerMeterCubed,,"concentration of charge (on dissolved ions). conversions must know the name of the ion; 
+      a single multiplier to SI is not possible",equivalentPerLiter
+,fahrenheit,fahrenheit,FALSE,,F,0.556,kelvin,255.402,"unit for temperature on the scale in which water freezes at 32 and boils 
+      at 212 under standard conditions.",fahrenheit
+fahrenheit,fahrenheitDegree,fahrenheitDegree,TRUE,temperature,F,0.556,kelvin,255.402,An obsolescent unit of temperature still used in popular meteorology,#N/A
+,farad,farad,FALSE,capacitance,F,,,,farad,farad
+,fathom,fathom,FALSE,length,,1.8288,meter,,6 feet,fathom
+,foot,foot,FALSE,length,ft,0.3048,meter,,12 inches,foot
+,Foot_Gold_Coast,Foot_Gold_Coast,FALSE,,gcft,0.3047997,meter,,12 inches,Foot_Gold_Coast
+,Foot_US,Foot_US,FALSE,,usft,0.3048006,meter,,12 inches,Foot_US
+cubicFeetPerSecond,footCubedPerSecond,footCubedPerSecond,FALSE,volumetricRate,ft³/sec,28.3169,litersPerSecond,,cubic feet per second,footCubedPerSecond
+Foot_Gold_Coast,footGoldCoast,footGoldCoast,TRUE,length,gcft,0.3048,meter,,12 inches,#N/A
+feetPerDay,footPerDay,footPerDay,FALSE,speed,ft/day,3.52778E-06,metersPerSecond,,feet per day,footPerDay
+feetPerHour,footPerHour,footPerHour,FALSE,speed,ft/hr,0.000084667,metersPerSecond,,feet per hour,footPerHour
+feetPerSecond,footPerSecond,footPerSecond,FALSE,speed,ft/s,0.3048,metersPerSecond,,feet per second,footPerSecond
+,footPound,footPound,FALSE,energy,,1.35582,joule,,1 ft-lbs = 1.355818 J,footPound
+squareFoot,footSquared,footSquared,FALSE,area,ft²,0.092903,squareMeter,,12 inches squared,footSquared
+feetSquaredPerDay,footSquaredPerDay,footSquaredPerDay,FALSE,transmissivity,ft²/day,0.000124586,metersSquaredPerSecond,,feet squared per day,footSquaredPerDay
+,gallon,gallon,FALSE,volume,gal,3.78541,liter,,US liquid gallon,gallon
+,grad,grad,FALSE,angle,grad,0.015707,radian,,grad,grad
+,gram,gram,FALSE,mass,g,0.001,kilogram,,0.001 kg,gram
+"gramsPerCubicCentimeter, (g/cc), g/cm3",gramPerCentimeterCubed,gramPerCentimeterCubed,FALSE,massDensity,g/cm³,1000,kilogramPerCubicMeter,,grams per cubic centimeter,gramPerCentimeterCubed
+,gramPercentimeterSquared,gramPercentimeterSquared,FALSE,arealMassDensity,g/cm²,10,kilogramPerMeterSquared,,grams per square meter,gramPercentimeterSquared
+gramsPerCentimeterSquaredPerSecond,gramPerCentimeterSquaredPerSecond,gramPerCentimeterSquaredPerSecond,FALSE,arealMassDensityRate,,0.1,kilogramsPerMeterSquaredPerSecond,,grams Per Centimeter Squared Per Second,gramPerCentimeterSquaredPerSecond
+,gramPerDayPerHectare,gramPerDayPerHectare,FALSE,massFlux,g/d/hectare,1.15741E-12,kilogramPerMeterSquaredPerSecond,,grams Per Hectare Squared Per Day,gramPerDayPerHectare
+,gramPerDayPerLiter,gramPerDayPerLiter,FALSE,volumetricMassDensityRate,g/d/l,1,gramPerDayPerLiter,,grams Per (Liter Per Day),gramPerDayPerLiter
+"gm/0.04m^2, g/0.04 m^2, gm/.04m^2, g/0.4m^2, g/.4m^2, g/0.04m2, gramsper0.4squaremeter, gramsPer0.4SquareMeter, gm/.4m^2, gramsPer0.04SquareMeter",gramPerFourHundredthMeterSquared,gramPerFourHundredthMeterSquared,TRUE,arealMassDensity,,0.00004,kilogramsPerSquareMeter,,grams per 0.04 square meter,#N/A
+gramsPerGram,gramPerGram,gramPerGram,FALSE,massPerMass,,,,,grams per gram,gramPerGram
+gramsPerHectarePerDay,gramPerHectarePerDay,gramPerHectarePerDay,TRUE,arealMassDensityRate,,1.1574E-12,kilogramsPerMeterSquaredPerSecond,,grams Per Hectare Squared Per Day,#N/A
+gramsPerKilogram,gramPerKilogram,gramPerKilogram,TRUE,massPerMass,,,,,grams per kilogram of substance,#N/A
+gramsPerLiter,gramPerLiter,gramPerLiter,FALSE,massDensity,g/l,1,kilogramPerCubicMeter,,grams per liter,gramPerLiter
+gramsPerLiterPerDay,gramPerLiterPerDay,gramPerLiterPerDay,TRUE,volumetricMassDensityRate,,,,,grams Per (Liter Per Day),#N/A
+g/m^3,gramPerMeterCubed,gramPerMeterCubed,TRUE,arealMassDensity,g/m^3,,,,grams per cubic meter,#N/A
+"gramsPerSquareMeter, g/m2, gm/m^2, g/m^2, gramsNitrogenPerSquareMeter, gramsPotassiumPerSquareMeter, gramsCalciumPerSquareMeter, gramsMagnesiumPerSquareMeter, gramsPhosphorusPerSquareMeter,  gramsPerMeterSquared",gramPerMeterSquared,gramPerMeterSquared,FALSE,arealMassDensity,g/m²,0.001,kilogramsPerSquareMeter,,grams per square meter,gramPerMeterSquared
+"g/m2/day, gramsPerMeterSquaredPerDay",gramPerMeterSquaredPerDay,gramPerMeterSquaredPerDay,FALSE,amountOfSubstanceWeightFlux,,,,,grams of substance per meter squared per day,gramPerMeterSquaredPerDay
+,gramPerMeterSquaredPerDayPerEffort,gramPerMeterSquaredPerDayPerEffort,TRUE,amountOfSubstanceWeightFlux,,,,,gramPerMeterSquaredPerDayPerEffort,#N/A
+gramsPerMeterSquaredPerYear,gramPerMeterSquaredPerYear,gramPerMeterSquaredPerYear,FALSE,arealMassDensityRate,,3.17098E-11,kilogramsPerMeterSquaredPerSecond,,grams Per Meter Squared Per Year,gramPerMeterSquaredPerYear
+"gramsPerMilliliter, GramsCarbonPerMilliliter",gramPerMilliliter,gramPerMilliliter,FALSE,massDensity,g/ml,1000,kilogramPerCubicMeter,,grams per milliliter,gramPerMilliliter
+"g/#, gramsPerNumber",gramPerNumber,gramPerNumber,TRUE,,,,,,Mass of leaves divided by number of leaves.,#N/A
+gramsPerYear,gramPerYear,gramPerYear,FALSE,massFlux,g/yr,3.17E-11,kilogramsPerSecond,,grams Per Year,gramPerYear
+,gray,gray,FALSE,specificEnergy,Gy,,,,gray,gray
+,hectare,hectare,FALSE,area,ha,10000,squareMeter,,1 hectare is 10^4 square meters,hectare
+,hectogram,hectogram,FALSE,mass,hg,0.1,kilogram,,.1 kg,hectogram
+,hectometer,hectometer,FALSE,length,hm,100,meter,,100 meters,hectometer
+,hectoPascal,hectoPascal,FALSE,pressure,hPa,100,pascal,,SI unit for atmospheric pressure,hectopascal
+,hectosecond,hectosecond,FALSE,time,hsec,100,second,,100 seconds,hectosecond
+,henry,henry,FALSE,inductance,H,,,,henry,henry
+,hertz,hertz,FALSE,frequency,Hz,,,,hertz,hertz
+,hour,hour,FALSE,time,hr,3600,second,,3600 seconds,hour
+,inch,inch,FALSE,length,in,0.0254,meter,,An imperial measure of length,inch
+cubicInch,inchCubed,inchCubed,FALSE,volume,in³,1.63871E-05,liter,,cubic inch,inchCubed
+,inchPerHour,inchPerHour,FALSE,speed,in/hr,7.05556E-06,meterPerSecond,,inches per hour,inchPerHour
+,inverseCentimeter,inverseCentimeter,FALSE,lengthReciprocal,NA,0.01,,,also called reciprocal centimeter,inverseCentimeter
+,inverseMeter,inverseMeter,FALSE,lengthReciprocal,NA,1,,,"reciprocal of meter, or 1/meters",inverseMeter
+,joule,joule,FALSE,energy,J,,,,joule = N*m,joule
+"joules/cm2/day, joulesPerCentimeterSquaredPerDay",joulePerCentimeterSquaredPerDay,joulePerCentimeterSquaredPerDay,TRUE,illuminance,,,,,Amount of energy per square centimeter surface per day,#N/A
+"joules/cm2/hour, joulesPerCentimeterSquaredPerHour",joulePerCentimeterSquaredPerHour,joulePerCentimeterSquaredPerHour,TRUE,illuminance,,,,,Amount of energy per square centimeter surface per day,#N/A
+"j/m^3, J/m^3K",joulePerMeterCubed,joulePerMeterCubed,TRUE,,,,,,,#N/A
+,joulePerMeterCubedPerKelvin,joulePerMeterCubedPerKelvin,TRUE,,,,,,amount of energy in cubic meter if substance at certain temperature,#N/A
+,katal,katal,FALSE,catalyticActivity,kat,,,,katal,katal
+,kelvin,kelvin,FALSE,temperature,K,,,,SI unit of temperature,kelvin
+,kelvinMeterPerSecond,kelvinMeterPerSecond,TRUE,temperature,,,,,,#N/A
+,kelvinSquared,kelvinSquared,TRUE,temperature,,,,,,#N/A
+,kilogram,kilogram,FALSE,mass,kg,,,,SI unit of mass,kilogram
+kilogramsPerHectare,kilogramPerHectare,kilogramPerHectare,FALSE,arealMassDensity,kg/ha,0.0001,kilogramsPerSquareMeter,,kilograms per hectare,kilogramPerHectare
+kilogramsPerHectarePerYear,kilogramPerHectarePerYear,kilogramPerHectarePerYear,FALSE,arealMassDensityRate,,0.000317,kilogramsPerMeterSquaredPerSecond,,kilograms Per Hectare Per Year,kilogramPerHectarePerYear
+kilogramPerCubicMeter,kilogramPerMeterCubed,kilogramPerMeterCubed,FALSE,massDensity,,,,,kilogram per cubic meter,kilogramPerMeterCubed
+kg m-1 s-2,kilogramPerMeterPerSecondSquared,kilogramPerMeterPerSecondSquared,TRUE,,,,,,kilogramPerMeterPerSecondSquared used in eddy flux - TAU (momentum flux),#N/A
+"kilogramsPerSquareMeter, kg/m^2",kilogramPerMeterSquared,kilogramPerMeterSquared,FALSE,arealMassDensity,kg/m²,,,,kilograms per square meter,kilogramPerMeterSquared
+,kilogramPerMeterSquaredPerDay,kilogramPerMeterSquaredPerDay,FALSE,massFlux,kg/m²/d,0.000015741,kilogramPerMeterSquaredPerSecond,,kilograms per square meter per day,kilogramPerMeterSquaredPerDay
+kilogramsPerMeterSquaredPerSecond,kilogramPerMeterSquaredPerSecond,kilogramPerMeterSquaredPerSecond,FALSE,arealMassDensityRate,,,,,kilograms per meter sqared per second,kilogramPerMeterSquaredPerSecond
+kilogramsPerMeterSquaredPerYear,kilogramPerMeterSquaredPerYear,kilogramPerMeterSquaredPerYear,FALSE,arealMassDensityRate,,317,kilogramsPerMeterSquaredPerSecond,,kilograms Per Meter Squared Per Year,kilogramPerMeterSquaredPerYear
+kilogramsPerSecond,kilogramPerSecond,kilogramPerSecond,FALSE,massFlux,kg/s,,,,kilograms per second,kilogramPerSecond
+"kg/yr, kilogramsPerYear",kilogramPerYear,kilogramPerYear,TRUE,amountOfSubstanceWeightFlux,,1,kilogram,,kilograms of substance per year,#N/A
+,kilohertz,kilohertz,FALSE,frequency,KHz,1000,hertz,,kilohertz,kilohertz
+,kiloliter,kiloliter,FALSE,volume,kL,1,cubicMeter,,1 cubic meter,kiloliter
+,kilometer,kilometer,FALSE,length,km,1000,meter,,1000 meters,kilometer
+kilometersPerHour,kilometerPerHour,kilometerPerHour,FALSE,speed,km/hr,0.2778,metersPerSecond,,km/hr,kilometerPerHour
+squareKilometers,kilometerSquared,kilometerSquared,FALSE,area,,1000000,squareMeter,,square kilometers,kilometerSquared
+kPa,kilopascal,kilopascal,FALSE,pressure,kPa,1000,pascal,,kilopascal,kilopascal
+,kilosecond,kilosecond,FALSE,time,ksec,1000,second,,1000 seconds,kilosecond
+,kilovolt,kilovolt,FALSE,potentialDifference,kV,1000,volt,,kilovolt,kilovolt
+,kilowatt,kilowatt,FALSE,power,kW,1000,watt,,kilowatt,kilowatt
+kilowatts m-2,kilowattPerMeterSquared,kilowattPerMeterSquared,FALSE,power,,,,,Amount of energy per square meter surface,kilowattPerMeterSquared
+kilowatts m-2 s-1,kilowattPerMeterSquaredPerSecond,kilowattPerMeterSquaredPerSecond,TRUE,power,,,,,Amount of energy per square meter surface per second,#N/A
+knots,knot,knot,FALSE,speed,,0.514444,metersPerSecond,,knots,knot
+,langley,langley,FALSE,arealEnergyDensity,Ly,41840,joulePerMeterSquared,0,"unit of energy density = 41840 joule/m^2, = 1 calorie/cm^2",langley
+,langleyPerDay,langleyPerDay,FALSE,arealEnergyDensityRate,Ly/day,0.484259,joulePerMeterSquaredPerSecond,0,"Langley (Ly) per day. Ly is a unit of energy density = 41840 joule/m^2, = 1 calorie/cm^2",langleyPerDay
+,Link_Clarke,Link_Clarke,FALSE,,NA,0.201166195,meter,,"This is an ESRI unit and the multiplier comes from ESRI. It may not be
+      accurate.",Link_Clarke
+,liter,liter,FALSE,volume,L,0.001,cubicMeter,,1000 cm^3,liter
+litersPerHectare,literPerHectare,literPerHectare,FALSE,volumetricArea,,0.0001,litersPerSquareMeter,,liters per hectare,literPerHectare
+,literPerLiter,literPerLiter,FALSE,volumePerVolume,l/l,1,meterCubedPerMeterCubed,,milliliters per liter,literPerLiter
+litersPerSquareMeter,literPerMeterSquared,literPerMeterSquared,FALSE,volumetricArea,l/m²,,,,liters per square meter,literPerMeterSquared
+,literPerMilligramPerMeter,literPerMilligramPerMeter,TRUE,,,,,,Specific ultraviolet absorbance (SUVA) provides a general characterization of the nature of natural organic matter (NOM) in a water sample,#N/A
+,literPerMilligramPerMeterSquared,literPerMilligramPerMeterSquared,TRUE,,,,,,,#N/A
+litersPerSecond,literPerSecond,literPerSecond,FALSE,volumetricRate,l/s,,,,liters per second,literPerSecond
+,lumen,lumen,FALSE,luminosity,lm,,,,lumen,lumen
+,lux,lux,FALSE,illuminance,lx,,,,lux,lux
+,megagram,megagram,FALSE,mass,Mg,1000,kilogram,,1000 kg,megagram
+,megagramPerMeterCubed,megagramPerMeterCubed,FALSE,massDensity,Mg/m³,1000,kilogramPerMeterCubed,,megagrams per cubic meter,megagramPerMeterCubed
+,megahertz,megahertz,FALSE,frequency,MHz,1000000,hertz,,megahertz,megahertz
+"mj/cm2/day, megaJoulesPerMeterSquaredPerDay, megaoulePerMeterSquaredPerDay",megaJoulePerMeterSquaredPerDay,megaJoulePerMeterSquaredPerDay,FALSE,illuminance,,,,,Amount of energy per square meter surface per day,megajoulePerMeterSquaredPerDay
+,megameter,megameter,FALSE,length,Mm,1000000,meter,,1000000 meters,megameter
+,megapascal,megapascal,FALSE,pressure,MPa,1000000,pascal,,megapascal,megapascal
+,megasecond,megasecond,FALSE,time,Msec,1000000,second,,1000000 seconds,megasecond
+,megavolt,megavolt,FALSE,potentialDifference,MV,1000000,volt,,megavolt,megavolt
+,megawatt,megawatt,FALSE,power,MW,1000000,watt,,megawatt,megawatt
+m,meter,meter,FALSE,length,m,,,,SI unit of length,meter
+cubicMeter,meterCubed,meterCubed,FALSE,volume,m³,,,,cubic meter,meterCubed
+"m^3/day, cubicMetersPerDay",meterCubedPerDay,meterCubedPerDay,TRUE,volumetricRate,,86400000,litersPerSecond,,cubic meters per day = 1000 liters per m^3 *60sec/min*60min/hr*24hr/day,#N/A
+,meterCubedPerGram,meterCubedPerGram,TRUE,specificVolume,,,,,cubic meters per day = 1000 liters per m^3 *60sec/min*60min/hr*24hr/day,#N/A
+,meterCubedPerHectare,meterCubedPerHectare,FALSE,volumetricArea,m3/ha,0.0001,meterCubedPerMeterSquared,,meter cubed per hectare,meterCubedPerHectare
+cubicMeterPerKilogram,meterCubedPerKilogram,meterCubedPerKilogram,FALSE,specificVolume,m³/kg,,,,cubic meters per kilogram,meterCubedPerKilogram
+m^3/m^3,meterCubedPerMeterCubed,meterCubedPerMeterCubed,FALSE,specificVolume,m³/m³,,,,cubic meter of quanity per cubic meter volume,meterCubedPerMeterCubed
+,meterCubedPerMeterSquared,meterCubedPerMeterSquared,FALSE,volumetricArea,m^3/m^2,1,meterCubedPerMeterSquared,,meter cubed per meter squared,meterCubedPerMeterSquared
+cubicMetersPerSecond,meterCubedPerSecond,meterCubedPerSecond,FALSE,volumetricRate,m³/s,1,litersPerSecond,,cubic meters per second,meterCubedPerSecond
+"m^3/year, cubicMetersPerYear",meterCubedPerYear,meterCubedPerYear,TRUE,volumetricRate,,31536000000,litersPerSecond,,cubic meters per year = 1000 liters per m^3 *60sec/min*60min/hr*24hr/day*365day/yr,#N/A
+metersPerDay,meterPerDay,meterPerDay,FALSE,speed,m/day,,,,meters per day,meterPerDay
+metersPerGram,meterPerGram,meterPerGram,FALSE,massSpecificLength,m/g,,,,meters per gram,meterPerGram
+,meterPerMeterSquared,meterPerMeterSquared,TRUE,,,,,,,#N/A
+,meterPerMinute,meterPerMinute,TRUE,speed,m/min,,,,meters per minute,#N/A
+"metersPerSecond, m s-1, m/s",meterPerSecond,meterPerSecond,FALSE,speed,m/s,,,,meters per second,meterPerSecond
+metersPerSecondSquared,meterPerSecondSquared,meterPerSecondSquared,FALSE,acceleration,m/s²,,,,meters per second squared,meterPerSecondSquared
+"squareMeter, m2, m^2, metersSquared",meterSquared,meterSquared,FALSE,area,m²,,,,square meters,meterSquared
+metersSquaredPerDay,meterSquaredPerDay,meterSquaredPerDay,FALSE,transmissivity,m²/day,86400,metersSquaredPerSecond,,meters squared per day,meterSquaredPerDay
+,meterSquaredPerHectare,meterSquaredPerHectare,FALSE,volumetricArea,m^2/ha,0.0001,meterSquaredPerMeterSquared,,meter squared per hectare,meterSquaredPerHectare
+"squareMeterPerKilogram, metersSquaredPerKilogram",meterSquaredPerKilogram,meterSquaredPerKilogram,FALSE,specificArea,m²/kg,,,,square meters per kilogram,meterSquaredPerKilogram
+"m^2/m^2, metersSquaredPerMetersSquared, squareMeterPerSquareMeter",meterSquaredPerMeterSquared,meterSquaredPerMeterSquared,TRUE,,m^2/m^2,,,,Leaf area  in square meter per square meter of ground,#N/A
+"m2/#, squareMeterPerNumber",meterSquaredPerNumber,meterSquaredPerNumber,TRUE,,,,,,Area of leaves divided by number of leaves,#N/A
+"metersSquaredPerSecond, m2 s-1",meterSquaredPerSecond,meterSquaredPerSecond,FALSE,transmissivity,m²/s,,,,meters squared per second,meterSquaredPerSecond
+metersSquaredPerSecondSquared,meterSquaredPerSecondSquared,meterSquaredPerSecondSquared,TRUE,,m2/s2,,,,,#N/A
+microAtmosphere,microatmosphere,microatmosphere,TRUE,pressure,,0.101325,pascal,, microatmosphere = .101325 pascals,#N/A
+microCuriePerMicroMole,microCuriePerMicromole,microCuriePerMicromole,TRUE,radionucleotideActivity,µCi/µmol,1,,,specific activity of a radionuclide,#N/A
+microEinsteinsPerSquareMeter,microEinsteinPerMeterSquared,microEinsteinPerMeterSquared,TRUE,illuminance,µE/m^2,1,,,micro Einsteins (1E-06 moles of photons) per square meter (radiant flux),#N/A
+microEinsteinsPerSquareMeterPerSecond,microEinsteinPerMeterSquaredPerSecond,microEinsteinPerMeterSquaredPerSecond,TRUE,illuminance,µE/m^2/s,1,,,micromoles (1E-06 moles of photons) per square meter per second (radiant flux density),#N/A
+"uequiv/l, microequivalentsPerLiter",microequivalentPerLiter,microequivalentPerLiter,FALSE,amountOfSubstanceConcentration,,,molePerCubicMeter,,concentration of charge (on dissolved ions). A single multiplier to SI is not possible,microequivalentPerLiter
+,microgram,microgram,FALSE,mass,μg,0.000000001,kilogram,,0.000000001 kg,microgram
+microgramsPerCubicCentimeter,microgramPerCentimeterCubed,microgramPerCentimeterCubed,TRUE,massDensity,ug/cm3,1000000,kilogramsPerCubicMeter,,micrograms per cubic centimeter,#N/A
+microgramsPerSquareCentimeter,microgramPerCentimeterSquared,microgramPerCentimeterSquared,TRUE,massDensity,,,,,micrograms per square centimeter,#N/A
+"microgramsPerGram, ug/g.,ug/g",microgramPerGram,microgramPerGram,FALSE,massPerMass,,0.000001,gramsPerGram,,micrograms per gram,microgramPerGram
+microgramsPerGramPerDay,microgramPerGramPerDay,microgramPerGramPerDay,FALSE,massPerMassFlux,μg/g/d,,,,microgram per gram per day flux,microgramPerGramPerDay
+,microgramPerGramPerHour,microgramPerGramPerHour,FALSE,massPerMassFlux,,,,,microgram per gram per hour flux,microgramPerGramPerHour
+,microgramPerGramPerWeek,microgramPerGramPerWeek,FALSE,massPerMassRate,µg/g/week,1.65344E-12,gramPerGramPerSecond,,micrograms per gram per week,microgramPerGramPerWeek
+"ug/l, microgramsPerLiter",microgramPerLiter,microgramPerLiter,FALSE, volumetricMassDensityRate      ,,,,,micrograms per liter,microgramPerLiter
+microgramsPerLiter,microgramPerLiter,microgramPerLiter,FALSE,massDensity,μg/l,0.000001,kilogramPerCubicMeter,,micrograms / liter,microgramPerLiter
+"ug/l/day, microgramsPerLiterPerDay",microgramPerLiterPerDay,microgramPerLiterPerDay,TRUE, volumetricMassDensityRate      ,,,,,micrograms per liter per day,#N/A
+microgramsPerLiterPerHour,microgramPerLiterPerHour,microgramPerLiterPerHour,TRUE, volumetricMassDensityRate      ,,,,,micrograms per liter per hour,#N/A
+microgramsPerMeterSquared,microgramPerMeterSquared,microgramPerMeterSquared,TRUE,,ug/m^2,,microgramsPerSqaureMeter,,micrograms per meter squared,#N/A
+,microgramPerMeterSquaredPerMinute,microgramPerMeterSquaredPerMinute,TRUE, arealMassDensityRate,µg/m²/min,,kilogramsPerMeterSquaredPerSecond,,uptake rate or a flux rate,#N/A
+microgramsPerMilligram,microgramPerMilligram,microgramPerMilligram,TRUE,,ug/mg,,microgramsPerMilligrams,,milcrograms per milligrams,#N/A
+microgramsPerMilliliter,microgramPerMilliliter,microgramPerMilliliter,TRUE,massDensity,µg/ml,0.000001,gramsPerMilliliter,,micrograms per milliliter,#N/A
+,microgramPerMilliliterPerDay,microgramPerMilliliterPerDay,TRUE,massDensity,µg/ml,0.000002,gramsPerMilliliter,,micrograms per milliliter per day,#N/A
+,microliter,microliter,FALSE,volume,μl,0.000000001,cubicMeter,,1/1000000 of a liter,microliter
+,microliterPerLiter,microliterPerLiter,FALSE,volumePerVolume,µl/l,0.000001,meterCubedPerMeterCubed,,milliliters per liter,microliterPerLiter
+,micrometer,micrometer,FALSE,length,μm,0.000001,meter,,.000001 meters,micrometer
+cubicMicrometers,micrometerCubed,micrometerCubed,TRUE,,μm³,,,,cubic micrometers,#N/A
+cubicMicrometersPerGram,micrometerCubedPerGram,micrometerCubedPerGram,FALSE,specificVolume,μm³/kg,1E-15,cubicMeterPerKilogram,,cubic micrometers per gram,micrometerCubedPerGram
+cubicMicrometersPerMilliliter,micrometerCubedPerMilliliter,micrometerCubedPerMilliliter,TRUE,,μm³/ml,,,,cubic micrometers per milliliter,#N/A
+"um, uM",micromole,micromole,TRUE,amountOfSubstance,µM,0.000001,molarity,,,#N/A
+microMolesPerCubicCentimeter,micromolePerCentimeterCubed,micromolePerCentimeterCubed,TRUE,amountOfSubstanceConcentration,µmol/cc,0.001,molarity,,micromoles per cubic centimeter,#N/A
+,micromolePerCentimeterSquaredPerSecond,micromolePerCentimeterSquaredPerSecond,FALSE,,µmol/cm²/s,0.01,molePerMeterSquaredPerSecond,,micromoles per square centimeter per second,micromolePerCentimeterSquaredPerSecond
+um/gr,micromolePerGram,micromolePerGram,FALSE,amountOfSubstanceConcentration,µmol/g,1000,,,µmol/g = µmoles per gram of substance,micromolePerGram
+,micromolePerGramPerDay,micromolePerGramPerDay,FALSE,amountOfSubstanceConcentration,,,,,,micromolePerGramPerDay
+micromolPerGramPerhour,micromolePerGramPerHour,micromolePerGramPerHour,FALSE,amountOfSubstanceConcentrationFlux,µmol/g/hr,,,,Flux of substance over an hour,micromolePerGramPerHour
+,micromolePerGramPerSecond,micromolePerGramPerSecond,FALSE,amountOfSubstanceWeightRate,nmol/g/s,0.001,molePerKilogramPerSecond,,micromoles Per Gram Per Second,micromolePerGramPerSecond
+microMolesPerKilogram,micromolePerKilogram,micromolePerKilogram,FALSE,amountOfSubstanceConcentration,µmol/kg,1,,,µmol/kg = µmoles per kilogram of substance,micromolePerKilogram
+"um/l, umoles/l, microMolesPerLiter",micromolePerLiter,micromolePerLiter,FALSE,amountOfSubstanceConcentration,µM,0.000001,molarity,,µM = µmoles per liter of solution,micromolePerLiter
+micromoleOxygenPerLiterPerDay,micromolePerLiterPerDay,micromolePerLiterPerDay,TRUE,amountOfSubstanceConcentration,,,,,,#N/A
+,micromolePerMeterSquaredPerDay,micromolePerMeterSquaredPerDay,TRUE,illuminance,µmol/m^2/day,,,,micromoles of substance per sqaure meter per day,#N/A
+microMolesPerSquareMeterPerMinute,micromolePerMeterSquaredPerMinute,micromolePerMeterSquaredPerMinute,TRUE,amountOfSubstanceWeightFlux,µmol/m^2/min,,,,micromoles of substance per sqaure meter per minute,#N/A
+"micro moles s^-1 m^-2, microeinsteins m-2 sec-1, microMolesPerSquareMeterPerSecond, umol m-2 s-1, umol/s/m^2",micromolePerMeterSquaredPerSecond,micromolePerMeterSquaredPerSecond,FALSE,illuminance,µmol/m^2/s,,,,micro Einsteins (1E-06 moles of photons) per square meter per second (radiant flux density),micromolePerMeterSquaredPerSecond
+,micromolePerMeterSquaredPerSecondPerPascal,micromolePerMeterSquaredPerSecondPerPascal,TRUE,amountOfSubstanceWeightFlux,µmol/m^2/min,,,,,#N/A
+,micromolePerMicromole,micromolePerMicromole,TRUE,amountOfSubstanceWeightFlux,µmol/m^2/min,,,,micromoles of substance per micromole ,#N/A
+umol/mol,micromolePerMole,micromolePerMole,FALSE, amountOfSubstanceConcentration ,umole/mole,,,,concentration of substance,micromolePerMole
+,micromolePerMolePerMeterSquaredPerSecond,micromolePerMolePerMeterSquaredPerSecond,TRUE,amountOfSubstanceWeightFlux,,,,,microimoles of water per  mole of air. Also can be parts per thousand,#N/A
+,micromoleSquaredPerMoleSquared,micromoleSquaredPerMoleSquared,TRUE,amountOfSubstanceWeightFlux,,,,,,#N/A
+,micron,micron,FALSE,length,μ,0.000001,meter,,.000001 meters,micron
+usec,microsecond,microsecond,FALSE,time,μsec,0.000001,second,,1/100000 of a second,microsecond
+"umho/cm, microSiemensPerCentimeter, microsiemensPerCentimeter, uS/cm",microsiemenPerCentimeter,microsiemenPerCentimeter,TRUE,conductance,,,,,conductivity unit,#N/A
+microWattPerCentimeterSquaredPerNanometer,microwattPerCentimeterSquaredPerNanometer,microwattPerCentimeterSquaredPerNanometer,FALSE,,,,,,,microwattPerCentimeterSquaredPerNanometer
+,microwattPerCentimeterSquaredPerNanometerPerSteradian,microwattPerCentimeterSquaredPerNanometerPerSteradian,FALSE,,µW/cm²/nm/sr,0.0000001,wattPerMeterSquaredPerMeterPerSteradian,,"microwatts per square centimeter, per unit of wavelength, in a solid angle",microwattPerCentimeterSquaredPerNanometerPerSteradian
+,microwattPerCentimeterSquaredPerSteradian,microwattPerCentimeterSquaredPerSteradian,FALSE,,µW/cm²/sr,0.0000001,wattPerMeterSquaredPerSteradian,,"watts per square centimeter, in a solid angle",microwattPerCentimeterSquaredPerSteradian
+,mile,mile,FALSE,length,mile,1609.34,meter,,5280 ft or 1609.344 meters,mile
+milesPerHour,milePerHour,milePerHour,FALSE,speed,mph,0.44704,metersPerSecond,,miles per hour,milePerHour
+milesPerMinute,milePerMinute,milePerMinute,FALSE,speed,mpm,26.8224,metersPerSecond,,miles per minute,milePerMinute
+milesPerSecond,milePerSecond,milePerSecond,FALSE,speed,mps,1609.34,metersPerSecond,,miles per second,milePerSecond
+squareMile,mileSquared,mileSquared,FALSE,area,mile²,2590000,squareMeter,,1 mile squared,mileSquared
+,millibar,millibar,FALSE,pressure,mbar,100,pascal,,millibar,millibar
+"milliEquivalentsPerLiter, milliequivalentsPerLiter",milliequivalentPerLiter,milliequivalentPerLiter,FALSE, amountOfSubstanceConcentration ,,,,, concentration of charge (on dissolved ions). A single multiplier to SI is not possible      ,milliequivalentPerLiter
+,milligram,milligram,FALSE,mass,mg,1.00E-06,kilogram,,0.000001 kg,milligram
+,milligramPerDecimeterSquared,milligramPerDecimeterSquared,TRUE,massDensity,,,,,,#N/A
+,milligramPerGram,milligramPerGram,TRUE,massPerMass,mg/g,,,,millgram per gram,#N/A
+milliGramPerKilogram,milligramPerKilogram,milligramPerKilogram,FALSE,massPerMass,mg/kg,,,,millgram of element per kilogram of soil,milligramPerKilogram
+milligramsPerLiter,milligramPerLiter,milligramPerLiter,FALSE,massDensity,mg/l,0.001,kilogramPerCubicMeter,,milligrams / liter,milligramPerLiter
+"milligramsPerCubicMeter, mg/m^3",milligramPerMeterCubed,milligramPerMeterCubed,FALSE,massDensity,mg/m³,0.000001,kilogramPerCubicMeter,,milligrams Per Cubic Meter,milligramPerMeterCubed
+,milligramPerMeterCubedPerDay,milligramPerMeterCubedPerDay,FALSE,volumetricMassDensityRate,mg/m3/d,1.5741E-06,kilogramPerMeterCubedPerSecond,,milligram per cubic meter per day,milligramPerMeterCubedPerDay
+"milligramsPerSquareMeter, mg/m2",milligramPerMeterSquared,milligramPerMeterSquared,FALSE,arealMassDensity,mg/m²,0.000001,kilogramsPerSquareMeter,,milligrams Per Square Meter,milligramPerMeterSquared
+milligramsPerSquareMeterPerDay,milligramPerMeterSquaredPerDay,milligramPerMeterSquaredPerDay,FALSE,amountOfSubstanceWeightFlux,mg/m^2/day,,,,milligrams of substance per square meter per day,milligramPerMeterSquaredPerDay
+milligramsPerSquareMeterPerHour,milligramPerMeterSquarePerHour,milligramPerMeterSquarePerHour,TRUE,amountOfSubstanceWeightFlux,mg/m^2/hr,,,,milligrams of substance per square meter per hour,#N/A
+milliGramsPerMilliLiter,milligramPerMilliliter,milligramPerMilliliter,FALSE,massDensity,kg/m³,1,kilogramPerCubicMeter,,milligrams per milliliter,milligramPerMilliliter
+,milligramPerMilliliterPerDay,milligramPerMilliliterPerDay,TRUE,massDensity,,,,,milligrams per milliliter per day,#N/A
+"mg/mm, milligramsPerMillimeter",milligramPerMillimeter,milligramPerMillimeter,TRUE,massSpecificLength,mg/mm,,,,weight of plant part per unit length,#N/A
+"mg/seg, mg/segment, milliGramPerSegment",milligramPerUnit,milligramPerUnit,TRUE,massPerUnit,,,,,"Mass of plant part in milligrams per unit of interest, e.g. stem segment",#N/A
+,millihertz,millihertz,FALSE,frequency,mHz,0.000001,hertz,,millihertz,millihertz
+,milliliter,milliliter,FALSE,volume,ml,1.00E-06,cubicMeter,,1/1000 of a liter,milliliter
+,milliliterPerLiter,milliliterPerLiter,FALSE,volumePerVolume,ml/L,,,,milliters of solution per total volume,milliliterPerLiter
+mm,millimeter,millimeter,FALSE,length,mm,0.001,meter,,.001 meters,millimeter
+mm day-1,millimeterPerDay,millimeterPerDay,FALSE,,,,,,,millimeterPerDay
+,millimeterPerMinute,millimeterPerMinute,TRUE,,mm/min,,metersPerSecond,,uptake velocity,#N/A
+"mm/#, millimetersPerNumber",millimeterPerNumber,millimeterPerNumber,TRUE,speed,,,,,Length of plant part in millimeter per number of plant segment,#N/A
+millimetersPerSecond,millimeterPerSecond,millimeterPerSecond,FALSE,speed,mm/s,0.001,metersPerSecond,,millimeters per second,millimeterPerSecond
+"mm/seg, mm/branch segement, mm/segment, millimetersPerSegment",millimeterPerUnit,millimeterPerUnit,TRUE,,,,,,Length of plant part in millimeter per plant segment,#N/A
+squareMillimeters,millimeterSquared,millimeterSquared,FALSE,area,,0.000001,squareMeter,,square millmeters,millimeterSquared
+millimolesPerGram,millimolePerGram,millimolePerGram,FALSE,amountOfSubstanceWeight,,1,molesPerKilogram,,millimoles per gram,millimolePerGram
+,millimolePerKilogram,millimolePerKilogram,FALSE,,mmol/kg,0.001,molePerKilogram,,micromoles per kilogram,millimolePerKilogram
+"millimolesPerLiter,  mM",millimolePerLiter,millimolePerLiter,FALSE,amountOfSubstanceConcentration,mmol/L,.001,molarity,,millimoles per liter,millimolePerLiter
+,millimolePerMeterCubed,millimolePerMeterCubed,FALSE,amountOfSubstanceConcentration,mmol*m-3,0.001,molePerMeterCubed,0,concentration unit,millimolePerMeterCubed
+millimolesPerMeterSquared,millimolePerMeterSquared,millimolePerMeterSquared,TRUE,,,,,,,#N/A
+millimolePerSquareMeterPerDay,millimolePerMeterSquaredPerDay,millimolePerMeterSquaredPerDay,TRUE,amountOfSubstanceWeightFlux,mmol/m^2/day,,,,millimoles per square meter perday (areal flux or diffusion of a substance),#N/A
+millimolesPerSquareMeterPerHour,millimolePerMeterSquaredPerHour,millimolePerMeterSquaredPerHour,TRUE,amountOfSubstanceWeightFlux,mmol/m^2/hr,1,,,millimoles per square meter per hour (areal flux or diffusion of a substance),#N/A
+mmol/m^2/s,millimolePerMeterSquaredPerSecond,millimolePerMeterSquaredPerSecond,TRUE,arealMassDensityRate,,,,,millimole per meter squared per second,#N/A
+millimolesPerMole,millimolePerMole,millimolePerMole,FALSE,amountOfSubstanceWeightFlux,,,,,millimoles of water per  mole of air. Also can be parts per thousand,millimolePerMole
+,millimolePerMolePerMeterSquaredPerSecond,millimolePerMolePerMeterSquaredPerSecond,TRUE,amountOfSubstanceWeightFlux,,,,,millimoles of water per  mole of air. Also can be parts per thousand,#N/A
+,millimoleSquaredPerMoleSquared,millimoleSquaredPerMoleSquared,TRUE,amountOfSubstanceWeightFlux,,,,,,#N/A
+,millisecond,millisecond,FALSE,time,msec,0.001,second,,1/1000 of a second,millisecond
+millisecondSquared,millisecondSquared,millisecondSquared,TRUE,conductance,,-0.99999,siemenPerMeter,,,#N/A
+"milliSiemensPerCentimeter, millisiemensPerCentimeter",millisiemenPerCentimeter,millisiemenPerCentimeter,TRUE,conductance,,0.00001,siemenPerMeter,,conductivity unit,#N/A
+,millivolt,millivolt,FALSE,potentialDifference,mV,0.001,volt,,millivolt,millivolt
+,milliwatt,milliwatt,FALSE,power,mW,0.001,watt,,milliwatt,milliwatt
+,minute,minute,FALSE,time,min,60,second,,60 seconds,minute
+,molality,molality,FALSE,amountOfSubstanceWeight,m,,,,molality = moles/kg,molality
+,molarity,molarity,FALSE,amountOfSubstanceConcentration,M,1000,molePerCubicMeter,,molarity = moles/liter,molarity
+,mole,mole,FALSE,amount,mol,,,,SI unit of substance amount,mole
+molesPerGram,molePerGram,molePerGram,FALSE,amountOfSubstanceWeight,,1000,molesPerKilogram,,moles per gram,molePerGram
+molesPerKilogram,molePerKilogram,molePerKilogram,FALSE,amountOfSubstanceWeight,,,,,moles per kilogram,molePerKilogram
+molesPerKilogramPerSecond,molePerKilogramPerSecond,molePerKilogramPerSecond,FALSE,amountOfSubstanceWeightFlux,,,,,moles per kilogram per second,molePerKilogramPerSecond
+,molePerLiter,molePerLiter,FALSE,amountOfSubstanceConcentration,mol/l,1000,molePerMeterCubed,,"moles per liter (perferred over molarity, as molarity refers only to dissolved substances)",molePerLiter
+molePerCubicMeter,molePerMeterCubed,molePerMeterCubed,FALSE,amountOfSubstanceConcentration,,,,,mole per cubic meter,molePerMeterCubed
+,molePerMeterSquared,molePerMeterSquared,TRUE,illuminance,,,,,Moles of substance per square meter per day,#N/A
+molesPerMeterSqaurePerDay,molePerMeterSquaredPerDay,molePerMeterSquaredPerDay,TRUE,illuminance,,,,,Moles of substance per square meter,#N/A
+,molePerMeterSquaredPerSecond,molePerMeterSquaredPerSecond,FALSE,amountOfSubstanceWeightFlux,mol/m²/s,,,,mount of substance areal concentration flux,molePerMeterSquaredPerSecond
+,molePerMole,molePerMole,FALSE,,mol/mol,1,molePerMole,,millimoles per mole,molePerMole
+,nanogram,nanogram,FALSE,mass,ng,1E-12,kilogram,,0.000000000001 kg,nanogram
+,nanogramPerGram,nanogramPerGram,FALSE,massPerMass,ng/g,0.000000001,gramPerGram,,micrograms per gram,nanogramPerGram
+,nanogramPerGramPerHour,nanogramPerGramPerHour,FALSE,massPerMassRate,ng/g,2.77778E-07,gramPerGramPerSecond,,nanoograms per gram per hour,nanogramPerGramPerHour
+nanogramsPerLiter,nanogramPerLiter,nanogramPerLiter,TRUE,massDensity,ng/l,,,,nanograms/ liter,#N/A
+,nanoliterPerLiter,nanoliterPerLiter,FALSE,volumePerVolume,nl/l,0.000000001,meterCubedPerMeterCubed,,milliliters per liter,nanoliterPerLiter
+,nanometer,nanometer,FALSE,length,nm,0.000000001,meter,,.000000001 meters,nanometer
+,nanomolePerGramPerDay,nanomolePerGramPerDay,FALSE,amountOfSubstanceWeightRate,nmol/g/d,1.15741E-11,molePerKilogramPerSecond,,nanomoles Per Gram Per day,nanomolePerGramPerDay
+,nanomolePerGramPerHour,nanomolePerGramPerHour,FALSE,amountOfSubstanceWeightRate,nmol/g/h,2.77778E-10,molePerKilogramPerSecond,,nanomoles Per Gram Per Hour,nanomolePerGramPerHour
+nanomolesPerGramPerSecond,nanomolePerGramPerSecond,nanomolePerGramPerSecond,FALSE,amountOfSubstanceWeightFlux,,0.000001,molesPerKilogramPerSecond,,nanomoles Per Gram Per Second,nanomolePerGramPerSecond
+,nanomolePerKilogram,nanomolePerKilogram,FALSE,,nmol/kg,0.000000001,molePerKilogram,,micromoles per kilogram,nanomolePerKilogram
+,nanomolePerLiter,nanomolePerLiter,FALSE,amountOfSubstanceConcentration,nmol/l,0.000001,molePerMeterCubed,,nanomoles per liter,nanomolePerLiter
+,nanomolePerMole,nanomolePerMole,FALSE,,nmol/mol,0.000000001,molePerMole,,millimoles per mole,nanomolePerMole
+,nanosecond,nanosecond,FALSE,time,nsec,0.000000001,second,,1/1000000 of a second,nanosecond
+,nauticalMile,nauticalMile,FALSE,length,,1852,meter,,nautical mile,nauticalMile
+,newton,newton,FALSE,force,N,,,,newton,newton
+,nominalDay,nominalDay,FALSE,time,,86400,second,,"one day excluding leap seconds, 86400 seconds",nominalDay
+,nominalHour,nominalHour,FALSE,time,,3600,second,,"one hour excluding leap seconds, 3600 seconds",nominalHour
+,nominalLeapYear,nominalLeapYear,FALSE,time,,31622400,second,,"one 366 day year excluding leap seconds, 31622400 seconds",nominalLeapYear
+,nominalMinute,nominalMinute,FALSE,time,,60,second,,"one minute excluding leap seconds, 60 seconds",nominalMinute
+,nominalWeek,nominalWeek,FALSE,time,,604800,second,,"one day excluding leap seconds, 604800 seconds",nominalWeek
+,nominalYear,nominalYear,FALSE,time,,3.15E+07,second,,"one year excluding leap seconds and leap days, 31536000 seconds",nominalYear
+"samples, count",number,number,FALSE,dimensionless,,,,,a number,number
+,numberPerCelsius,numberPerCelsius,TRUE,,,,,,,#N/A
+,numberPerCentimeterCubed,numberPerCentimeterCubed,TRUE,massSpecificCount,,,,,numberPerCentimeterCubed,#N/A
+numberPerSquareCentimeterPerHour,numberPerCentimeterSquaredPerHour,numberPerCentimeterSquaredPerHour,TRUE,frequency,number/cm^2/hr,1,,,rate of change of areal density of a substance (e.g. growth or expulsion rate),#N/A
+,numberPerGram,numberPerGram,FALSE,massSpecificCount,,,,,number of entities per gram,numberPerGram
+,numberPerHectare,numberPerHectare,FALSE,arealDensity,#/hectare,0.0001,numberPerMeterSquared,,number per hectare,numberPerHectare
+,numberPerKilometerSquared,numberPerKilometerSquared,FALSE,arealDensity,,0.000001,numberPerMeterSquared,,number per kilometer squared,numberPerKilometerSquared
+,numberPerLiter,numberPerLiter,FALSE,volumetricDensity,,0.001,numberPerMeterCubed,,number of entities per liter,numberPerLiter
+,numberPerMeter,numberPerMeter,TRUE,,,,,,number per meter,#N/A
+,numberPerMeterCubed,numberPerMeterCubed,FALSE,volumetricDensity,,,,,number per meter cubed,numberPerMeterCubed
+,numberPerMeterSquared,numberPerMeterSquared,FALSE,arealDensity,,,,,number per meter squared,numberPerMeterSquared
+numberpermilliliter,numberPerMilliliter,numberPerMilliliter,FALSE,volumetricDensity,,0.000001,numberPerMeterCubed,,number of entities per milliliter,numberPerMilliliter
+,numberPerMillimeterSquared,numberPerMillimeterSquared,TRUE,arealDensity,,,,,number permillimeter squared,#N/A
+,ohm,ohm,FALSE,resistance,Ω,,,,ohm,ohm
+,ohmMeter,ohmMeter,FALSE,resistivity,Ωm,,,,ohm meters,ohmMeter
+,partPerBillion,partPerBillion,TRUE,dimensionless,ppb,,,,ratio of two quantities as parts per billion,#N/A
+"ppm, partsPerMillion",partPerMillion,partPerMillion,TRUE,dimensionless,ppm,1,,,ratio of two quantities as parts per million (1:1000000),#N/A
+"o/oo, partsPerThousand",partPerThousand,partPerThousand,TRUE,dimensionless,ppt,1,,,ratio of two quantities as parts per thousand (1:1000),#N/A
+,pascal,pascal,FALSE,pressure,Pa,,,,pascal,pascal
+"%, Percent",percent,percent,FALSE,dimensionless,%,1,,,ratio of two quantities as percent composition (1:100),percent
+,permil,permil,FALSE,dimensionless,o/oo,1,dimensionless,,"permil, one part per thousand parts. a decimal ratio multipled by 1000",permil
+picogramsPerLiter,picogramPerLiter,picogramPerLiter,TRUE,massDensity,pg/l,,,,picograms/ liter,#N/A
+picoMolesPerLiter,picomolePerLiter,picomolePerLiter,TRUE,amountOfSubstanceConcentration,pM,0.000000000001,molarity,,picomoles per liter of solution,#N/A
+picoMolesPerLiterPerHour,picomolePerLiterPerHour,picomolePerLiterPerHour,TRUE,amountOfSubstanceWeightFlux,pmol/L/hr,1,,,picomoles per liter of solution per hour (concentration flux),#N/A
+,pint,pint,FALSE,volume,pint,0.473176,liter,,US liquid pint,pint
+,pound,pound,FALSE,mass,lbs,0.4536,kilogram,,1 pound in the Avoirdupois (commerce) scale,pound
+,poundPerAcre,poundPerAcre,FALSE,arealMassDensity,lb/acre,0.000112085,kilogramPerMeterSquared,,avoirdupois pounds per acre,poundPerAcre
+poundsPerSquareInch,poundPerInchSquared,poundPerInchSquared,FALSE,arealMassDensity,lbs/in²,17.85,kilogramsPerSquareMeter,,lbs/square inch,poundPerInchSquared
+,PSU,PSU,TRUE,dimensionless,PSU,,,,practical salinity units,#N/A
+,quart,quart,FALSE,volume,qt,0.946353,liter,,US liquid quart,quart
+,radian,radian,FALSE,angle,rad,,,,2 pi radians comprise a unit circle.,radian
+,Ramanunit,Ramanunit,TRUE,illuminance,,,,,excitation wavelength shift,#N/A
+,second,second,FALSE,time,sec,,,,SI unit of time,second
+,serialDateNumberYear,serialDateNumberYear,TRUE,dimensionless,,1,,,fractional days representing a serial date number based on 1 = 1-Jan-0000,#N/A
+siemensPerMeter,siemenPerMeter,siemenPerMeter,TRUE,conductance,S/m,1,,,siemens per meter (electrolytic conductivity of a solution),#N/A
+siemen,siemens,siemens,FALSE,conductance,S,,,,siemen,siemens
+,siemensPerCentimeter,siemensPerCentimeter,FALSE,,S/cm,0.01,siemensPerMeter,,"SI unit for conductivity, measure of a material's ability to conduct an 
+      electric current.",siemensPerCentimeter
+,siemensPerMeter,siemensPerMeter,FALSE,,S/m,1,siemensPerMeter,,"SI unit for conductivity, measure of a material's ability to conduct an 
+      electric current.",siemensPerMeter
+,sievert,sievert,FALSE,doseEquivalent,Sv,,,,sievert,sievert
+,steradian,steradian,FALSE,angle,sr,1,,,"standard unit of solid angle measure, it is the solid angle which cuts out an area
+      on a sphere that is the square of the sphere's radius; as a ratio of two areas, it has no
+      dimension",steradian
+,tesla,tesla,FALSE,magneticFluxDensity,T,,,,tesla,tesla
+,ton,ton,FALSE,mass,ton,907.2,kilogram,,standard US (short) ton = 2000 lbs,ton
+,tonne,tonne,FALSE,mass,T,1000,kilogram,,metric ton or tonne,tonne
+,tonnePerHectare,tonnePerHectare,FALSE,arealMassDensity,,0.1,kilogramsPerSquareMeter,,metric ton or tonne per hectare,tonnePerHectare
+tonnesPerYear,tonnePerYear,tonnePerYear,FALSE,massFlux,,0.0000317,kilogramsPerSecond,,tonnes Per Year,tonnePerYear
+,torr,torr,TRUE,pressure,,133.322 368 421,pascal,,,#N/A
+,torrSquared,torrSquared,TRUE,pressure,,133.322 368 422,pascal,,,#N/A
+V,volt,volt,FALSE,potentialDifference,V,,,,volt,volt
+,watt,watt,FALSE,power,W,,,,watt = J/s,watt
+,wattPerMeterPerKelvin,wattPerMeterPerKelvin,TRUE,,W/m-K,,,,SI unit in the category of Thermal conductivity,#N/A
+"wattsPerSquareMeter, W m-2, W/m^2",wattPerMeterSquared,wattPerMeterSquared,FALSE,power,,,,,irradiance unit,wattPerMeterSquared
+,wattPerMeterSquaredPerNanometer,wattPerMeterSquaredPerNanometer,FALSE,,W/m²/nm,0.000000001,wattPerMeterSquaredPerMeter,,"watts per square meter, per unit of wavelength",wattPerMeterSquaredPerNanometer
+,wattPerMeterSquaredPerNanometerPerSteradian,wattPerMeterSquaredPerNanometerPerSteradian,FALSE,,W/m²/nm/sr,0.000000001,wattPerMeterSquaredPerMeterPerSteradian,,"watts per square meter, per unit of wavelength in a solid angle",wattPerMeterSquaredPerNanometerPerSteradian
+,wattPerMeterSquaredPerSteradian,wattPerMeterSquaredPerSteradian,FALSE,,W/m²/sr,1,wattPerMeterSquaredPerSteradian,,"watts per square meter, in a solid angle",wattPerMeterSquaredPerSteradian
+,waveNumber,waveNumber,FALSE,lengthReciprocal,,,,,1/meters,waveNumber
+,weber,weber,FALSE,magneticFlux,Wb,,,,weber,weber
+,yard,yard,FALSE,length,yard,0.9144,meter,,3 feet,yard
+,Yard_Indian,Yard_Indian,FALSE,,NA,0.914398531,meter,,"This is an ESRI unit and the multiplier comes from ESRI. It may not be
+      accurate.",Yard_Indian
+yardsPerSecond,yardPerSecond,yardPerSecond,FALSE,speed,yd/s,0.9144,metersPerSecond,,yards per second,yardPerSecond
+squareYard,yardSquared,yardSquared,FALSE,area,yd²,0.836131,squareMeter,,36 inches squared,yardSquared

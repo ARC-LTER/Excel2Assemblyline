@@ -1,0 +1,2 @@
+name	name_type	name_resolved	authority_system	authority_id
+Eriophorum vaginatum	scientific	Eriophorum vaginatum	ITIS	40104

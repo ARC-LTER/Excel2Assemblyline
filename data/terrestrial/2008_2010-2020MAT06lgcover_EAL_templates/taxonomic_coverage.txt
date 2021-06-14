@@ -1,0 +1,47 @@
+name	name_type	name_resolved	authority_system	authority_id
+Andromeda polifolia	scientific	Andromeda polifolia	ITIS	23465
+Arctostaphylos alpine	scientific	Arctostaphylos alpina	ITIS	23468
+Arctagrostis latifolia	scientific	Arctagrostis latifolia	ITIS	40472
+Arnica species	scientific	Arnica	ITIS	36554
+Betula nana	scientific	Betula nana	ITIS	19479
+Calamagrostis canadensis	scientific	Calamagrostis canadensis	ITIS	40544
+Calamagrostis lapponica	scientific	Calamagrostis lapponica	ITIS	40533
+Carex Bigelowii	scientific	Carex bigelowii	ITIS	39378
+Cassiope tetragona	scientific	Cassiope tetragona	ITIS	23535
+Dicotyledon	scientific	NA	NA	NA
+Dryas integrifolia	scientific	Dryas integrifolia	ITIS	24614
+Empetrum nigrum	scientific	Empetrum nigrum	ITIS	23743
+Equisetum arvense	scientific	Equisetum arvense	ITIS	17152
+Eriophorum vaginatum	scientific	Eriophorum vaginatum	ITIS	40104
+Festuca species	scientific	Festuca	ITIS	40792
+graminoid	scientific	NA	NA	NA
+Anthoxanthum monticola	scientific	Anthoxanthum monticola	ITIS	508922
+Anthoxanthum sp.	scientific	Anthoxanthum	ITIS	41393
+Lagotis glauca	scientific	Lagotis glauca	ITIS	33202
+Ledum palustre	scientific	Ledum palustre	ITIS	23539
+Lichens	scientific	NA	NA	NA
+Luzula species	scientific	Luzula	ITIS	39330
+Minuartia species	scientific	Minuartia	ITIS	19979
+moss	scientific	NA	NA	NA
+Pedicularis lapponica	scientific	Pedicularis lapponica	ITIS	33380
+Pedicularis species	scientific	Pedicularis	ITIS	33352
+Petasites frigidus	scientific	Petasites frigidus	ITIS	36054
+Petasites species	scientific	Petasites	ITIS	36053
+Polygonum bistorta	scientific	Polygonum bistorta	ITIS	20850
+Polygonum viviparum	scientific	Polygonum viviparum	ITIS	20864
+Pyrola secunda	scientific	Pyrola secunda	ITIS	23755
+Pyrola species	scientific	Pyrola	ITIS	23752
+Rubus chamaemorus	scientific	Rubus chamaemorus	ITIS	24850
+Salix arctica	scientific	Salix arctica	ITIS	22477
+Salix phlebophylla	scientific	Salix phlebophylla	ITIS	22486
+Salix pulchra	scientific	Salix pulchra	ITIS	22488
+Salix reticulata	scientific	Salix reticulata	ITIS	22489
+Saussurea angustifolia	scientific	Saussurea angustifolia	ITIS	36075
+Saxifraga punctata	scientific	Saxifraga punctata	ITIS	24238
+Stellaria edwardsi	scientific	Stellaria edwardsi	ITIS	20165
+Stellaria longipes	scientific	Stellaria longipes	ITIS	20168
+Stellaria species	scientific	Stellaria	ITIS	20163
+Tofieldia coccinea	scientific	Tofieldia coccinea	ITIS	43049
+Tofieldia species	scientific	Tofieldia	ITIS	43048
+Vaccinium uliginosum	scientific	Vaccinium uliginosum	ITIS	23574
+Vaccinium vitis-idaea	scientific	Vaccinium vitis-idaea	ITIS	505637

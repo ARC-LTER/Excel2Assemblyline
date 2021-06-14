@@ -1,0 +1,2738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="knb-lter-arc.20084.2" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=ARC,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Relative percent cover of plant species in low nutrient LTER moist acidic tundra experimental plots (MAT06) established in 2006 for years 2008, 2010-2020, Arctic LTER Toolik Field Station Alaska.</title>
+    <creator>
+      <individualName>
+        <givenName>Laura</givenName>
+        <surName>Gough</surName>
+      </individualName>
+      <organizationName>Towson University</organizationName>
+      <electronicMailAddress>lgough@towson.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-9312-7910</userId>
+    </creator>
+    <pubDate>2021-06-14</pubDate>
+    <abstract>
+      <para>Relative percent cover of plant species was measured in low nutrient LTER moist acidic tundra experimental plots (MAT06). Treatments include a gradient of nitrogen and phosphorus additions along with ammonium and nitrate alone.
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>plant cover</keyword>
+      <keyword>diversity</keyword>
+      <keyword>tundra</keyword>
+      <keyword>relative abundance</keyword>
+      <keyword>disturbance</keyword>
+      <keyword>populations</keyword>
+      <keywordThesaurus>https://vocab.lternet.edu/</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Alaska</keyword>
+      <keyword>moist acidic tundra</keyword>
+      <keyword>Toolik Field Station</keyword>
+      <keywordThesaurus>Arctic LTER</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.&#13;
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>LTER Low Nutrient Moist Acidic Tussock Tundra (MAT06) Low Nutrient Moist Acidic Tussock Tundra (MAT06) Northeast corner Block 1</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.60854499999999</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.60854499999999</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.622865000000004</northBoundingCoordinate>
+          <southBoundingCoordinate>68.622865000000004</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-07-13</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020-08-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Ericales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">23443</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Ericaceae</taxonRankValue>
+                            <commonName>heaths</commonName>
+                            <taxonId provider="https://itis.gov">23463</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Andromeda</taxonRankValue>
+                              <commonName>bog rosemary</commonName>
+                              <taxonId provider="https://itis.gov">23464</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Andromeda polifolia</taxonRankValue>
+                                <commonName>bog rosemary</commonName>
+                                <taxonId provider="https://itis.gov">23465</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Arctostaphylos alpina</taxonRankValue>
+          <commonName>alpine bearberry</commonName>
+          <taxonId provider="https://itis.gov">23468</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">846620</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Poaceae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">40351</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Arctagrostis</taxonRankValue>
+                              <taxonId provider="https://itis.gov">40471</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Arctagrostis latifolia</taxonRankValue>
+                                <taxonId provider="https://itis.gov">40472</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Asterales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">35419</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Asteraceae</taxonRankValue>
+                            <commonName>sunflowers</commonName>
+                            <taxonId provider="https://itis.gov">35420</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Arnica</taxonRankValue>
+                              <commonName>arnica</commonName>
+                              <taxonId provider="https://itis.gov">36554</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846548</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Fagales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">19273</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Betulaceae</taxonRankValue>
+                            <commonName>alder</commonName>
+                            <commonName>birch</commonName>
+                            <taxonId provider="https://itis.gov">19465</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Betula</taxonRankValue>
+                              <commonName>birch</commonName>
+                              <taxonId provider="https://itis.gov">19478</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Betula nana</taxonRankValue>
+                                <commonName>shrub birch</commonName>
+                                <commonName>bog birch</commonName>
+                                <commonName>dwarf birch</commonName>
+                                <taxonId provider="https://itis.gov">19479</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">846620</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Poaceae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">40351</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Calamagrostis</taxonRankValue>
+                              <taxonId provider="https://itis.gov">40529</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Calamagrostis canadensis</taxonRankValue>
+                                <taxonId provider="https://itis.gov">40544</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">846620</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Poaceae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">40351</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Calamagrostis</taxonRankValue>
+                              <taxonId provider="https://itis.gov">40529</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Calamagrostis lapponica</taxonRankValue>
+                                <taxonId provider="https://itis.gov">40533</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">846620</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Cyperaceae</taxonRankValue>
+                            <commonName>sedges</commonName>
+                            <taxonId provider="https://itis.gov">39357</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Carex</taxonRankValue>
+                              <commonName>sedge species</commonName>
+                              <commonName>sedges</commonName>
+                              <commonName>sedge</commonName>
+                              <taxonId provider="https://itis.gov">39369</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Carex bigelowii</taxonRankValue>
+                                <commonName>Bigelow's sedge</commonName>
+                                <taxonId provider="https://itis.gov">39378</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Ericales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">23443</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Ericaceae</taxonRankValue>
+                            <commonName>heaths</commonName>
+                            <taxonId provider="https://itis.gov">23463</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Cassiope</taxonRankValue>
+                              <commonName>mountain heather</commonName>
+                              <commonName>moss heather</commonName>
+                              <taxonId provider="https://itis.gov">23534</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Cassiope tetragona</taxonRankValue>
+                                <commonName>white arctic mountain heather</commonName>
+                                <taxonId provider="https://itis.gov">23535</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846548</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Rosales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">24057</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Rosaceae</taxonRankValue>
+                            <commonName>roses</commonName>
+                            <taxonId provider="https://itis.gov">24538</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Dryas</taxonRankValue>
+                              <commonName>mountain-avens</commonName>
+                              <taxonId provider="https://itis.gov">24613</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Dryas integrifolia</taxonRankValue>
+                                <commonName>entireleaf mountain-avens</commonName>
+                                <taxonId provider="https://itis.gov">24614</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Ericales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">23443</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Ericaceae</taxonRankValue>
+                            <commonName>heaths</commonName>
+                            <taxonId provider="https://itis.gov">23463</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Empetrum</taxonRankValue>
+                              <commonName>crowberry</commonName>
+                              <taxonId provider="https://itis.gov">23742</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Empetrum nigrum</taxonRankValue>
+                                <commonName>black crowberry</commonName>
+                                <taxonId provider="https://itis.gov">23743</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Polypodiophytina</taxonRankValue>
+                    <taxonId provider="https://itis.gov">954903</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Polypodiopsida</taxonRankValue>
+                      <commonName>leptosporangiate ferns</commonName>
+                      <taxonId provider="https://itis.gov">846528</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>subclass</taxonRankName>
+                        <taxonRankValue>Equisetidae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846529</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Equisetales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">17146</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Equisetaceae</taxonRankValue>
+                            <commonName>horsetails</commonName>
+                            <taxonId provider="https://itis.gov">17147</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Equisetum</taxonRankValue>
+                              <commonName>scouring rush</commonName>
+                              <commonName>scouringrush</commonName>
+                              <commonName>horsetail</commonName>
+                              <taxonId provider="https://itis.gov">17148</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Equisetum arvense</taxonRankValue>
+                                <commonName>common horsetail</commonName>
+                                <commonName>field horsetail</commonName>
+                                <commonName>scouringrush</commonName>
+                                <commonName>western horsetail</commonName>
+                                <taxonId provider="https://itis.gov">17152</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">846620</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Cyperaceae</taxonRankValue>
+                            <commonName>sedges</commonName>
+                            <taxonId provider="https://itis.gov">39357</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Eriophorum</taxonRankValue>
+                              <commonName>cottongrass</commonName>
+                              <taxonId provider="https://itis.gov">40079</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Eriophorum vaginatum</taxonRankValue>
+                                <commonName>tussock cottongrass</commonName>
+                                <taxonId provider="https://itis.gov">40104</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">846620</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Poaceae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">40351</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Festuca</taxonRankValue>
+                              <taxonId provider="https://itis.gov">40792</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">846620</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Poaceae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">40351</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Anthoxanthum</taxonRankValue>
+                              <taxonId provider="https://itis.gov">41393</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Anthoxanthum monticola</taxonRankValue>
+                                <taxonId provider="https://itis.gov">508922</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">846620</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Poaceae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">40351</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Anthoxanthum</taxonRankValue>
+                              <taxonId provider="https://itis.gov">41393</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Lamiales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">31632</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Plantaginaceae</taxonRankValue>
+                            <commonName>plantains</commonName>
+                            <taxonId provider="https://itis.gov">32869</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Lagotis</taxonRankValue>
+                              <taxonId provider="https://itis.gov">33201</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Lagotis glauca</taxonRankValue>
+                                <commonName>weaselsnout</commonName>
+                                <taxonId provider="https://itis.gov">33202</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Ledum palustre</taxonRankValue>
+          <commonName>marsh Labrador tea</commonName>
+          <taxonId provider="https://itis.gov">23539</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Poales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">846620</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Juncaceae</taxonRankValue>
+                            <commonName>rushes</commonName>
+                            <commonName>Rush Family</commonName>
+                            <taxonId provider="https://itis.gov">39219</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Luzula</taxonRankValue>
+                              <commonName>wood rush</commonName>
+                              <commonName>woodrush</commonName>
+                              <taxonId provider="https://itis.gov">39330</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Caryophyllanae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846539</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Caryophyllales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">19520</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Caryophyllaceae</taxonRankValue>
+                            <commonName>pinks</commonName>
+                            <taxonId provider="https://itis.gov">19942</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Minuartia</taxonRankValue>
+                              <commonName>sandwort</commonName>
+                              <commonName>stitchwort</commonName>
+                              <taxonId provider="https://itis.gov">19979</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Lamiales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">31632</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Orobanchaceae</taxonRankValue>
+                            <commonName>broomrape</commonName>
+                            <taxonId provider="https://itis.gov">34267</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Pedicularis</taxonRankValue>
+                              <commonName>lousewort</commonName>
+                              <taxonId provider="https://itis.gov">33352</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Pedicularis lapponica</taxonRankValue>
+                                <commonName>Lapland lousewort</commonName>
+                                <taxonId provider="https://itis.gov">33380</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Lamiales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">31632</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Orobanchaceae</taxonRankValue>
+                            <commonName>broomrape</commonName>
+                            <taxonId provider="https://itis.gov">34267</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Pedicularis</taxonRankValue>
+                              <commonName>lousewort</commonName>
+                              <taxonId provider="https://itis.gov">33352</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Asterales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">35419</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Asteraceae</taxonRankValue>
+                            <commonName>sunflowers</commonName>
+                            <taxonId provider="https://itis.gov">35420</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Petasites</taxonRankValue>
+                              <commonName>butterbur</commonName>
+                              <taxonId provider="https://itis.gov">36053</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Petasites frigidus</taxonRankValue>
+                                <commonName>arctic sweet coltsfoot</commonName>
+                                <taxonId provider="https://itis.gov">36054</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Asterales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">35419</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Asteraceae</taxonRankValue>
+                            <commonName>sunflowers</commonName>
+                            <taxonId provider="https://itis.gov">35420</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Petasites</taxonRankValue>
+                              <commonName>butterbur</commonName>
+                              <taxonId provider="https://itis.gov">36053</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Polygonum bistorta</taxonRankValue>
+          <commonName>meadow bistort</commonName>
+          <taxonId provider="https://itis.gov">20850</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Polygonum viviparum</taxonRankValue>
+          <commonName>serpent-grass</commonName>
+          <commonName>viviparous bistort</commonName>
+          <commonName>alpine bistort</commonName>
+          <taxonId provider="https://itis.gov">20864</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Pyrola secunda</taxonRankValue>
+          <taxonId provider="https://itis.gov">23755</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Ericales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">23443</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Ericaceae</taxonRankValue>
+                            <commonName>heaths</commonName>
+                            <taxonId provider="https://itis.gov">23463</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Pyrola</taxonRankValue>
+                              <commonName>shineleaf</commonName>
+                              <commonName>wintergreen</commonName>
+                              <taxonId provider="https://itis.gov">23752</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846548</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Rosales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">24057</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Rosaceae</taxonRankValue>
+                            <commonName>roses</commonName>
+                            <taxonId provider="https://itis.gov">24538</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Rubus</taxonRankValue>
+                              <commonName>brambles</commonName>
+                              <commonName>blackberry</commonName>
+                              <taxonId provider="https://itis.gov">24848</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Rubus chamaemorus</taxonRankValue>
+                                <commonName>cloudberry</commonName>
+                                <taxonId provider="https://itis.gov">24850</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Salix arctica</taxonRankValue>
+          <commonName>arctic willow</commonName>
+          <taxonId provider="https://itis.gov">22477</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846548</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Malpighiales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">822428</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Salicaceae</taxonRankValue>
+                            <commonName>willows</commonName>
+                            <taxonId provider="https://itis.gov">22443</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Salix</taxonRankValue>
+                              <commonName>willow</commonName>
+                              <taxonId provider="https://itis.gov">22476</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Salix phlebophylla</taxonRankValue>
+                                <commonName>skeletonleaf willow</commonName>
+                                <taxonId provider="https://itis.gov">22486</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846548</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Malpighiales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">822428</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Salicaceae</taxonRankValue>
+                            <commonName>willows</commonName>
+                            <taxonId provider="https://itis.gov">22443</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Salix</taxonRankValue>
+                              <commonName>willow</commonName>
+                              <taxonId provider="https://itis.gov">22476</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Salix pulchra</taxonRankValue>
+                                <commonName>tealeaf willow</commonName>
+                                <taxonId provider="https://itis.gov">22488</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Rosanae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846548</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Malpighiales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">822428</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Salicaceae</taxonRankValue>
+                            <commonName>willows</commonName>
+                            <taxonId provider="https://itis.gov">22443</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Salix</taxonRankValue>
+                              <commonName>willow</commonName>
+                              <taxonId provider="https://itis.gov">22476</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Salix reticulata</taxonRankValue>
+                                <commonName>netted willow</commonName>
+                                <commonName>netleaf willow</commonName>
+                                <taxonId provider="https://itis.gov">22489</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Asterales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">35419</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Asteraceae</taxonRankValue>
+                            <commonName>sunflowers</commonName>
+                            <taxonId provider="https://itis.gov">35420</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Saussurea</taxonRankValue>
+                              <commonName>saw-wort</commonName>
+                              <taxonId provider="https://itis.gov">36074</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Saussurea angustifolia</taxonRankValue>
+                                <commonName>narrowleaf saw-wort</commonName>
+                                <taxonId provider="https://itis.gov">36075</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Saxifraga punctata</taxonRankValue>
+          <taxonId provider="https://itis.gov">24238</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Stellaria edwardsi</taxonRankValue>
+          <taxonId provider="https://itis.gov">20165</taxonId>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Caryophyllanae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846539</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Caryophyllales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">19520</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Caryophyllaceae</taxonRankValue>
+                            <commonName>pinks</commonName>
+                            <taxonId provider="https://itis.gov">19942</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Stellaria</taxonRankValue>
+                              <commonName>starwort</commonName>
+                              <taxonId provider="https://itis.gov">20163</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Stellaria longipes</taxonRankValue>
+                                <commonName>longstalk starwort</commonName>
+                                <taxonId provider="https://itis.gov">20168</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Caryophyllanae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846539</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Caryophyllales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">19520</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Caryophyllaceae</taxonRankValue>
+                            <commonName>pinks</commonName>
+                            <taxonId provider="https://itis.gov">19942</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Stellaria</taxonRankValue>
+                              <commonName>starwort</commonName>
+                              <taxonId provider="https://itis.gov">20163</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Alismatales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">38883</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Tofieldiaceae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">810130</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Tofieldia</taxonRankValue>
+                              <commonName>tofieldia</commonName>
+                              <commonName>false asphodel</commonName>
+                              <taxonId provider="https://itis.gov">43048</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Tofieldia coccinea</taxonRankValue>
+                                <commonName>northern false-asphodel</commonName>
+                                <taxonId provider="https://itis.gov">43049</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Lilianae</taxonRankValue>
+                        <commonName>monocots</commonName>
+                        <commonName>monocotyledons</commonName>
+                        <taxonId provider="https://itis.gov">846542</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Alismatales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">38883</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Tofieldiaceae</taxonRankValue>
+                            <taxonId provider="https://itis.gov">810130</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Tofieldia</taxonRankValue>
+                              <commonName>tofieldia</commonName>
+                              <commonName>false asphodel</commonName>
+                              <taxonId provider="https://itis.gov">43048</taxonId>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Ericales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">23443</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Ericaceae</taxonRankValue>
+                            <commonName>heaths</commonName>
+                            <taxonId provider="https://itis.gov">23463</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Vaccinium</taxonRankValue>
+                              <commonName>blueberries</commonName>
+                              <commonName>huckleberry</commonName>
+                              <commonName>blueberry</commonName>
+                              <taxonId provider="https://itis.gov">23571</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Vaccinium uliginosum</taxonRankValue>
+                                <commonName>bog blueberry</commonName>
+                                <taxonId provider="https://itis.gov">23574</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <commonName>plants</commonName>
+          <taxonId provider="https://itis.gov">202422</taxonId>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Viridiplantae</taxonRankValue>
+            <commonName>green plants</commonName>
+            <taxonId provider="https://itis.gov">954898</taxonId>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Streptophyta</taxonRankValue>
+              <commonName>land plants</commonName>
+              <taxonId provider="https://itis.gov">846494</taxonId>
+              <taxonomicClassification>
+                <taxonRankName>superdivision</taxonRankName>
+                <taxonRankValue>Embryophyta</taxonRankValue>
+                <taxonId provider="https://itis.gov">954900</taxonId>
+                <taxonomicClassification>
+                  <taxonRankName>division</taxonRankName>
+                  <taxonRankValue>Tracheophyta</taxonRankValue>
+                  <commonName>vascular plants</commonName>
+                  <commonName>tracheophytes</commonName>
+                  <taxonId provider="https://itis.gov">846496</taxonId>
+                  <taxonomicClassification>
+                    <taxonRankName>subdivision</taxonRankName>
+                    <taxonRankValue>Spermatophytina</taxonRankValue>
+                    <commonName>spermatophytes</commonName>
+                    <commonName>seed plants</commonName>
+                    <taxonId provider="https://itis.gov">846504</taxonId>
+                    <taxonomicClassification>
+                      <taxonRankName>class</taxonRankName>
+                      <taxonRankValue>Magnoliopsida</taxonRankValue>
+                      <taxonId provider="https://itis.gov">18063</taxonId>
+                      <taxonomicClassification>
+                        <taxonRankName>superorder</taxonRankName>
+                        <taxonRankValue>Asteranae</taxonRankValue>
+                        <taxonId provider="https://itis.gov">846535</taxonId>
+                        <taxonomicClassification>
+                          <taxonRankName>order</taxonRankName>
+                          <taxonRankValue>Ericales</taxonRankValue>
+                          <taxonId provider="https://itis.gov">23443</taxonId>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Ericaceae</taxonRankValue>
+                            <commonName>heaths</commonName>
+                            <taxonId provider="https://itis.gov">23463</taxonId>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Vaccinium</taxonRankValue>
+                              <commonName>blueberries</commonName>
+                              <commonName>huckleberry</commonName>
+                              <commonName>blueberry</commonName>
+                              <taxonId provider="https://itis.gov">23571</taxonId>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Vaccinium vitis-idaea</taxonRankValue>
+                                <commonName>lingonberry</commonName>
+                                <commonName>northern mountain cranberry</commonName>
+                                <taxonId provider="https://itis.gov">505637</taxonId>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankValue>Dicotyledon</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankValue>graminoid</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankValue>Lichens</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankValue>moss</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>Updated Metadata sheet; Version 2:  Nicole W.  Cleaned and added pervious and newer years to 2020. April2021</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Laura</givenName>
+        <surName>Gough</surName>
+      </individualName>
+      <organizationName>Towson University</organizationName>
+      <electronicMailAddress>lgough@towson.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-9312-7910</userId>
+    </contact>
+    <contact>
+      <organizationName>ARCTIC LTER</organizationName>
+      <positionName>Information Manger</positionName>
+      <electronicMailAddress>arc_im@mbl.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>The LTER low nutrient moist acidic tussock (Toolik MAT) site was set up in 2006.  The experimental design is four blocks of 5 x 20 meter plots with randomly assigned treatments within each block. Treatments include control (CT), nitrogen plus phosphorus (NP), and a gradient of fertilization treatments that receive nitrate or ammonium alone, or receive N and P additions with 0.5, 1, 2, 5, or 10 g N added with half of that amount added as P. An additional set of plots were set aside upon establishment for future experiments, and are noted as H. We usually sample only from blocks 1-3.</para>
+          <para>Calculations: All percent cover values were summed within each plot, and then each value was divided by the total to generate a percent cover value standardized to 100%.</para>
+          <para/>
+          <para>Reference Citations:</para>
+          <para>Gough, L. and S.E. Hobbie. 2003. Responses of moist non-acidic arctic tundra to altered environment: productivity, biomass, and species richness. Oikos 103:204-216.</para>
+          <para>Gough, L., P.A. Wookey, and G.R. Shaver. 2002. Dry heath arctic tundra responses to long-term nutrient and light manipulation. Arctic, Antarctic, and Alpine Research. 34: 211-218.</para>
+          <para>Shaver, G.R., J.A. Laundre, A.E. Giblin, and K.J. Nadelhoffer. 1996. Changes in live plant biomass, primary production and species composition along a riverside topo sequence in Arctic Alaska, U.S.A. Arctic and Alpine Research. 28: 363-379.</para>
+          <para>Sampling Description.</para>
+          <para>Permanent monitoring areas were established in all treatment plots in 2008. Eight 1 m2 plots are sampled in each treatment in each block each year at the end of July. A 1 m2 quadrat is aligned 0.2 m inside of the plot at the site of a flag marking the first measurement. Within this quadrat, aerial percent cover of all vascular plants are noted by species as is all other ground cover. Categories include moss (all species lumped), lichen (all species lumped), litter, and standing dead Betula nana. Bare ground, frost boil, and water are also recorded. As an indicator of vole activity, the percent cover of the plot comprised of vole burrow holes, vole trails, and vole litter (small pieces of dead plant material) are also recorded. To standardize cover among plots, all percent cover values were summed within each plot, and then each value was divided by the total to generate a percent cover value standardized to 100%.</para>
+          <para>Note: In 2015, cover was measured in five (instead of 8) 1m2 plots
+Note: In 2020, cover was measured in five (instead of 8) 1m2 plots due to COVID-19 related personnel restrictions. F1, and F0.5 cover was only measured for Bet nan and Led pal. </para>
+          <para>CT, F2, F5, F10: sampled in 2008, and 2010-2020
+F1: sampled in 2008, and 2015
+F0.05, NH4 and N03: sampled in 2008, 2010, 2011, and 2012</para>
+          <para>F0.5 and F1: Sampled in 2020- only for Bet nan and Led pal (five (instead of 8) 1m2 plots)
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>LTER: The Role of Biogeochemical and Community Openness in Governing Ecological Change in Arctic Ecosystems</title>
+      <personnel>
+        <individualName>
+          <givenName>Edward</givenName>
+          <surName>Rastetter</surName>
+        </individualName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>NSF 1637459</funding>
+      <relatedProject>
+        <title>Arctic LTER:   Climate Change and Changing Disturbance Regimes in Arctic Landscapes</title>
+        <personnel>
+          <individualName>
+            <givenName>Gaius</givenName>
+            <surName>Shaver</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>NSF 1026843</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>LTER: The Arctic LTER Project: The Future Characteristics of Arctic Communities, Ecosystems, and Landscapes</title>
+        <personnel>
+          <individualName>
+            <givenName>John</givenName>
+            <surName>Hobbie</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>NSF 9810222</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>The Arctic LTER Project: Terrestrial and Freshwater Researchon Ecological Controls</title>
+        <personnel>
+          <individualName>
+            <givenName>John</givenName>
+            <surName>Hobbie</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>NSF 9211775</funding>
+      </relatedProject>
+      <relatedProject>
+        <title>An LTER Program for the Alaskan Arctic</title>
+        <personnel>
+          <individualName>
+            <givenName>Gaius</givenName>
+            <surName>Shaver</surName>
+          </individualName>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>NSF 8702328</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>2008_2010-2020MAT06lgcover_csv</entityName>
+      <entityDescription>Relative percent cover of plant species in low nutrient LTER moist acidic tundra experimental plots (MAT06) established in 2006 for years 2008, 2010-2020, Arctic LTER Toolik Field Station Alaska.</entityDescription>
+      <physical>
+        <objectName>2008_2010-2020MAT06lgcover.csv</objectName>
+        <size unit="bytes">543210</size>
+        <authentication method="MD5">0b17dc237025ac41e4c57cdc394cf68a</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeDefinition>The year of percent cover measurement.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeDefinition>The site of percent cover measurement</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The site of percent cover measurement</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Treatment</attributeName>
+          <attributeDefinition>The manipulated treatment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CT</code>
+                    <definition>control plot no nitrogen or phosphorus  added</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F2</code>
+                    <definition>2 g nitrogen &amp; 1 g phosphorus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F5</code>
+                    <definition>5 g nitrogen &amp; 2.5 g phosphorus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F10</code>
+                    <definition>10 g nitrogen &amp; 5 g phosphorus</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Block</attributeName>
+          <attributeDefinition>The treatment block number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The treatment block number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot</attributeName>
+          <attributeDefinition>Sample plot where percent cover was measured</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sample plot where percent cover was measured</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>Code of Species and cover categories determined on plots as described above.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code of Species and cover categories determined on plots as described above.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Rel.cover</attributeName>
+          <attributeDefinition>The percent cover of a given species relative to the total cover of the plot</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1</minimum>
+                  <maximum exclusive="false">83</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Accepted Latin Name or category</attributeName>
+          <attributeDefinition>Accepted Latin name from http://www.theplantlist.org/ or cover category</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Accepted Latin name from http://www.theplantlist.org/ or cover category</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>11460</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>2008_2010-2020MAT06lgcover_xlsx</entityName>
+      <entityDescription>Excel file with metadata and data sheets: Relative percent cover of plant species in low nutrient LTER moist acidic tundra experimental plots (MAT06) established in 2006 for years 2008, 2010-2020, Arctic LTER Toolik Field Station Alaska.</entityDescription>
+      <physical>
+        <objectName>2008_2010-2020MAT06lgcover.xlsx</objectName>
+        <size unit="bytes">604195</size>
+        <authentication method="MD5">7b6aaf97ead7704043f6ccf94f6fd6ce</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

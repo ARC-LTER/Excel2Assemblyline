@@ -1,0 +1,26 @@
+The LTER low nutrient moist acidic tussock (Toolik MAT) site was set up in 2006.  The experimental design is four blocks of 5 x 20 meter plots with randomly assigned treatments within each block. Treatments include control (CT), nitrogen plus phosphorus (NP), and a gradient of fertilization treatments that receive nitrate or ammonium alone, or receive N and P additions with 0.5, 1, 2, 5, or 10 g N added with half of that amount added as P. An additional set of plots were set aside upon establishment for future experiments, and are noted as H. We usually sample only from blocks 1-3.
+
+Calculations: All percent cover values were summed within each plot, and then each value was divided by the total to generate a percent cover value standardized to 100%.
+
+
+
+Reference Citations:
+
+Gough, L. and S.E. Hobbie. 2003. Responses of moist non-acidic arctic tundra to altered environment: productivity, biomass, and species richness. Oikos 103:204-216.
+
+Gough, L., P.A. Wookey, and G.R. Shaver. 2002. Dry heath arctic tundra responses to long-term nutrient and light manipulation. Arctic, Antarctic, and Alpine Research. 34: 211-218.
+
+Shaver, G.R., J.A. Laundre, A.E. Giblin, and K.J. Nadelhoffer. 1996. Changes in live plant biomass, primary production and species composition along a riverside topo sequence in Arctic Alaska, U.S.A. Arctic and Alpine Research. 28: 363-379.
+
+Sampling Description.
+
+Permanent monitoring areas were established in all treatment plots in 2008. Eight 1 m2 plots are sampled in each treatment in each block each year at the end of July. A 1 m2 quadrat is aligned 0.2 m inside of the plot at the site of a flag marking the first measurement. Within this quadrat, aerial percent cover of all vascular plants are noted by species as is all other ground cover. Categories include moss (all species lumped), lichen (all species lumped), litter, and standing dead Betula nana. Bare ground, frost boil, and water are also recorded. As an indicator of vole activity, the percent cover of the plot comprised of vole burrow holes, vole trails, and vole litter (small pieces of dead plant material) are also recorded. To standardize cover among plots, all percent cover values were summed within each plot, and then each value was divided by the total to generate a percent cover value standardized to 100%.
+
+Note: In 2015, cover was measured in five (instead of 8) 1m2 plots
+Note: In 2020, cover was measured in five (instead of 8) 1m2 plots due to COVID-19 related personnel restrictions. F1, and F0.5 cover was only measured for Bet nan and Led pal. 
+
+CT, F2, F5, F10: sampled in 2008, and 2010-2020
+F1: sampled in 2008, and 2015
+F0.05, NH4 and N03: sampled in 2008, 2010, 2011, and 2012
+
+F0.5 and F1: Sampled in 2020- only for Bet nan and Led pal (five (instead of 8) 1m2 plots)
