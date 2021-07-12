@@ -66,14 +66,14 @@ get_excel_meta <- function(path_data=path_data,wb_name=wb_name, site_name) {
   }
   
   #-- Get workbook and read in the Metadata work sheet-------------------------
-  #   The metadata sheet should have the word "metadata" in the first cell, e.g. 
-  #   "Metadata Template - ARCTIC LTER". This identifies the correct worksheet.
+  #   The metadata sheet should have the words "DATASET TITLE:" in cell "A5"
+  #   This identifies the correct worksheet.
   
   wb <- paste0(path_data,"/",wb_name)
   wb_sheets <- getSheetNames(wb)
 
   for (i in wb_sheets) {
-    cell1 <-grepl("metadata",read.xlsx(wb,sheet = i,colNames = F,rows=1, cols = 1)[1], ignore.case = T)
+    cell1 <-grepl("dataset title",read.xlsx(wb,sheet = i,colNames = F,rows=5, cols = 1)[1], ignore.case = T)
     if (length(cell1)==0) cell1 <-FALSE
     if (cell1) {
       meta_df <- as_tibble(read.xlsx(wb, sheet = i, detectDates = F)) 
@@ -153,6 +153,7 @@ get_excel_meta <- function(path_data=path_data,wb_name=wb_name, site_name) {
     select(1:8) %>%
     set_names(attrib_txt_names) %>%
     mutate(
+      attributeName = str_trim(attributeName),
       class = case_when(
         str_trim(class) == 'datetime' ~ 'Date',
         str_trim(class) == 'text' ~ 'character',
