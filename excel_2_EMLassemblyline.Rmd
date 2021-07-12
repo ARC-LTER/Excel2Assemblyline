@@ -46,20 +46,27 @@ Edit the information below to match your site information.
 
 ## Excel file name and define paths
 
-For metadata templates, data, and EML. Two path schemes are available:
+For metadata templates, data, and EML two path schemes are available:
 
--   Scheme 1 - single directory for a data set.
--   Scheme 2 - data objects organized under a sub-directory. Within the sub-directory a template directory for each Excel file is created for the templates files.
+- Scheme 1 - single directory for a data set, e.g. 2012-2017MAT89lgcover, with sub-directories as follows 
+  - **data_object**s A directory of data and other digital objects to be packaged (e.g. data files, scripts, .zip files, etc.).
+  - **metadata_templates** A directory of EAL template files.
+  - **eml** A directory of EML files created by EAL.
+  - **Note:** the Excel and CSV files need to be in a dataset/data_object directory before running this script. For example, *2012-2017MAT89lgcover/data_object/2012-2017MAT89lgcover.xlsx* and *2012-2017MAT89lgcover/data_object/2012-2017MAT89lgcover.csv*. The script will create the metadata_templates and eml directories if needed.
 
-Change "path_scheme" to 1 02 to match the path scheme used.
+- Scheme 2 - data objects organized under a single directory. Within this directory a template directory for each Excel file is created for the templates files.  This data object directory can be part of tree of project directories.
+
+Change "path_scheme" to 1 or 2 to match the path scheme used.
+
+The Excel file is selected using rstudioapi::selectFile
 
 ```{r}
   
-  # Define paths for metadata templates, data, and EML. Edit path_scheme to 
-  # choose between two different schemes. 
+  # Define paths for metadata templates, data, and EML. 
+  # Edit path_scheme to choose between the two different schemes. 
   path_scheme <- 2
 
-  # -- Choose Excel File ----
+  # -- Choose Excel file using rstudioapi::selectFile ----
 
   wb_full_name <- rstudioapi::selectFile()
   wb_dir <- dirname(wb_full_name)
@@ -71,7 +78,7 @@ Change "path_scheme" to 1 02 to match the path scheme used.
   if (path_scheme == 1) {  
     path_data_package <- dirname(wb_dir)
     path_templates <- paste0(path_data_package, "/metadata_templates/")
-    path_data <- paste0(path_data_package, "/data_objects")
+    path_data <- wb_dir
     path_eml <- paste0(path_data_package, "/eml")
     
     # Create directories if they doesn't exist.
@@ -83,8 +90,9 @@ Change "path_scheme" to 1 02 to match the path scheme used.
   } else {
     
     # - Path Scheme #2 organization. ----
-    #    Data objects organized under sub-directories (wb_dir) with the data table
-    #    file name used a sub-directory for the template files.
+    #   Data objects, Excel, csv and other non-tabular files, organized under 
+    #   the directory "wb_dir". The data table file name is used as the name for
+    #   the sub-directory for the template files.
     path_templates <-
       paste0(wb_dir,"/",
              tools::file_path_sans_ext(wb_name),"_EAL_templates")
@@ -97,9 +105,11 @@ Change "path_scheme" to 1 02 to match the path scheme used.
 
 ## EMLassemblyline arguments 
 
-The function "get_excel_meta", given site name, Excel file name and path, returns a named two element list ("dataset_info" and "attributes_txt"). "dataset_info" has all the information needed for EMLassemblyline::make_eml, i.e. arguments and templates (except attributes). "attributes_txt" has the data tables attribute information. The list object "EMLal_arguments*"* is populated with the required parameters needed for EMLassemblyline::make_eml.
+The Excel file is parsed by the function *get_excel_meta* returning a two element list *excel_meta_info*. The list *excel_meta_info[["dataset_info"]]* has the information needed for EMLassemblyline::make_eml, i.e. arguments and templates with the exception of the data tables attribute information. The list *excel_meta_info[["attributes_txt"]]* has the data tables attribute information.
 
-Currently only one data table csv file described in the excel metadata workbook is processed. 
+A list *EMLal_arguments* is then populated with the required parameters needed for EMLassemblyline::make_eml.
+
+Currently only one data table csv file described in the excel metadata workbook is processed.  The data objects are by default local. If there are URLs they can be entered in the full parameter listing of make_eml.
 
 ```{r}
   # -- Get excel metadata information ------------------------------
@@ -134,9 +144,11 @@ Currently only one data table csv file described in the excel metadata workbook 
       data.table.url = "",
       data.table.quote.character = "\"",
       other.entity = str_trim(na.omit(c(wb_name,
-                       stringr::str_split(.$non_tabluar_files,";",simplify=T)))),
-      other.entity.name = str_trim(na.omit(c(str_replace(wb_name, "\\.","_"),
-                            stringr::str_split(.$non_tabluar_files,";",simplify=T)))),
+        stringr::str_split(.$non_tabluar_files,";",simplify=T)))),
+      other.entity.name = str_replace_all(str_trim(na.omit(c(
+        wb_name,
+        stringr::str_split(.$non_tabluar_files, ";", simplify =T)
+        ))), "\\.", "_"), 
       other.entity.description = c(paste(
         "Excel file with metadata and data sheets:", .$dataset.title),
         na.omit(stringr::str_split(.$files_descriptions,";",simplify=T)
@@ -144,7 +156,10 @@ Currently only one data table csv file described in the excel metadata workbook 
       other.entity.url = "",
       user.id = user_id,
       user.domain = user_domain,
-    ) 
+    )
+
+  EMLal_arguments$other.entity.url <- rep("",length(EMLal_arguments$other.entity))
+  
   # -- Maintenance.description--using info in 'log of changes'--------------
   #    It's multiple rows of information between maintenance_description
   #    and before name_of_data_sheet. Currently EML_assemblyline does not  
@@ -161,13 +176,14 @@ Currently only one data table csv file described in the excel metadata workbook 
 
 ## Personnel
 
-Personnel.txt describes the personnel and funding sources involved in the creation of the data.
+Personnel.txt describes the personnel and funding sources involved in the creation of the data. If the Metadata variable "LTER funding Yes/No" is "Yes" then  add the LTER funding information from lter_funding.RDS
 
 ```{r}
   # -- Personnel.txt --------------
-  #    Use information from excel file and/or look up the NSF grant titles based on   #    award numbers.
-  #    TODO Need to look up information that's not in the excel file; either from 
-  #      Drupal site or a look up table, e.g a txt or excel file.  Where 
+  #    Use information from excel file and/or look up the NSF grant titles based 
+  #    on National Science Foundation  award numbers.
+  #    TODO Need to look up personnel information that's not in the excel file;  
+  #      either from Drupal site or a look up table, e.g a txt or excel file.  And where 
   #      appropriate add that information back into the Excel file.
   
 personnel <- excel_meta_info$dset_info %>%
@@ -356,7 +372,7 @@ write.table(
 
 ## Taxonomic coverage
 
-The metadata organisms studied should already have been checked using some authority. EMLassemblylin::template_taxonomic_coverage will check the names using the authority specified and output the taxonomic_coverage.txt file.
+The metadata organisms studied should already have been checked using some authority. Using EMLassemblylin::template_taxonomic_coverage the names will be checked using the authority specified, default is ITIS, and output the taxonomic_coverage.txt file. Change the "taxa.authority" to choose a different authority.
 
 ```{r}
  # -- Taxonomic coverage ----------------------------------
@@ -394,11 +410,11 @@ The metadata organisms studied should already have been checked using some autho
 
 ## Attributes
 
-Files describing the columns of a data table (classes, units, datetime formats, missing value codes) are save in the template directory. Any custom units, i.e. those not standard EML units, need to be described in ListUnitDictionary.csv.
+Files describing the columns of a data table (classes, units, datetime formats, missing value codes) are save in the template directory. Non-standard EML units, need to be described in ListUnitDictionary.csv.
 
 ```{r}
  # -- Attribute -----------------------------------
-  #    TODO need to rewrite this for multiple data tables
+  #    TO DO need to rewrite this for multiple data tables
   
   # Check for category variables. If there are code definitions then it's
   # a categorical class
@@ -439,6 +455,7 @@ write.table(
 
 # -- Custom Units -----------------
 #    TO DO Check if ListUnitDictionary.csv exist. If not then create it.
+
 unit_lookup <- as.data.frame(read_csv("ListUnitDictionary.csv", ))
 custom_units.txt <- excel_meta_info$attributes %>%
   select(unit) %>%
@@ -515,13 +532,14 @@ Run the following code chunk to add the quotes.
 
 ## Create EML
 
-Once metadata templates are complete call this function to create the EML. If the eml passes the eml can be evaluated/uploaded to EDI data portal. Note currently the data objects need to be manually specified. If there are URLs for the data objects then edit the URLs in the "Full parameter listing.."
+Once metadata templates are complete call  EMLassemblyline::make_eml to create the EML. If the eml passes the eml file can be evaluated/uploaded to EDI data portal. Note: currently the data objects need to be manually specified. If there are URLs for the data objects then edit the URLs in the "Full parameter listing.
 
 #### Compact statement
 
 ```{r}
 # Compact statement for creating EML
-do.call(make_eml, EMLal_arguments[names(EMLal_arguments) %in% names(formals(make_eml))])
+do.call( EMLassemblyline::make_eml, EMLal_arguments[names(EMLal_arguments) %in% names(formals(make_eml))])
+issues()
 ```
 
 #### Full parameter listing of make_eml
@@ -556,7 +574,7 @@ do.call(make_eml, EMLal_arguments[names(EMLal_arguments) %in% names(formals(make
 
 #### Keep Publication Data
 
-If only minor changes in the metadata run the following to keep the original publishing date otherwise he publication date of the data set will be the date this script runs.
+If there are only minor changes in the metadata, run the following to keep the original publishing date otherwise the publication date of the data set will be the date this script runs.
 
 ```{r eval=FALSE}
    y<-EML::read_eml(paste0(path_eml,"/",EMLal_arguments$package.id,".xml"))
@@ -564,3 +582,14 @@ If only minor changes in the metadata run the following to keep the original pub
    EML::write_eml(y,paste0(path_eml,"/",EMLal_arguments$package.id,".xml"))
   
 ```
+#### Additional xml for replicating the dataset to the Arctic Data Center.
+
+If datasets need to be replicated from EDI data portal to the Arctic Data Center (arcticdata.io) this additional xml is needed.  Once the datasets are on the EDI data portal an email to support@arcticdata.io is sent to request replication of the dataset.
+
+```{r eval=FALSE}
+x <- read_xml(paste0(path_eml,"/",EMLal_arguments$package.id,".xml"))
+z <- read_xml("ADCreplication.xml")
+xml_add_child(x,z)
+write_xml(x,paste0(path_eml,"/",EMLal_arguments$package.id,".xml"))
+```
+
