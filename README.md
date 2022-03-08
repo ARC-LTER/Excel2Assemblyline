@@ -37,9 +37,10 @@ An overview and tutorial of the Excel Metadata sheet is forthcoming.
 - Open Excel2Assemblyline.Rproj and then Excel2Assemblyline.Rmd.
 - Edit the Excel2Assemblyline.Rmd file sections: **Site Information** and **Keywords**, replacing site specific information.
 - Decide on organization scheme.
-- Fill out the Excel metadata template file. For an example open [data/terrestrial/2008_2010-2020MAT06lgcover.xlsx](https://github.com/jlaundre/Excel2Assemblyline/tree/main/data/terrestrial/2008_2010-2020MAT06lgcover.csv)
+- Fill out the Excel metadata template file. For an example open 
+- data/terrestrial/2008_2010-2020MAT06lgcover.xls]
 - Save the data as a csv file using the name entered in the metadata sheet.
 - Run each chunk sequentially or all at once.
 
-Addition comments are in the code and can be viewed as an html document - [excel_2_EMLassemblyline.nb.html](https://github.com/jlaundre/Excel2Assemblyline/blob/main/excel_2_EMLassemblyline.nb.html).
+Addition comments are in the code and can be viewed as an html document - excel_2_EMLassemblyline.nb.html.
 
