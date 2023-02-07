@@ -210,7 +210,8 @@ personnel <- excel_meta_info$dset_info %>%
       str_trim(role) == 'Associated Researcher' ~ 'associatedParty',
       TRUE ~ role
     )
-  )
+  ) %>% 
+   mutate(across(where(is.character), trimws)) # trim any extra tabs and spaces
   # -- Project funding ------
   #    Look up NSF award information if PI name is NA
   #    If lter funding is set to Yes, the information in lter_funding data frame
