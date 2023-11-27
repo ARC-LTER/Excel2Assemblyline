@@ -42,5 +42,5 @@ An overview and tutorial of the Excel Metadata sheet is forthcoming.
 - Save the data as a csv file using the name entered in the metadata sheet.
 - Run each chunk sequentially or all at once.
 
-Addition comments are in the code and can be viewed as an html document - excel_2_EMLassemblyline.nb.html.
+Addition comments are in the code and can be viewed as an html document - excel2EMLassemblyline.nb.html.
 
