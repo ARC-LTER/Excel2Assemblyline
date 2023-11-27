@@ -58,7 +58,8 @@ get_excel_meta <- function(path_data=path_data,wb_name=wb_name, site_name) {
           tibble(tbox_name = tbox_name, tbox_body = tbox_body)
         })
     })
-    t_boxes <- do.call(rbind, lapply(t_boxes, data.frame))
+    t_boxes <- do.call(rbind, lapply(t_boxes, data.frame)) %>% 
+               unique()
     
     #' Clean up tmp files
     unlink(tmp, recursive = T)
