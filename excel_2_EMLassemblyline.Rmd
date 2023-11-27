@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Required packages and functions.
 
-```{r}
+```{r,warning=FALSE}
 # -- REQUIRED PACKAGES -------------------------------------------------------
   # To install a local copy of EMLassemblyline if there are any code edits:
   # install.packages("~/Documents/GitHub/EMLassemblyline",
@@ -70,7 +70,7 @@ The Excel file is selected using rstudioapi::selectFile
 
   # -- Choose Excel file using rstudioapi::selectFile ----
 
-  wb_full_name <- rstudioapi::selectFile(filter = "Excel Files (*.xlsx)")
+  wb_full_name <- rstudioapi::selectFile(caption = "Select an Excel metadata/data file", filter = "Excel Files (*.xlsx)")
   wb_dir <- dirname(wb_full_name)
   wb_name <- basename(wb_full_name)
 
@@ -263,7 +263,7 @@ if (anyNA(project_funding)) {
   print(project_funding)
 }
 personnel.txt <- personnel %>%
-  full_join(., as.data.frame(project_funding), copy = T) %>%
+  full_join(., as.data.frame(project_funding), copy = T, join_by(givenName, surName, role)) %>%
   select(
     givenName,
     middleInitial,
@@ -305,11 +305,16 @@ The abstract, method and protocols text from the metadata sheet are saved as tex
   # -- Abstract, method and protocol from the text boxes--------------
   #
   write_lines(excel_meta_info$dset_info$abstract[1],
-              paste0(path_templates,"/abstract.txt"))
-  write_lines(excel_meta_info$dset_info$methods[1],
-              paste0(path_templates,"/methods.txt"))
+              paste0(path_templates,"/abstract.md"))
+  method_file <-paste0(path_templates,"/methods.md")
+  if (!file.exists(method_file)) {
+      write_lines(excel_meta_info$dset_info$methods[1],
+              paste0(path_templates,"/methods.md"))
+  } else {
+     warning("Methods file exists. To output a new one delete the existing one.")
+  }
   write_lines(excel_meta_info$dset_info$protocol_document[1],
-              paste0(path_templates,"/protocol.txt")) 
+              paste0(path_templates,"/protocol.md")) 
 ```
 
 ## Geographic coverage
@@ -327,10 +332,10 @@ geo_coverage <-  excel_meta_info$dset_info %>%
   filter(!is.na(geographicDescription),!geographicDescription == "Enter Description") %>%
   mutate(
     geographicDescription = paste(location_name, geographicDescription),
-    northBoundingCoordinate = coalesce(northBoundingCoordinate, latitude),
-    southBoundingCoordinate = coalesce(southBoundingCoordinate, latitude),
-    eastBoundingCoordinate = coalesce(eastBoundingCoordinate, longitude),
-    westBoundingCoordinate = coalesce(westBoundingCoordinate, longitude)
+    northBoundingCoordinate = coalesce(northBoundingCoordinate, single_point_latitude),
+    southBoundingCoordinate = coalesce(southBoundingCoordinate, single_point_latitude),
+    eastBoundingCoordinate = coalesce(eastBoundingCoordinate, single_point_longitude),
+    westBoundingCoordinate = coalesce(westBoundingCoordinate, single_point_longitude)
   ) %>%
   select(
     geographicDescription,
@@ -463,7 +468,7 @@ write.table(
 # -- Custom Units -----------------
 #    TO DO Check if ListUnitDictionary.csv exist. If not then create it.
 
-unit_lookup <- as.data.frame(read_csv("ListUnitDictionary.csv", ))
+unit_lookup <- as.data.frame(read_csv("ListUnitDictionary.csv",show_col_types = FALSE))
 custom_units.txt <- excel_meta_info$attributes %>%
   select(unit) %>%
   distinct() %>%
@@ -509,7 +514,7 @@ Describes how the data may be used. Releasing without restriction ([CC0](https:/
       "/templates/intellectual_rights_cc0.txt", package = "EMLassemblyline"),
       paste0(path_templates,"/intellectual_rights.txt"))    
   }
-if (!copy_success)warning("File not copied. Check if it already exists..")
+if (!copy_success)warning("File intellectual_rights.txt not copied to template folder. Check if it already exists.")
 ```
 
 ## Data files
