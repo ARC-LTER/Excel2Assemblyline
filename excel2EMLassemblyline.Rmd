@@ -248,7 +248,7 @@ if (!is_empty(funding_lookup)) {
   project_funding[pf_index,cn] <- funding_lookup[fl_index,cn]
 }
 
-if (excel_meta_info$dset_info$lter_funding_yes_no[1] == "Yes" |
+if (excel_meta_info$dset_info$auto_add_lter_funding_yes_no[1] == "Yes" |
     nrow(project_funding) == 0) {
   lter_funding <- readRDS("lter_funding.RDS")
   project_funding <- project_funding %>%
@@ -304,8 +304,13 @@ The abstract, method and protocols text from the metadata sheet are saved as tex
   
   # -- Abstract, method and protocol from the text boxes--------------
   #
-  write_lines(excel_meta_info$dset_info$abstract[1],
+   abstract_file <-paste0(path_templates,"/abstract.md")
+  if (!file.exists(abstract_file)) {
+      write_lines(excel_meta_info$dset_info$abstract[1],
               paste0(path_templates,"/abstract.md"))
+  } else {
+     warning("Abstract file exists. To output a new one delete the existing one.")
+  } 
   method_file <-paste0(path_templates,"/methods.md")
   if (!file.exists(method_file)) {
       write_lines(excel_meta_info$dset_info$methods[1],
